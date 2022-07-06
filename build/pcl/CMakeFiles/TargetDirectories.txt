@@ -1,0 +1,10 @@
+/home/mete/catkin_ws/build/pcl/CMakeFiles/install/strip.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/install/local.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/install.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/list_install_components.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/rebuild_cache.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/edit_cache.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/test.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/pcl_uninstall.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/pcd_read.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/uninstall.dir

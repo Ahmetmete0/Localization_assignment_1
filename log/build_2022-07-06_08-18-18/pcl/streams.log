@@ -1,0 +1,182 @@
+[0.019s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws/src/pcl -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws/install/pcl
+[0.071s] -- The C compiler identification is GNU 9.4.0
+[0.128s] -- The CXX compiler identification is GNU 9.4.0
+[0.132s] -- Check for working C compiler: /usr/bin/cc
+[0.191s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.191s] -- Detecting C compiler ABI info
+[0.252s] -- Detecting C compiler ABI info - done
+[0.263s] -- Detecting C compile features
+[0.263s] -- Detecting C compile features - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++
+[0.349s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.350s] -- Detecting CXX compiler ABI info
+[0.423s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Detecting CXX compile features
+[0.434s] -- Detecting CXX compile features - done
+[0.436s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.455s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.455s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.616s] -- Checking for module 'eigen3'
+[0.629s] --   Found eigen3, version 3.3.7
+[0.658s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[0.658s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.708s] -- Found Boost: /usr/include (found suitable version "1.71.0", minimum required is "1.55.0") found components: system filesystem date_time iostreams regex 
+[0.722s] -- Checking for module 'flann'
+[0.737s] --   Found flann, version 1.9.1
+[0.775s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[0.828s] -- The imported target "vtkParseOGLExt" references the file
+[0.828s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.828s] but this file does not exist.  Possible reasons include:
+[0.829s] * The file was deleted, renamed, or moved to another location.
+[0.829s] * An install or uninstall procedure did not complete successfully.
+[0.829s] * The installation package was faulty and contained
+[0.829s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.829s] but not all the files it references.
+[0.829s] 
+[0.829s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.829s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.829s] but this file does not exist.  Possible reasons include:
+[0.829s] * The file was deleted, renamed, or moved to another location.
+[0.829s] * An install or uninstall procedure did not complete successfully.
+[0.830s] * The installation package was faulty and contained
+[0.830s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.830s] but not all the files it references.
+[0.830s] 
+[0.830s] -- The imported target "vtk" references the file
+[0.830s]    "/usr/bin/vtk"
+[0.830s] but this file does not exist.  Possible reasons include:
+[0.830s] * The file was deleted, renamed, or moved to another location.
+[0.830s] * An install or uninstall procedure did not complete successfully.
+[0.830s] * The installation package was faulty and contained
+[0.830s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.830s] but not all the files it references.
+[0.831s] 
+[0.831s] -- The imported target "pvtk" references the file
+[0.831s]    "/usr/bin/pvtk"
+[0.831s] but this file does not exist.  Possible reasons include:
+[0.831s] * The file was deleted, renamed, or moved to another location.
+[0.831s] * An install or uninstall procedure did not complete successfully.
+[0.831s] * The installation package was faulty and contained
+[0.831s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.831s] but not all the files it references.
+[0.831s] 
+[0.848s] -- Checking for module 'libusb-1.0'
+[0.850s] --   No package 'libusb-1.0' found
+[0.853s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.853s] -- OpenNI disabled because libusb-1.0 not found.
+[0.853s] ** WARNING ** io features related to openni will be disabled
+[0.856s] -- Checking for module 'libusb-1.0'
+[0.858s] --   No package 'libusb-1.0' found
+[0.861s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.861s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.861s] ** WARNING ** io features related to openni2 will be disabled
+[0.861s] ** WARNING ** io features related to pcap will be disabled
+[0.861s] ** WARNING ** io features related to png will be disabled
+[0.873s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.873s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.877s] -- Checking for module 'libusb-1.0'
+[0.879s] --   No package 'libusb-1.0' found
+[0.881s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.881s] -- OpenNI disabled because libusb-1.0 not found.
+[0.881s] ** WARNING ** visualization features related to openni will be disabled
+[0.885s] -- Checking for module 'libusb-1.0'
+[0.887s] --   No package 'libusb-1.0' found
+[0.889s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.889s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.889s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.914s] -- Found Qhull: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so  
+[0.914s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.918s] -- Checking for module 'libusb-1.0'
+[0.921s] --   No package 'libusb-1.0' found
+[0.923s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.923s] -- OpenNI disabled because libusb-1.0 not found.
+[0.923s] ** WARNING ** apps features related to openni will be disabled
+[0.935s] -- looking for PCL_COMMON
+[0.935s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[0.936s] -- looking for PCL_KDTREE
+[0.937s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[0.937s] -- looking for PCL_OCTREE
+[0.938s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[0.938s] -- looking for PCL_SEARCH
+[0.939s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[0.939s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.940s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[0.940s] -- looking for PCL_FILTERS
+[0.941s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[0.941s] -- looking for PCL_2D
+[0.942s] -- Found PCL_2D: /usr/include/pcl-1.10  
+[0.942s] -- looking for PCL_GEOMETRY
+[0.942s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.10  
+[0.942s] -- looking for PCL_IO
+[0.943s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[0.944s] -- looking for PCL_FEATURES
+[0.945s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[0.945s] -- looking for PCL_ML
+[0.946s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[0.946s] -- looking for PCL_SEGMENTATION
+[0.947s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[0.947s] -- looking for PCL_VISUALIZATION
+[0.948s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[0.949s] -- looking for PCL_SURFACE
+[0.949s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[0.950s] -- looking for PCL_REGISTRATION
+[0.951s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[0.951s] -- looking for PCL_KEYPOINTS
+[0.952s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[0.952s] -- looking for PCL_TRACKING
+[0.953s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[0.954s] -- looking for PCL_RECOGNITION
+[0.955s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[0.955s] -- looking for PCL_STEREO
+[0.956s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[0.956s] -- looking for PCL_APPS
+[0.957s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[0.958s] -- looking for PCL_IN_HAND_SCANNER
+[0.958s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.10  
+[0.959s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.959s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.10  
+[0.959s] -- looking for PCL_OUTOFCORE
+[0.960s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[0.961s] -- looking for PCL_PEOPLE
+[0.961s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[0.963s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libboost_filesystem.so;/usr/lib/x86_64-linux-gnu/libboost_date_time.so;/usr/lib/x86_64-linux-gnu/libboost_iostreams.so;/usr/lib/x86_64-linux-gnu/libboost_regex.so;optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so;vtkChartsCore;vtkCommonColor;vtkCommonCore;vtksys;vtkCommonDataModel;vtkCommonMath;vtkCommonMisc;vtkCommonSystem;vtkCommonTransforms;vtkCommonExecutionModel;vtkFiltersGeneral;vtkCommonComputationalGeometry;vtkFiltersCore;vtkInfovisCore;vtkFiltersExtraction;vtkFiltersStatistics;vtkImagingFourier;vtkImagingCore;vtkalglib;vtkRenderingContext2D;vtkRenderingCore;vtkFiltersGeometry;vtkFiltersSources;vtkRenderingFreeType;/usr/lib/x86_64-linux-gnu/libfreetype.so;/usr/lib/x86_64-linux-gnu/libz.so;vtkFiltersModeling;vtkImagingSources;vtkInteractionStyle;vtkInteractionWidgets;vtkFiltersHybrid;vtkImagingColor;vtkImagingGeneral;vtkImagingHybrid;vtkIOImage;vtkDICOMParser;vtkmetaio;/usr/lib/x86_64-linux-gnu/libjpeg.so;/usr/lib/x86_64-linux-gnu/libpng.so;/usr/lib/x86_64-linux-gnu/libtiff.so;vtkRenderingAnnotation;vtkRenderingVolume;vtkIOXML;vtkIOCore;vtkIOXMLParser;/usr/lib/x86_64-linux-gnu/libexpat.so;vtkIOGeometry;vtkIOLegacy;vtkIOPLY;vtkRenderingLOD;vtkViewsContext2D;vtkViewsCore;vtkRenderingContextOpenGL2;vtkRenderingOpenGL2;FLANN::FLANN (Required is at least version "1.2") 
+[0.964s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.021s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.022s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.022s] -- Configured cppcheck include dirs: 
+[1.022s] -- Configured cppcheck exclude dirs and/or files: 
+[1.023s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.023s] -- Configured cpplint exclude dirs and/or files: 
+[1.024s] -- Added test 'lint_cmake' to check CMake code style
+[1.025s] -- Added test 'uncrustify' to check C / C++ code style
+[1.025s] -- Configured uncrustify additional arguments: 
+[1.025s] -- Added test 'xmllint' to check XML markup files
+[1.028s] -- Configuring done
+[1.052s] -- Generating done
+[1.053s] -- Build files have been written to: /home/mete/catkin_ws/build/pcl
+[1.062s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws/src/pcl -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws/install/pcl
+[1.062s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[1.092s] [35m[1mScanning dependencies of target pcd_read[0m
+[1.122s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[4.975s] [100%] [32m[1mLinking CXX executable pcd_read[0m
+[5.258s] [100%] Built target pcd_read
+[5.267s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[5.287s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[5.296s] -- Install configuration: ""
+[5.296s] -- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+[5.296s] -- Installing: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+[5.296s] -- Installing: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+[5.296s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+[5.296s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+[5.297s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+[5.298s] -- Installing: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+[5.298s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+[5.298s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+[5.298s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml
+[5.302s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl

@@ -1,0 +1,26 @@
+[0.021s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.073s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.118s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[5.664s] [100%] [32m[1mLinking CXX executable pcd_read[0m
+[6.011s] [100%] Built target pcd_read
+[6.020s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[6.043s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[6.051s] -- Install configuration: ""
+[6.051s] -- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+[6.052s] -- Set runtime path of "/home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read" to ""
+[6.052s] -- Installing: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+[6.053s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+[6.053s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+[6.053s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+[6.053s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+[6.053s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+[6.053s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+[6.054s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+[6.054s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+[6.054s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+[6.054s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+[6.054s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+[6.054s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+[6.054s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+[6.054s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml
+[6.055s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl

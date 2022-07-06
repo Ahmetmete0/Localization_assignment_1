@@ -1,0 +1,16 @@
+/home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+/home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+/home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+/home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+/home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+/home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+/home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+/home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+/home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+/home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+/home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+/home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+/home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+/home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+/home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+/home/mete/catkin_ws/install/pcl/share/pcl/package.xml

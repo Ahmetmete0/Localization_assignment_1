@@ -1,0 +1,28 @@
+[0.018s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.058s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.099s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[4.443s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[4.444s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+[4.444s]    55 |   [01;31m[Kpub_[m[K = create_publisher<sensor_msgs::msg::PointCloud2>("point_cloud");
+[4.444s]       |   [01;31m[K^~~~[m[K
+[4.445s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:55:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::create_publisher[m[K’?
+[4.445s]    55 |   pub_ = [01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::PointCloud2>("point_cloud");
+[4.445s]       |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[4.445s]       |          [32m[Krclcpp::create_publisher[m[K
+[4.445s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:39[m[K,
+[4.445s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[4.445s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[4.445s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[4.445s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[4.445s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+[4.445s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[4.445s] [01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:43:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::create_publisher[m[K’ declared here
+[4.445s]    43 | [01;36m[Kcreate_publisher[m[K(
+[4.445s]       | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.445s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:55:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[4.445s]    55 |   pub_ = create_publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K("point_cloud");
+[4.445s]       |                                                        [01;31m[K^[m[K
+[5.273s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[5.273s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+[5.273s] make: *** [Makefile:141: all] Error 2
+[5.275s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

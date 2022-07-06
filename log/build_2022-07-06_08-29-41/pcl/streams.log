@@ -1,0 +1,103 @@
+[0.021s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.041s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.061s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.234s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.314s] -- The imported target "vtkParseOGLExt" references the file
+[0.314s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.314s] but this file does not exist.  Possible reasons include:
+[0.314s] * The file was deleted, renamed, or moved to another location.
+[0.314s] * An install or uninstall procedure did not complete successfully.
+[0.314s] * The installation package was faulty and contained
+[0.314s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.314s] but not all the files it references.
+[0.315s] 
+[0.315s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.315s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.315s] but this file does not exist.  Possible reasons include:
+[0.315s] * The file was deleted, renamed, or moved to another location.
+[0.315s] * An install or uninstall procedure did not complete successfully.
+[0.315s] * The installation package was faulty and contained
+[0.315s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.316s] but not all the files it references.
+[0.316s] 
+[0.316s] -- The imported target "vtk" references the file
+[0.316s]    "/usr/bin/vtk"
+[0.316s] but this file does not exist.  Possible reasons include:
+[0.316s] * The file was deleted, renamed, or moved to another location.
+[0.316s] * An install or uninstall procedure did not complete successfully.
+[0.316s] * The installation package was faulty and contained
+[0.316s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.316s] but not all the files it references.
+[0.317s] 
+[0.317s] -- The imported target "pvtk" references the file
+[0.317s]    "/usr/bin/pvtk"
+[0.317s] but this file does not exist.  Possible reasons include:
+[0.317s] * The file was deleted, renamed, or moved to another location.
+[0.317s] * An install or uninstall procedure did not complete successfully.
+[0.317s] * The installation package was faulty and contained
+[0.317s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.317s] but not all the files it references.
+[0.317s] 
+[0.333s] -- Checking for module 'libusb-1.0'
+[0.336s] --   No package 'libusb-1.0' found
+[0.338s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.338s] -- OpenNI disabled because libusb-1.0 not found.
+[0.339s] ** WARNING ** io features related to openni will be disabled
+[0.342s] -- Checking for module 'libusb-1.0'
+[0.344s] --   No package 'libusb-1.0' found
+[0.346s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.346s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.346s] ** WARNING ** io features related to openni2 will be disabled
+[0.347s] ** WARNING ** io features related to pcap will be disabled
+[0.347s] ** WARNING ** io features related to png will be disabled
+[0.358s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.358s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.361s] -- Checking for module 'libusb-1.0'
+[0.363s] --   No package 'libusb-1.0' found
+[0.365s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.365s] -- OpenNI disabled because libusb-1.0 not found.
+[0.366s] ** WARNING ** visualization features related to openni will be disabled
+[0.369s] -- Checking for module 'libusb-1.0'
+[0.371s] --   No package 'libusb-1.0' found
+[0.373s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.374s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.374s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.384s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.388s] -- Checking for module 'libusb-1.0'
+[0.390s] --   No package 'libusb-1.0' found
+[0.392s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.392s] -- OpenNI disabled because libusb-1.0 not found.
+[0.393s] ** WARNING ** apps features related to openni will be disabled
+[0.403s] -- looking for PCL_COMMON
+[0.403s] -- looking for PCL_KDTREE
+[0.404s] -- looking for PCL_OCTREE
+[0.404s] -- looking for PCL_SEARCH
+[0.405s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.405s] -- looking for PCL_FILTERS
+[0.406s] -- looking for PCL_2D
+[0.406s] -- looking for PCL_GEOMETRY
+[0.407s] -- looking for PCL_IO
+[0.407s] -- looking for PCL_FEATURES
+[0.408s] -- looking for PCL_ML
+[0.409s] -- looking for PCL_SEGMENTATION
+[0.409s] -- looking for PCL_VISUALIZATION
+[0.410s] -- looking for PCL_SURFACE
+[0.411s] -- looking for PCL_REGISTRATION
+[0.411s] -- looking for PCL_KEYPOINTS
+[0.412s] -- looking for PCL_TRACKING
+[0.413s] -- looking for PCL_RECOGNITION
+[0.413s] -- looking for PCL_STEREO
+[0.414s] -- looking for PCL_APPS
+[0.415s] -- looking for PCL_IN_HAND_SCANNER
+[0.416s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.417s] -- looking for PCL_OUTOFCORE
+[0.417s] -- looking for PCL_PEOPLE
+[0.419s] CMake Error at CMakeLists.txt:33 (target_link_libraries):
+[0.419s]   Cannot specify link libraries for target "generate_pointcloud2" which is
+[0.419s]   not built by this project.
+[0.419s] 
+[0.419s] 
+[0.420s] -- Configuring incomplete, errors occurred!
+[0.420s] See also "/home/mete/catkin_ws/build/pcl/CMakeFiles/CMakeOutput.log".
+[0.425s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.427s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

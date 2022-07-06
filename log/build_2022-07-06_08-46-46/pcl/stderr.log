@@ -1,0 +1,94 @@
+** WARNING ** io features related to openni will be disabled
+** WARNING ** io features related to openni2 will be disabled
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+** WARNING ** visualization features related to openni will be disabled
+** WARNING ** visualization features related to openni2 will be disabled
+** WARNING ** apps features related to openni will be disabled
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:20:22:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KMinimalPublisher[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+   20 |     MinimalPublisher([01;31m[K)[m[K
+      |                      [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   37 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   37 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   37 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[KPublisher[m[K’?
+   37 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+      |                                                         [32m[KPublisher[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In member function ‘[01m[Kint Publisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:21:7:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   21 |     : [01;31m[KNode[m[K("minimal_publisher"), count_(0)
+      |       [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+   23 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[KPublisher[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:58:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   23 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KString[m[K>("topic", 10);
+      |                                                          [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:58:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:77:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   23 |       publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10[01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:77:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |       publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10[01;31m[K)[m[K;
+      |                                                                             [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:25:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   25 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:25:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMinimalPublisher[m[K’ is not a class, namespace, or enumeration
+   25 |       500ms, std::bind(&[01;31m[KMinimalPublisher[m[K::timer_callback, this));
+      |                         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:26:5:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K-Wreturn-type[m[K]
+   26 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In member function ‘[01m[Kvoid Publisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:31:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   31 |       auto message = std_msgs::msg::[01;31m[KString[m[K();
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:34:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[KPublisher[m[K’?
+   34 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[KPublisher[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:55:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpub_[m[K’ was not declared in this scope
+   55 |   [01;31m[Kpub_[m[K = create_publisher<sensor_msgs::msg::PointCloud2>("point_cloud");
+      |   [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:55:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kcreate_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Krclcpp::create_publisher[m[K’?
+   55 |   pub_ = [01;31m[Kcreate_publisher[m[K<sensor_msgs::msg::PointCloud2>("point_cloud");
+      |          [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |          [32m[Krclcpp::create_publisher[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:39[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/create_publisher.hpp:43:1:[m[K [01;36m[Knote: [m[K‘[01m[Krclcpp::create_publisher[m[K’ declared here
+   43 | [01;36m[Kcreate_publisher[m[K(
+      | [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:55:56:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+   55 |   pub_ = create_publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K("point_cloud");
+      |                                                        [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

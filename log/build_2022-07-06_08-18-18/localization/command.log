@@ -1,0 +1,6 @@
+Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws/src/localization -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws/install/localization
+Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/mete/catkin_ws/src/localization -DCMAKE_INSTALL_PREFIX=/home/mete/catkin_ws/install/localization
+Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/localization -- -j12 -l12
+Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/localization -- -j12 -l12
+Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/localization
+Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/localization

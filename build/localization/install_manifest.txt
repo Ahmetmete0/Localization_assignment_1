@@ -1,0 +1,15 @@
+/home/mete/catkin_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+/home/mete/catkin_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+/home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+/home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+/home/mete/catkin_ws/install/localization/share/localization/environment/path.sh
+/home/mete/catkin_ws/install/localization/share/localization/environment/path.dsv
+/home/mete/catkin_ws/install/localization/share/localization/local_setup.bash
+/home/mete/catkin_ws/install/localization/share/localization/local_setup.sh
+/home/mete/catkin_ws/install/localization/share/localization/local_setup.zsh
+/home/mete/catkin_ws/install/localization/share/localization/local_setup.dsv
+/home/mete/catkin_ws/install/localization/share/localization/package.dsv
+/home/mete/catkin_ws/install/localization/share/ament_index/resource_index/packages/localization
+/home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+/home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+/home/mete/catkin_ws/install/localization/share/localization/package.xml

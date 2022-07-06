@@ -1,0 +1,122 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.038s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.057s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.237s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.330s] -- The imported target "vtkParseOGLExt" references the file
+[0.330s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.330s] but this file does not exist.  Possible reasons include:
+[0.330s] * The file was deleted, renamed, or moved to another location.
+[0.331s] * An install or uninstall procedure did not complete successfully.
+[0.331s] * The installation package was faulty and contained
+[0.331s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.331s] but not all the files it references.
+[0.331s] 
+[0.331s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.331s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.331s] but this file does not exist.  Possible reasons include:
+[0.331s] * The file was deleted, renamed, or moved to another location.
+[0.332s] * An install or uninstall procedure did not complete successfully.
+[0.332s] * The installation package was faulty and contained
+[0.332s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.332s] but not all the files it references.
+[0.332s] 
+[0.332s] -- The imported target "vtk" references the file
+[0.332s]    "/usr/bin/vtk"
+[0.332s] but this file does not exist.  Possible reasons include:
+[0.332s] * The file was deleted, renamed, or moved to another location.
+[0.332s] * An install or uninstall procedure did not complete successfully.
+[0.333s] * The installation package was faulty and contained
+[0.333s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.333s] but not all the files it references.
+[0.333s] 
+[0.333s] -- The imported target "pvtk" references the file
+[0.333s]    "/usr/bin/pvtk"
+[0.333s] but this file does not exist.  Possible reasons include:
+[0.333s] * The file was deleted, renamed, or moved to another location.
+[0.333s] * An install or uninstall procedure did not complete successfully.
+[0.333s] * The installation package was faulty and contained
+[0.333s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.333s] but not all the files it references.
+[0.333s] 
+[0.349s] -- Checking for module 'libusb-1.0'
+[0.351s] --   No package 'libusb-1.0' found
+[0.354s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.354s] -- OpenNI disabled because libusb-1.0 not found.
+[0.354s] ** WARNING ** io features related to openni will be disabled
+[0.357s] -- Checking for module 'libusb-1.0'
+[0.359s] --   No package 'libusb-1.0' found
+[0.361s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.361s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.362s] ** WARNING ** io features related to openni2 will be disabled
+[0.362s] ** WARNING ** io features related to pcap will be disabled
+[0.362s] ** WARNING ** io features related to png will be disabled
+[0.374s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.375s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.378s] -- Checking for module 'libusb-1.0'
+[0.380s] --   No package 'libusb-1.0' found
+[0.382s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.382s] -- OpenNI disabled because libusb-1.0 not found.
+[0.382s] ** WARNING ** visualization features related to openni will be disabled
+[0.385s] -- Checking for module 'libusb-1.0'
+[0.387s] --   No package 'libusb-1.0' found
+[0.389s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.389s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.389s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.400s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.403s] -- Checking for module 'libusb-1.0'
+[0.406s] --   No package 'libusb-1.0' found
+[0.408s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.408s] -- OpenNI disabled because libusb-1.0 not found.
+[0.408s] ** WARNING ** apps features related to openni will be disabled
+[0.420s] -- looking for PCL_COMMON
+[0.420s] -- looking for PCL_KDTREE
+[0.421s] -- looking for PCL_OCTREE
+[0.422s] -- looking for PCL_SEARCH
+[0.422s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.423s] -- looking for PCL_FILTERS
+[0.424s] -- looking for PCL_2D
+[0.424s] -- looking for PCL_GEOMETRY
+[0.425s] -- looking for PCL_IO
+[0.425s] -- looking for PCL_FEATURES
+[0.426s] -- looking for PCL_ML
+[0.426s] -- looking for PCL_SEGMENTATION
+[0.427s] -- looking for PCL_VISUALIZATION
+[0.427s] -- looking for PCL_SURFACE
+[0.428s] -- looking for PCL_REGISTRATION
+[0.429s] -- looking for PCL_KEYPOINTS
+[0.429s] -- looking for PCL_TRACKING
+[0.430s] -- looking for PCL_RECOGNITION
+[0.431s] -- looking for PCL_STEREO
+[0.431s] -- looking for PCL_APPS
+[0.432s] -- looking for PCL_IN_HAND_SCANNER
+[0.433s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.434s] -- looking for PCL_OUTOFCORE
+[0.434s] -- looking for PCL_PEOPLE
+[0.436s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[0.490s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.490s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.491s] -- Configured cppcheck include dirs: 
+[0.491s] -- Configured cppcheck exclude dirs and/or files: 
+[0.491s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.492s] -- Configured cpplint exclude dirs and/or files: 
+[0.492s] -- Added test 'lint_cmake' to check CMake code style
+[0.493s] -- Added test 'uncrustify' to check C / C++ code style
+[0.493s] -- Configured uncrustify additional arguments: 
+[0.493s] -- Added test 'xmllint' to check XML markup files
+[0.494s] -- Configuring done
+[0.496s] CMake Error at CMakeLists.txt:31 (add_executable):
+[0.496s]   Cannot find source file:
+[0.496s] 
+[0.496s]     pcd_read.cpp
+[0.496s] 
+[0.496s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[0.496s]   .hpp .hxx .in .txx
+[0.496s] 
+[0.496s] 
+[0.497s] CMake Error at CMakeLists.txt:31 (add_executable):
+[0.497s]   No SOURCES given to target: pcd_read
+[0.497s] 
+[0.497s] 
+[0.497s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[0.502s] make: *** [Makefile:266: cmake_check_build_system] Error 1
+[0.504s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
