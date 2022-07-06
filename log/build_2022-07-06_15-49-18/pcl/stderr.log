@@ -1,0 +1,12 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:117:67:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kpcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler[m[K’
+  117 | cl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> [01;31m[Ktransformed_cloud_color_handler[m[K (transformed_cloud, 23, 20, 20); // Red
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:114:67:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler[m[K’ previously declared here
+  114 | cl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> [01;36m[Ktransformed_cloud_color_handler[m[K (transformed_cloud, 230, 200, 20); // Red
+      |                                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+make[2]: *** [CMakeFiles/matrix_transform.dir/build.make:63: CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/matrix_transform.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

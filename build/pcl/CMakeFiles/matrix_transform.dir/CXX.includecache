@@ -21,6 +21,8 @@ pcl/common/transforms.h
 -
 pcl/visualization/pcl_visualizer.h
 -
+pcl/point_types.h
+-
 
 /usr/include/eigen3/Eigen/Cholesky
 Core

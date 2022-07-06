@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.049s] [35m[1mScanning dependencies of target matrix_transform[0m
+[0.071s] [ 25%] [32mBuilding CXX object CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o[0m
+[0.073s] [ 75%] Built target pcd_read
+[4.071s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[4.071s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:126:58:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KsavePCDFileASCII(const char [13], pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’
+[4.071s]   126 |   pcl::io::savePCDFileASCII ("test_pcd.pcd", output_cloud[01;31m[K)[m[K;
+[4.071s]       |                                                          [01;31m[K^[m[K
+[4.071s] In file included from [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:3[m[K:
+[4.071s] [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> int pcl::io::savePCDFileASCII(const string&, const pcl::PointCloud<PointT>&)[m[K’
+[4.071s]   718 |     [01;36m[KsavePCDFileASCII[m[K (const std::string &file_name, const pcl::PointCloud<PointT> &cloud)
+[4.071s]       |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[4.071s] [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.072s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:126:58:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} is not derived from ‘[01m[Kconst pcl::PointCloud<PointT>[m[K’
+[4.072s]   126 |   pcl::io::savePCDFileASCII ("test_pcd.pcd", output_cloud[01;36m[K)[m[K;
+[4.072s]       |                                                          [01;36m[K^[m[K
+[7.368s] make[2]: *** [CMakeFiles/matrix_transform.dir/build.make:63: CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o] Error 1
+[7.368s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/matrix_transform.dir/all] Error 2
+[7.368s] make: *** [Makefile:141: all] Error 2
+[7.370s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

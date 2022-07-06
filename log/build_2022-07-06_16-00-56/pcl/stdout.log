@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target matrix_transform[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o[0m
+[ 75%] Built target pcd_read

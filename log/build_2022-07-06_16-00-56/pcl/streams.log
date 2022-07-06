@@ -1,0 +1,17 @@
+[0.013s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.049s] [35m[1mScanning dependencies of target matrix_transform[0m
+[0.072s] [ 25%] [32mBuilding CXX object CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o[0m
+[0.074s] [ 75%] Built target pcd_read
+[4.290s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[4.290s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:118:67:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kpcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler[m[K’
+[4.290s]   118 | cl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> [01;31m[Ktransformed_cloud_color_handler[m[K (transformed_cloud, 255, 255, 255); // Red
+[4.290s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.290s] 
+[4.290s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:115:67:[m[K [01;36m[Knote: [m[K‘[01m[Kpcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler[m[K’ previously declared here
+[4.290s]   115 | cl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> [01;36m[Ktransformed_cloud_color_handler[m[K (transformed_cloud, 230, 200, 20); // Red
+[4.290s]       |                                                                [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.290s] 
+[7.749s] make[2]: *** [CMakeFiles/matrix_transform.dir/build.make:63: CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o] Error 1
+[7.749s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/matrix_transform.dir/all] Error 2
+[7.749s] make: *** [Makefile:141: all] Error 2
+[7.752s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

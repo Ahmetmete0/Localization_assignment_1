@@ -6,6 +6,7 @@
 #include <pcl/console/parse.h>
 #include <pcl/common/transforms.h>
 #include <pcl/visualization/pcl_visualizer.h>
+#include <pcl/point_types.h>
 
 // This function displays the help
 void
@@ -30,6 +31,7 @@ main ()
   // Load file | Works with PCD and PLY files
   pcl::PointCloud<pcl::PointXYZ>::Ptr source_cloud (new pcl::PointCloud<pcl::PointXYZ> ());
   pcl::PointCloud<pcl::PointXYZ>::Ptr source_cloud_2 (new pcl::PointCloud<pcl::PointXYZ> ());
+  pcl::PointCloud<pcl::PointXYZ>::Ptr output_cloud (new pcl::PointCloud<pcl::PointXYZ> ());
 
   if (pcl::io::loadPCDFile<pcl::PointXYZ> ("../catkin_ws/src/pcl/doc/capture0001.pcd", *source_cloud) == -1) //* load the file
   {
@@ -96,6 +98,9 @@ main ()
 
   pcl::transformPointCloud (*source_cloud_2, *transformed_cloud_2, transform_2);
 
+  *output_cloud = *output_cloud + *transformed_cloud;
+  *output_cloud = *output_cloud + *transformed_cloud_2;
+
 
   // Visualization
   printf(  "\nPoint cloud colors :  white  = first cloud\n"
@@ -110,11 +115,16 @@ main ()
   pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler (transformed_cloud, 230, 200, 20); // Red
   viewer.addPointCloud (transformed_cloud_2, transformed_cloud_color_handler, "second cloud");
 
+  pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler2 (transformed_cloud, 255, 255, 255); // Red
+  viewer.addPointCloud (output_cloud, transformed_cloud_color_handler2, "third cloud");
+
   viewer.addCoordinateSystem (1.0, "cloud", 0);
   viewer.setBackgroundColor(0.05, 0.05, 0.05, 0); // Setting background to a dark grey
   viewer.setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "first_cloud");
   //viewer.setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "second_cloud");
   //viewer.setPosition(800, 400); // Setting visualiser window position
+
+  //pcl::io::savePCDFileASCII ("output.pcd", output_cloud);
 
   while (!viewer.wasStopped ()) { // Display the visualiser until 'q' key is pressed
     viewer.spinOnce ();
