@@ -1,0 +1,16 @@
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:[m[K In constructor ‘[01m[Kpcl_ros::PCDPublisher::PCDPublisher(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:110:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint nr_points[m[K’
+  110 |     int [01;31m[Knr_points[m[K = cloud_2.width * cloud_2.height;
+      |         [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:109:9:[m[K [01;36m[Knote: [m[K‘[01m[Kint nr_points[m[K’ previously declared here
+  109 |     int [01;36m[Knr_points[m[K = cloud_.width * cloud_.height;
+      |         [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:113:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto fields_list[m[K’
+  113 |     auto [01;31m[Kfields_list[m[K = pcl::getFieldsList(cloud_2);
+      |          [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:112:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::basic_string<char> fields_list[m[K’
+  112 |     auto [01;36m[Kfields_list[m[K = pcl::getFieldsList(cloud_);
+      |          [01;36m[K^~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pcd_to_pointcloud_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

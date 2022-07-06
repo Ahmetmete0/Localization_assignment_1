@@ -1,0 +1,183 @@
+[0.014s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.048s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.127s] -- The imported target "vtkParseOGLExt" references the file
+[0.127s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.127s] but this file does not exist.  Possible reasons include:
+[0.127s] * The file was deleted, renamed, or moved to another location.
+[0.127s] * An install or uninstall procedure did not complete successfully.
+[0.127s] * The installation package was faulty and contained
+[0.127s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.127s] but not all the files it references.
+[0.127s] 
+[0.127s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.127s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.127s] but this file does not exist.  Possible reasons include:
+[0.127s] * The file was deleted, renamed, or moved to another location.
+[0.127s] * An install or uninstall procedure did not complete successfully.
+[0.128s] * The installation package was faulty and contained
+[0.128s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.128s] but not all the files it references.
+[0.128s] 
+[0.128s] -- The imported target "vtk" references the file
+[0.128s]    "/usr/bin/vtk"
+[0.128s] but this file does not exist.  Possible reasons include:
+[0.128s] * The file was deleted, renamed, or moved to another location.
+[0.128s] * An install or uninstall procedure did not complete successfully.
+[0.128s] * The installation package was faulty and contained
+[0.128s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.128s] but not all the files it references.
+[0.128s] 
+[0.128s] -- The imported target "pvtk" references the file
+[0.128s]    "/usr/bin/pvtk"
+[0.128s] but this file does not exist.  Possible reasons include:
+[0.129s] * The file was deleted, renamed, or moved to another location.
+[0.129s] * An install or uninstall procedure did not complete successfully.
+[0.129s] * The installation package was faulty and contained
+[0.129s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.129s] but not all the files it references.
+[0.129s] 
+[0.154s] -- Checking for module 'libusb-1.0'
+[0.156s] --   No package 'libusb-1.0' found
+[0.159s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.159s] -- OpenNI disabled because libusb-1.0 not found.
+[0.162s] -- Checking for module 'libusb-1.0'
+[0.164s] --   No package 'libusb-1.0' found
+[0.166s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.166s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.178s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.179s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.179s] -- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) 
+[0.186s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.203s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.340s] -- Found pcl_conversions: 2.4.1 (/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.359s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.448s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.727s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.728s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.856s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.900s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.907s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.912s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.242s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.297s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.298s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mete/catkin_ws/src/perception_pcl/pcl_ros/include>
+[1.298s] -- Configured cppcheck exclude dirs and/or files: 
+[1.302s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.302s] -- Configured cpplint exclude dirs and/or files: 
+[1.303s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.304s] -- Added test 'lint_cmake' to check CMake code style
+[1.304s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.309s] -- Added test 'uncrustify' to check C / C++ code style
+[1.309s] -- Configured uncrustify additional arguments: 
+[1.309s] -- Added test 'xmllint' to check XML markup files
+[1.313s] -- Configuring done
+[1.360s] -- Generating done
+[1.362s] -- Build files have been written to: /home/mete/catkin_ws/build/pcl_ros
+[1.389s] [35m[1mScanning dependencies of target pcd_to_pointcloud_lib[0m
+[1.400s] [ 33%] Built target pcd_to_pointcloud
+[1.402s] [ 66%] Built target pcl_ros_tf
+[1.421s] [ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[6.755s] [100%] [32m[1mLinking CXX shared library libpcd_to_pointcloud_lib.so[0m
+[7.108s] [100%] Built target pcd_to_pointcloud_lib
+[7.115s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[7.138s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_ros
+[7.144s] -- Install configuration: ""
+[7.144s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/segment_differences.hpp
+[7.145s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/publisher.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/boundary.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/vfh.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_tbb.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh_omp.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/pfh.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_omp.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/principal_curvatures.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot_omp.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/moment_invariants.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/feature.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/transforms.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/pcl_nodelet.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/convex_hull.hpp
+[7.146s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/moving_least_squares.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/passthrough.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/project_inliers.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/crop_box.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/voxel_grid.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/filter.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/radius_outlier_removal.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/statistical_outlier_removal.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/extract_indices.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl/transforms.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_fields.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_data.hpp
+[7.147s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/bag_io.hpp
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/pcd_io.hpp
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/libpcl_ros_tf.a
+[7.148s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so
+[7.148s] -- Set runtime path of "/home/mete/catkin_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so" to ""
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/data
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore
+[7.148s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh
+[7.149s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv
+[7.149s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros
+[7.150s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros
+[7.150s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh
+[7.150s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv
+[7.150s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/path.sh
+[7.150s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv
+[7.150s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.bash
+[7.150s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.sh
+[7.150s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh
+[7.151s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv
+[7.153s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.dsv
+[7.153s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros
+[7.153s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/rclcpp_components/pcl_ros
+[7.153s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake
+[7.153s] -- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake
+[7.154s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.xml
+[7.154s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_ros

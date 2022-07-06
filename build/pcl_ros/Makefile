@@ -68,49 +68,17 @@ install/strip/fast: preinstall/fast
 	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
-# Special rule for the target install
-install: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install
+# Special rule for the target install/local
+install/local: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local
 
-# Special rule for the target install
-install/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/bin/cmake -P cmake_install.cmake
-.PHONY : install/fast
-
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
-
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
-
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
+# Special rule for the target install/local
+install/local/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
+	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+.PHONY : install/local/fast
 
 # Special rule for the target test
 test:
@@ -123,17 +91,49 @@ test/fast: test
 
 .PHONY : test/fast
 
-# Special rule for the target install/local
-install/local: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
 
-# Special rule for the target install/local
-install/local/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
-.PHONY : install/local/fast
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
+
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
+
+# Special rule for the target install
+install: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install
+
+# Special rule for the target install
+install/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
+	/usr/bin/cmake -P cmake_install.cmake
+.PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -168,30 +168,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named pcd_to_pointcloud
+# Target rules for targets named pcl_ros_uninstall
 
 # Build rule for target.
-pcd_to_pointcloud: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcd_to_pointcloud
-.PHONY : pcd_to_pointcloud
+pcl_ros_uninstall: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_uninstall
+.PHONY : pcl_ros_uninstall
 
 # fast build rule for target.
-pcd_to_pointcloud/fast:
-	$(MAKE) -f CMakeFiles/pcd_to_pointcloud.dir/build.make CMakeFiles/pcd_to_pointcloud.dir/build
-.PHONY : pcd_to_pointcloud/fast
-
-#=============================================================================
-# Target rules for targets named pcd_to_pointcloud_lib
-
-# Build rule for target.
-pcd_to_pointcloud_lib: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcd_to_pointcloud_lib
-.PHONY : pcd_to_pointcloud_lib
-
-# fast build rule for target.
-pcd_to_pointcloud_lib/fast:
-	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib.dir/build.make CMakeFiles/pcd_to_pointcloud_lib.dir/build
-.PHONY : pcd_to_pointcloud_lib/fast
+pcl_ros_uninstall/fast:
+	$(MAKE) -f CMakeFiles/pcl_ros_uninstall.dir/build.make CMakeFiles/pcl_ros_uninstall.dir/build
+.PHONY : pcl_ros_uninstall/fast
 
 #=============================================================================
 # Target rules for targets named pcl_ros_tf
@@ -207,17 +194,30 @@ pcl_ros_tf/fast:
 .PHONY : pcl_ros_tf/fast
 
 #=============================================================================
-# Target rules for targets named pcl_ros_uninstall
+# Target rules for targets named pcd_to_pointcloud_lib
 
 # Build rule for target.
-pcl_ros_uninstall: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_ros_uninstall
-.PHONY : pcl_ros_uninstall
+pcd_to_pointcloud_lib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcd_to_pointcloud_lib
+.PHONY : pcd_to_pointcloud_lib
 
 # fast build rule for target.
-pcl_ros_uninstall/fast:
-	$(MAKE) -f CMakeFiles/pcl_ros_uninstall.dir/build.make CMakeFiles/pcl_ros_uninstall.dir/build
-.PHONY : pcl_ros_uninstall/fast
+pcd_to_pointcloud_lib/fast:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib.dir/build.make CMakeFiles/pcd_to_pointcloud_lib.dir/build
+.PHONY : pcd_to_pointcloud_lib/fast
+
+#=============================================================================
+# Target rules for targets named pcd_to_pointcloud_lib2
+
+# Build rule for target.
+pcd_to_pointcloud_lib2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcd_to_pointcloud_lib2
+.PHONY : pcd_to_pointcloud_lib2
+
+# fast build rule for target.
+pcd_to_pointcloud_lib2/fast:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib2.dir/build.make CMakeFiles/pcd_to_pointcloud_lib2.dir/build
+.PHONY : pcd_to_pointcloud_lib2/fast
 
 #=============================================================================
 # Target rules for targets named uninstall
@@ -231,6 +231,32 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+#=============================================================================
+# Target rules for targets named pcd_to_pointcloud2
+
+# Build rule for target.
+pcd_to_pointcloud2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcd_to_pointcloud2
+.PHONY : pcd_to_pointcloud2
+
+# fast build rule for target.
+pcd_to_pointcloud2/fast:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud2.dir/build.make CMakeFiles/pcd_to_pointcloud2.dir/build
+.PHONY : pcd_to_pointcloud2/fast
+
+#=============================================================================
+# Target rules for targets named pcd_to_pointcloud
+
+# Build rule for target.
+pcd_to_pointcloud: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcd_to_pointcloud
+.PHONY : pcd_to_pointcloud
+
+# fast build rule for target.
+pcd_to_pointcloud/fast:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud.dir/build.make CMakeFiles/pcd_to_pointcloud.dir/build
+.PHONY : pcd_to_pointcloud/fast
 
 rclcpp_components/node_main_pcd_to_pointcloud.o: rclcpp_components/node_main_pcd_to_pointcloud.cpp.o
 
@@ -258,6 +284,33 @@ rclcpp_components/node_main_pcd_to_pointcloud.s: rclcpp_components/node_main_pcd
 rclcpp_components/node_main_pcd_to_pointcloud.cpp.s:
 	$(MAKE) -f CMakeFiles/pcd_to_pointcloud.dir/build.make CMakeFiles/pcd_to_pointcloud.dir/rclcpp_components/node_main_pcd_to_pointcloud.cpp.s
 .PHONY : rclcpp_components/node_main_pcd_to_pointcloud.cpp.s
+
+rclcpp_components/node_main_pcd_to_pointcloud2.o: rclcpp_components/node_main_pcd_to_pointcloud2.cpp.o
+
+.PHONY : rclcpp_components/node_main_pcd_to_pointcloud2.o
+
+# target to build an object file
+rclcpp_components/node_main_pcd_to_pointcloud2.cpp.o:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud2.dir/build.make CMakeFiles/pcd_to_pointcloud2.dir/rclcpp_components/node_main_pcd_to_pointcloud2.cpp.o
+.PHONY : rclcpp_components/node_main_pcd_to_pointcloud2.cpp.o
+
+rclcpp_components/node_main_pcd_to_pointcloud2.i: rclcpp_components/node_main_pcd_to_pointcloud2.cpp.i
+
+.PHONY : rclcpp_components/node_main_pcd_to_pointcloud2.i
+
+# target to preprocess a source file
+rclcpp_components/node_main_pcd_to_pointcloud2.cpp.i:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud2.dir/build.make CMakeFiles/pcd_to_pointcloud2.dir/rclcpp_components/node_main_pcd_to_pointcloud2.cpp.i
+.PHONY : rclcpp_components/node_main_pcd_to_pointcloud2.cpp.i
+
+rclcpp_components/node_main_pcd_to_pointcloud2.s: rclcpp_components/node_main_pcd_to_pointcloud2.cpp.s
+
+.PHONY : rclcpp_components/node_main_pcd_to_pointcloud2.s
+
+# target to generate assembly for a file
+rclcpp_components/node_main_pcd_to_pointcloud2.cpp.s:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud2.dir/build.make CMakeFiles/pcd_to_pointcloud2.dir/rclcpp_components/node_main_pcd_to_pointcloud2.cpp.s
+.PHONY : rclcpp_components/node_main_pcd_to_pointcloud2.cpp.s
 
 src/transforms.o: src/transforms.cpp.o
 
@@ -313,6 +366,33 @@ tools/pcd_to_pointcloud.cpp.s:
 	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib.dir/build.make CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.s
 .PHONY : tools/pcd_to_pointcloud.cpp.s
 
+tools/pcd_to_pointcloud2.o: tools/pcd_to_pointcloud2.cpp.o
+
+.PHONY : tools/pcd_to_pointcloud2.o
+
+# target to build an object file
+tools/pcd_to_pointcloud2.cpp.o:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib2.dir/build.make CMakeFiles/pcd_to_pointcloud_lib2.dir/tools/pcd_to_pointcloud2.cpp.o
+.PHONY : tools/pcd_to_pointcloud2.cpp.o
+
+tools/pcd_to_pointcloud2.i: tools/pcd_to_pointcloud2.cpp.i
+
+.PHONY : tools/pcd_to_pointcloud2.i
+
+# target to preprocess a source file
+tools/pcd_to_pointcloud2.cpp.i:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib2.dir/build.make CMakeFiles/pcd_to_pointcloud_lib2.dir/tools/pcd_to_pointcloud2.cpp.i
+.PHONY : tools/pcd_to_pointcloud2.cpp.i
+
+tools/pcd_to_pointcloud2.s: tools/pcd_to_pointcloud2.cpp.s
+
+.PHONY : tools/pcd_to_pointcloud2.s
+
+# target to generate assembly for a file
+tools/pcd_to_pointcloud2.cpp.s:
+	$(MAKE) -f CMakeFiles/pcd_to_pointcloud_lib2.dir/build.make CMakeFiles/pcd_to_pointcloud_lib2.dir/tools/pcd_to_pointcloud2.cpp.s
+.PHONY : tools/pcd_to_pointcloud2.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -320,26 +400,34 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... install/strip"
-	@echo "... install"
-	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
-	@echo "... test"
-	@echo "... pcd_to_pointcloud"
-	@echo "... pcd_to_pointcloud_lib"
-	@echo "... install/local"
-	@echo "... pcl_ros_tf"
 	@echo "... pcl_ros_uninstall"
+	@echo "... pcl_ros_tf"
+	@echo "... install/local"
+	@echo "... pcd_to_pointcloud_lib"
+	@echo "... pcd_to_pointcloud_lib2"
 	@echo "... uninstall"
+	@echo "... test"
+	@echo "... edit_cache"
+	@echo "... rebuild_cache"
+	@echo "... list_install_components"
+	@echo "... pcd_to_pointcloud2"
+	@echo "... pcd_to_pointcloud"
+	@echo "... install"
 	@echo "... rclcpp_components/node_main_pcd_to_pointcloud.o"
 	@echo "... rclcpp_components/node_main_pcd_to_pointcloud.i"
 	@echo "... rclcpp_components/node_main_pcd_to_pointcloud.s"
+	@echo "... rclcpp_components/node_main_pcd_to_pointcloud2.o"
+	@echo "... rclcpp_components/node_main_pcd_to_pointcloud2.i"
+	@echo "... rclcpp_components/node_main_pcd_to_pointcloud2.s"
 	@echo "... src/transforms.o"
 	@echo "... src/transforms.i"
 	@echo "... src/transforms.s"
 	@echo "... tools/pcd_to_pointcloud.o"
 	@echo "... tools/pcd_to_pointcloud.i"
 	@echo "... tools/pcd_to_pointcloud.s"
+	@echo "... tools/pcd_to_pointcloud2.o"
+	@echo "... tools/pcd_to_pointcloud2.i"
+	@echo "... tools/pcd_to_pointcloud2.s"
 .PHONY : help
 
 

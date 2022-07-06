@@ -1,0 +1,22 @@
+[0.018s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.052s] [35m[1mScanning dependencies of target pcd_to_pointcloud_lib[0m
+[0.065s] [ 33%] Built target pcd_to_pointcloud
+[0.067s] [ 66%] Built target pcl_ros_tf
+[0.083s] [ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[3.694s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:[m[K In constructor ‘[01m[Kpcl_ros::PCDPublisher::PCDPublisher(const rclcpp::NodeOptions&)[m[K’:
+[3.694s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:110:9:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint nr_points[m[K’
+[3.694s]   110 |     int [01;31m[Knr_points[m[K = cloud_2.width * cloud_2.height;
+[3.694s]       |         [01;31m[K^~~~~~~~~[m[K
+[3.694s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:109:9:[m[K [01;36m[Knote: [m[K‘[01m[Kint nr_points[m[K’ previously declared here
+[3.694s]   109 |     int [01;36m[Knr_points[m[K = cloud_.width * cloud_.height;
+[3.694s]       |         [01;36m[K^~~~~~~~~[m[K
+[3.694s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:113:10:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto fields_list[m[K’
+[3.694s]   113 |     auto [01;31m[Kfields_list[m[K = pcl::getFieldsList(cloud_2);
+[3.694s]       |          [01;31m[K^~~~~~~~~~~[m[K
+[3.694s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:112:10:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::__cxx11::basic_string<char> fields_list[m[K’
+[3.694s]   112 |     auto [01;36m[Kfields_list[m[K = pcl::getFieldsList(cloud_);
+[3.694s]       |          [01;36m[K^~~~~~~~~~~[m[K
+[4.675s] make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o] Error 1
+[4.675s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pcd_to_pointcloud_lib.dir/all] Error 2
+[4.675s] make: *** [Makefile:141: all] Error 2
+[4.677s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12

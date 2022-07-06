@@ -1,0 +1,45 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.052s] [35m[1mScanning dependencies of target pcd_to_pointcloud_lib[0m
+[0.065s] [ 33%] Built target pcd_to_pointcloud
+[0.067s] [ 66%] Built target pcl_ros_tf
+[0.084s] [ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[3.646s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:227:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[3.646s]   227 | }[01;31m[K [m[K // namespace pcl_ros
+[3.646s]       |  [01;31m[K^[m[K
+[3.646s]       |  [32m[K;[m[K
+[3.651s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:[m[K In lambda function:
+[3.651s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:124:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass pcl_ros::PCDPublisher[m[K’ has no member named ‘[01m[Kpublish[m[K’
+[3.651s]   124 |         this->[01;31m[Kpublish[m[K();
+[3.651s]       |               [01;31m[K^~~~~~~[m[K
+[3.669s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:56[m[K,
+[3.670s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[3.670s]                  from [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:58[m[K:
+[3.670s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:[m[K At global scope:
+[3.670s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:230:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPCDPublisher2[m[K’ is not a member of ‘[01m[Kpcl_ros[m[K’; did you mean ‘[01m[KPCDPublisher[m[K’?
+[3.670s]   230 | RCLCPP_COMPONENTS_REGISTER_NODE(pcl_ros::[01;31m[KPCDPublisher2[m[K)
+[3.670s]       |                                          [01;31m[K^~~~~~~~~~~~~[m[K
+[3.670s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:230:42:[m[K [01;31m[Kerror: [m[K‘[01m[KPCDPublisher2[m[K’ is not a member of ‘[01m[Kpcl_ros[m[K’; did you mean ‘[01m[KPCDPublisher[m[K’?
+[3.670s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:230:1:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.670s]   230 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(pcl_ros::PCDPublisher2)
+[3.670s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.670s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:230:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[3.670s]   230 | [01;31m[KRCLCPP_COMPONENTS_REGISTER_NODE[m[K(pcl_ros::PCDPublisher2)
+[3.670s]       | [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.670s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:63:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[3.670s]    63 | [01;36m[K{[m[K
+[3.670s]       | [01;36m[K^[m[K
+[4.451s] In file included from [01m[K/opt/ros/foxy/include/class_loader/class_loader_core.hpp:57[m[K,
+[4.451s]                  from [01m[K/opt/ros/foxy/include/class_loader/class_loader.hpp:55[m[K,
+[4.451s]                  from [01m[K/opt/ros/foxy/include/rclcpp_components/register_node_macro.hpp:18[m[K,
+[4.451s]                  from [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:58[m[K:
+[4.451s] /opt/ros/foxy/include/class_loader/meta_object.hpp: In instantiation of ‘[01m[KB* class_loader::impl::MetaObject<C, B>::create() const [with C = int; B = rclcpp_components::NodeFactory][m[K’:
+[4.451s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:216:7:[m[K   required from here
+[4.451s] [01m[K/opt/ros/foxy/include/class_loader/meta_object.hpp:218:12:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kint*[m[K’ to ‘[01m[Krclcpp_components::NodeFactory*[m[K’ in return
+[4.451s]   218 |     return [01;31m[Knew C[m[K;
+[4.451s]       |            [01;31m[K^~~~~[m[K
+[4.451s]       |            [01;31m[K|[m[K
+[4.451s]       |            [01;31m[Kint*[m[K
+[4.633s] make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o] Error 1
+[4.634s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pcd_to_pointcloud_lib.dir/all] Error 2
+[4.634s] make: *** [Makefile:141: all] Error 2
+[4.636s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12

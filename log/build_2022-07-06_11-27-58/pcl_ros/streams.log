@@ -1,0 +1,83 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.047s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.145s] -- The imported target "vtkParseOGLExt" references the file
+[0.145s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.145s] but this file does not exist.  Possible reasons include:
+[0.146s] * The file was deleted, renamed, or moved to another location.
+[0.146s] * An install or uninstall procedure did not complete successfully.
+[0.146s] * The installation package was faulty and contained
+[0.146s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.146s] but not all the files it references.
+[0.146s] 
+[0.146s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.147s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.147s] but this file does not exist.  Possible reasons include:
+[0.147s] * The file was deleted, renamed, or moved to another location.
+[0.147s] * An install or uninstall procedure did not complete successfully.
+[0.147s] * The installation package was faulty and contained
+[0.147s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.147s] but not all the files it references.
+[0.147s] 
+[0.147s] -- The imported target "vtk" references the file
+[0.147s]    "/usr/bin/vtk"
+[0.147s] but this file does not exist.  Possible reasons include:
+[0.147s] * The file was deleted, renamed, or moved to another location.
+[0.147s] * An install or uninstall procedure did not complete successfully.
+[0.147s] * The installation package was faulty and contained
+[0.147s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.147s] but not all the files it references.
+[0.147s] 
+[0.147s] -- The imported target "pvtk" references the file
+[0.148s]    "/usr/bin/pvtk"
+[0.148s] but this file does not exist.  Possible reasons include:
+[0.148s] * The file was deleted, renamed, or moved to another location.
+[0.148s] * An install or uninstall procedure did not complete successfully.
+[0.148s] * The installation package was faulty and contained
+[0.148s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.148s] but not all the files it references.
+[0.148s] 
+[0.174s] -- Checking for module 'libusb-1.0'
+[0.176s] --   No package 'libusb-1.0' found
+[0.178s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.178s] -- OpenNI disabled because libusb-1.0 not found.
+[0.182s] -- Checking for module 'libusb-1.0'
+[0.185s] --   No package 'libusb-1.0' found
+[0.187s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.187s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.200s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.201s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.202s] -- Could NOT find PCL_CORE (missing: PCL_CORE_LIBRARY PCL_CORE_INCLUDE_DIR) 
+[0.209s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.227s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.377s] -- Found pcl_conversions: 2.4.1 (/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake)
+[0.394s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.397s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.491s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.922s] -- Found rclcpp_components: 2.4.1 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.969s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.977s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.982s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.317s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.367s] CMake Error at CMakeLists.txt:187 (install):
+[1.367s]   install TARGETS given target "pcd_to_pointcloud_lib_2" which does not
+[1.367s]   exist.
+[1.367s] 
+[1.367s] 
+[1.376s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.376s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/mete/catkin_ws/src/perception_pcl/pcl_ros/include>
+[1.376s] -- Configured cppcheck exclude dirs and/or files: 
+[1.381s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.382s] -- Configured cpplint exclude dirs and/or files: 
+[1.382s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.384s] -- Added test 'lint_cmake' to check CMake code style
+[1.385s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.390s] -- Added test 'uncrustify' to check C / C++ code style
+[1.390s] -- Configured uncrustify additional arguments: 
+[1.390s] -- Added test 'xmllint' to check XML markup files
+[1.395s] -- Configuring incomplete, errors occurred!
+[1.395s] See also "/home/mete/catkin_ws/build/pcl_ros/CMakeFiles/CMakeOutput.log".
+[1.395s] See also "/home/mete/catkin_ws/build/pcl_ros/CMakeFiles/CMakeError.log".
+[1.405s] make: *** [Makefile:428: cmake_check_build_system] Error 1
+[1.410s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12

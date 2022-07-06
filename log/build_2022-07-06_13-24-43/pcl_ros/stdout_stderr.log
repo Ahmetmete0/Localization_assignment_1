@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target pcd_to_pointcloud_lib[0m
+[ 33%] Built target pcd_to_pointcloud
+[ 66%] Built target pcl_ros_tf
+[ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:124:61:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KPCDPublisher2[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+  124 |   explicit PCDPublisher2(const rclcpp::NodeOptions & options[01;31m[K)[m[K
+      |                                                             [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:124:3:[m[K [01;31m[Kerror: [m[Konly declarations of constructors and conversion operators can be ‘[01m[Kexplicit[m[K’
+  124 |   [01;31m[Kexplicit[m[K PCDPublisher2(const rclcpp::NodeOptions & options)
+      |   [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:[m[K In member function ‘[01m[Kint pcl_ros::PCDPublisher::PCDPublisher2(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:125:5:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+  125 |   : [01;31m[Krclcpp[m[K::Node("pcd_publisher", options), tf_frame_("/base_link")
+      |     [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pcd_to_pointcloud_lib.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,6 @@
+CMake Error at CMakeLists.txt:187 (install):
+  install TARGETS given target "pcd_to_pointcloud_lib_2" which does not
+  exist.
+
+
+make: *** [Makefile:354: cmake_check_build_system] Error 1

@@ -1,0 +1,8 @@
+CMake Error at CMakeLists.txt:135:
+  Parse error.  Function missing ending ")".  End of file reached.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/mete/catkin_ws/build/pcl_ros/CMakeFiles/CMakeOutput.log".
+See also "/home/mete/catkin_ws/build/pcl_ros/CMakeFiles/CMakeError.log".
+make: *** [Makefile:354: cmake_check_build_system] Error 1

@@ -1,0 +1,11 @@
+CMake Error at /opt/ros/foxy/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:65 (add_executable):
+  add_executable cannot create target "pcd_to_pointcloud_lib_2" because
+  another target with the same name already exists.  The existing target is a
+  shared library created in source directory
+  "/home/mete/catkin_ws/src/perception_pcl/pcl_ros".  See documentation for
+  policy CMP0002 for more details.
+Call Stack (most recent call first):
+  CMakeLists.txt:147 (rclcpp_components_register_node)
+
+
+make: *** [Makefile:398: cmake_check_build_system] Error 1

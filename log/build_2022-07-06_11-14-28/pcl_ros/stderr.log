@@ -1,0 +1,8 @@
+[01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud_2.cpp:52:10:[m[K [01;31m[Kfatal error: [m[Kpcl/common/io.h: No such file or directory
+   52 | #include [01;31m[K<pcl/common/io.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib_2.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib_2.dir/tools/pcd_to_pointcloud_2.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/pcd_to_pointcloud_lib_2.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:141: all] Error 2

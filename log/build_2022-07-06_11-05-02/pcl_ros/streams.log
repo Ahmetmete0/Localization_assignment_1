@@ -1,0 +1,15 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.050s] [35m[1mScanning dependencies of target pcd_to_pointcloud_lib[0m
+[0.064s] [ 33%] Built target pcd_to_pointcloud
+[0.065s] [ 66%] Built target pcl_ros_tf
+[0.083s] [ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[3.722s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:124:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_ros::PCDPublisher::PCDPublisher(const rclcpp::NodeOptions&)[m[K’ cannot be overloaded with ‘[01m[Kpcl_ros::PCDPublisher::PCDPublisher(const rclcpp::NodeOptions&)[m[K’
+[3.722s]   124 |   explicit [01;31m[KPCDPublisher[m[K(const rclcpp::NodeOptions & options)
+[3.722s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[3.722s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:84:12:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kpcl_ros::PCDPublisher::PCDPublisher(const rclcpp::NodeOptions&)[m[K’
+[3.722s]    84 |   explicit [01;36m[KPCDPublisher[m[K(const rclcpp::NodeOptions & options)
+[3.722s]       |            [01;36m[K^~~~~~~~~~~~[m[K
+[4.714s] make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o] Error 1
+[4.714s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pcd_to_pointcloud_lib.dir/all] Error 2
+[4.714s] make: *** [Makefile:141: all] Error 2
+[4.716s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12

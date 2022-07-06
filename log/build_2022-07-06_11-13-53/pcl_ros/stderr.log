@@ -1,0 +1,9 @@
+CMake Error at CMakeLists.txt:124 (add_library):
+  add_library cannot create target "pcd_to_pointcloud_lib" because another
+  target with the same name already exists.  The existing target is a shared
+  library created in source directory
+  "/home/mete/catkin_ws/src/perception_pcl/pcl_ros".  See documentation for
+  policy CMP0002 for more details.
+
+
+make: *** [Makefile:384: cmake_check_build_system] Error 1

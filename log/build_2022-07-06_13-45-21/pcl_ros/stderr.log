@@ -1,0 +1,8 @@
+CMake Error at /opt/ros/foxy/share/rclcpp_components/cmake/rclcpp_components_register_node.cmake:33 (message):
+  rclcpp_components_register_node() called with unused arguments:
+  pcl_ros::PCDPublisher2
+Call Stack (most recent call first):
+  CMakeLists.txt:132 (rclcpp_components_register_node)
+
+
+make: *** [Makefile:354: cmake_check_build_system] Error 1

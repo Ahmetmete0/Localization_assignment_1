@@ -25,5 +25,15 @@ set_target_properties(pcl_ros::pcd_to_pointcloud_lib PROPERTIES
 list(APPEND _IMPORT_CHECK_TARGETS pcl_ros::pcd_to_pointcloud_lib )
 list(APPEND _IMPORT_CHECK_FILES_FOR_pcl_ros::pcd_to_pointcloud_lib "${_IMPORT_PREFIX}/lib/libpcd_to_pointcloud_lib.so" )
 
+# Import target "pcl_ros::pcd_to_pointcloud_lib2" for configuration ""
+set_property(TARGET pcl_ros::pcd_to_pointcloud_lib2 APPEND PROPERTY IMPORTED_CONFIGURATIONS NOCONFIG)
+set_target_properties(pcl_ros::pcd_to_pointcloud_lib2 PROPERTIES
+  IMPORTED_LOCATION_NOCONFIG "${_IMPORT_PREFIX}/lib/libpcd_to_pointcloud_lib2.so"
+  IMPORTED_SONAME_NOCONFIG "libpcd_to_pointcloud_lib2.so"
+  )
+
+list(APPEND _IMPORT_CHECK_TARGETS pcl_ros::pcd_to_pointcloud_lib2 )
+list(APPEND _IMPORT_CHECK_FILES_FOR_pcl_ros::pcd_to_pointcloud_lib2 "${_IMPORT_PREFIX}/lib/libpcd_to_pointcloud_lib2.so" )
+
 # Commands beyond this point should not need to know the version.
 set(CMAKE_IMPORT_FILE_VERSION)

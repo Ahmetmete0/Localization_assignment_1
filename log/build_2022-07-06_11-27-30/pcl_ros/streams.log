@@ -1,0 +1,10 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.033s] CMake Error at CMakeLists.txt:135:
+[0.033s]   Parse error.  Function missing ending ")".  End of file reached.
+[0.033s] 
+[0.033s] 
+[0.033s] -- Configuring incomplete, errors occurred!
+[0.033s] See also "/home/mete/catkin_ws/build/pcl_ros/CMakeFiles/CMakeOutput.log".
+[0.033s] See also "/home/mete/catkin_ws/build/pcl_ros/CMakeFiles/CMakeError.log".
+[0.034s] make: *** [Makefile:354: cmake_check_build_system] Error 1
+[0.036s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12

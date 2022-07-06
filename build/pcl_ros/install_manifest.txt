@@ -1,4 +1,5 @@
 /home/mete/catkin_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud
+/home/mete/catkin_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud2
 /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp
 /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp
 /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp
@@ -37,6 +38,7 @@
 /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp
 /home/mete/catkin_ws/install/pcl_ros/lib/libpcl_ros_tf.a
 /home/mete/catkin_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so
+/home/mete/catkin_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib2.so
 /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml
 /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml
 /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml
