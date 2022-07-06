@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target matrix_transform[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o[0m
+[ 75%] Built target pcd_read
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:12:11:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   12 | main ([01;35m[Kint argc[m[K, char** argv)
+      |       [01;35m[K~~~~^~~~[m[K
+[100%] [32m[1mLinking CXX executable matrix_transform[0m
+[100%] Built target matrix_transform
+-- Install configuration: ""
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+-- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/matrix_transform
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+-- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml

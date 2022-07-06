@@ -872,6 +872,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/matrix_transform.dir/DependInfo.cmake"
   "CMakeFiles/pcl_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/pcd_read.dir/DependInfo.cmake"
   "CMakeFiles/uninstall.dir/DependInfo.cmake"

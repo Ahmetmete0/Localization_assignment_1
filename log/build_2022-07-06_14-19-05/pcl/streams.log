@@ -1,0 +1,140 @@
+[0.013s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.035s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.209s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.289s] -- The imported target "vtkParseOGLExt" references the file
+[0.289s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.290s] but this file does not exist.  Possible reasons include:
+[0.290s] * The file was deleted, renamed, or moved to another location.
+[0.290s] * An install or uninstall procedure did not complete successfully.
+[0.290s] * The installation package was faulty and contained
+[0.290s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.290s] but not all the files it references.
+[0.290s] 
+[0.290s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.290s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.290s] but this file does not exist.  Possible reasons include:
+[0.290s] * The file was deleted, renamed, or moved to another location.
+[0.290s] * An install or uninstall procedure did not complete successfully.
+[0.290s] * The installation package was faulty and contained
+[0.291s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.291s] but not all the files it references.
+[0.291s] 
+[0.291s] -- The imported target "vtk" references the file
+[0.291s]    "/usr/bin/vtk"
+[0.291s] but this file does not exist.  Possible reasons include:
+[0.291s] * The file was deleted, renamed, or moved to another location.
+[0.291s] * An install or uninstall procedure did not complete successfully.
+[0.291s] * The installation package was faulty and contained
+[0.291s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.291s] but not all the files it references.
+[0.291s] 
+[0.291s] -- The imported target "pvtk" references the file
+[0.291s]    "/usr/bin/pvtk"
+[0.291s] but this file does not exist.  Possible reasons include:
+[0.291s] * The file was deleted, renamed, or moved to another location.
+[0.292s] * An install or uninstall procedure did not complete successfully.
+[0.292s] * The installation package was faulty and contained
+[0.292s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.292s] but not all the files it references.
+[0.292s] 
+[0.307s] -- Checking for module 'libusb-1.0'
+[0.309s] --   No package 'libusb-1.0' found
+[0.311s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.312s] -- OpenNI disabled because libusb-1.0 not found.
+[0.312s] ** WARNING ** io features related to openni will be disabled
+[0.315s] -- Checking for module 'libusb-1.0'
+[0.317s] --   No package 'libusb-1.0' found
+[0.319s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.319s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.319s] ** WARNING ** io features related to openni2 will be disabled
+[0.319s] ** WARNING ** io features related to pcap will be disabled
+[0.319s] ** WARNING ** io features related to png will be disabled
+[0.332s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.332s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.335s] -- Checking for module 'libusb-1.0'
+[0.337s] --   No package 'libusb-1.0' found
+[0.340s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.340s] -- OpenNI disabled because libusb-1.0 not found.
+[0.340s] ** WARNING ** visualization features related to openni will be disabled
+[0.343s] -- Checking for module 'libusb-1.0'
+[0.345s] --   No package 'libusb-1.0' found
+[0.347s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.348s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.348s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.358s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.362s] -- Checking for module 'libusb-1.0'
+[0.364s] --   No package 'libusb-1.0' found
+[0.366s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.366s] -- OpenNI disabled because libusb-1.0 not found.
+[0.366s] ** WARNING ** apps features related to openni will be disabled
+[0.376s] -- looking for PCL_COMMON
+[0.377s] -- looking for PCL_KDTREE
+[0.377s] -- looking for PCL_OCTREE
+[0.378s] -- looking for PCL_SEARCH
+[0.378s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.378s] -- looking for PCL_FILTERS
+[0.379s] -- looking for PCL_2D
+[0.379s] -- looking for PCL_GEOMETRY
+[0.380s] -- looking for PCL_IO
+[0.380s] -- looking for PCL_FEATURES
+[0.381s] -- looking for PCL_ML
+[0.381s] -- looking for PCL_SEGMENTATION
+[0.382s] -- looking for PCL_VISUALIZATION
+[0.382s] -- looking for PCL_SURFACE
+[0.383s] -- looking for PCL_REGISTRATION
+[0.383s] -- looking for PCL_KEYPOINTS
+[0.384s] -- looking for PCL_TRACKING
+[0.384s] -- looking for PCL_RECOGNITION
+[0.385s] -- looking for PCL_STEREO
+[0.386s] -- looking for PCL_APPS
+[0.386s] -- looking for PCL_IN_HAND_SCANNER
+[0.387s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.387s] -- looking for PCL_OUTOFCORE
+[0.388s] -- looking for PCL_PEOPLE
+[0.389s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.405s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.408s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.499s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.783s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.785s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.916s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.923s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.928s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.260s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.308s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.309s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.309s] -- Configured cppcheck include dirs: 
+[1.309s] -- Configured cppcheck exclude dirs and/or files: 
+[1.310s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.310s] -- Configured cpplint exclude dirs and/or files: 
+[1.310s] -- Added test 'lint_cmake' to check CMake code style
+[1.311s] -- Added test 'uncrustify' to check C / C++ code style
+[1.311s] -- Configured uncrustify additional arguments: 
+[1.311s] -- Added test 'xmllint' to check XML markup files
+[1.313s] -- Configuring done
+[1.375s] -- Generating done
+[1.376s] -- Build files have been written to: /home/mete/catkin_ws/build/pcl
+[1.415s] [ 50%] Built target matrix_transform
+[1.419s] [100%] Built target pcd_read
+[1.429s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[1.448s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[1.454s] -- Install configuration: ""
+[1.454s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+[1.454s] -- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/matrix_transform
+[1.455s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+[1.455s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+[1.455s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+[1.456s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+[1.456s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+[1.456s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+[1.456s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+[1.456s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml
+[1.459s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl

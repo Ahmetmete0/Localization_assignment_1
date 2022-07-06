@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named matrix_transform
+
+# Build rule for target.
+matrix_transform: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 matrix_transform
+.PHONY : matrix_transform
+
+# fast build rule for target.
+matrix_transform/fast:
+	$(MAKE) -f CMakeFiles/matrix_transform.dir/build.make CMakeFiles/matrix_transform.dir/build
+.PHONY : matrix_transform/fast
+
+#=============================================================================
 # Target rules for targets named pcl_uninstall
 
 # Build rule for target.
@@ -205,6 +218,33 @@ uninstall: cmake_check_build_system
 uninstall/fast:
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
 .PHONY : uninstall/fast
+
+src/matrix_transform.o: src/matrix_transform.cpp.o
+
+.PHONY : src/matrix_transform.o
+
+# target to build an object file
+src/matrix_transform.cpp.o:
+	$(MAKE) -f CMakeFiles/matrix_transform.dir/build.make CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o
+.PHONY : src/matrix_transform.cpp.o
+
+src/matrix_transform.i: src/matrix_transform.cpp.i
+
+.PHONY : src/matrix_transform.i
+
+# target to preprocess a source file
+src/matrix_transform.cpp.i:
+	$(MAKE) -f CMakeFiles/matrix_transform.dir/build.make CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.i
+.PHONY : src/matrix_transform.cpp.i
+
+src/matrix_transform.s: src/matrix_transform.cpp.s
+
+.PHONY : src/matrix_transform.s
+
+# target to generate assembly for a file
+src/matrix_transform.cpp.s:
+	$(MAKE) -f CMakeFiles/matrix_transform.dir/build.make CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.s
+.PHONY : src/matrix_transform.cpp.s
 
 src/pcd_read.o: src/pcd_read.cpp.o
 
@@ -246,9 +286,13 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... matrix_transform"
 	@echo "... pcl_uninstall"
 	@echo "... pcd_read"
 	@echo "... uninstall"
+	@echo "... src/matrix_transform.o"
+	@echo "... src/matrix_transform.i"
+	@echo "... src/matrix_transform.s"
 	@echo "... src/pcd_read.o"
 	@echo "... src/pcd_read.i"
 	@echo "... src/pcd_read.s"

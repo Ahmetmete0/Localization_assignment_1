@@ -1,0 +1,17 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target matrix_transform[0m
+[0.074s] [ 50%] Built target pcd_read
+[0.075s] [ 75%] [32mBuilding CXX object CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o[0m
+[4.001s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.001s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:52:125:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K][m[K’ before ‘[01m[K)[m[K’ token
+[4.001s]    52 | rce_cloud) && pcl::io::loadPCDFile (argv[filenames[1], *source_cloud_2[01;31m[K)[m[K < 0)  {
+[4.001s]       |                                                                       [01;31m[K^[m[K
+[4.001s]       |                                                                       [32m[K][m[K
+[4.001s] [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:52:95:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator[][m[K’ (operand types are ‘[01m[Kchar**[m[K’ and ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>[m[K’)
+[4.001s]    52 | v[filenames[0]], *source_cloud) && pcl::io::loadPCDFile (argv[01;31m[K[[m[Kfilenames[1], *source_cloud_2) < 0)  {
+[4.002s]       |                                                              [01;31m[K^[m[K
+[4.002s] 
+[7.191s] make[2]: *** [CMakeFiles/matrix_transform.dir/build.make:63: CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o] Error 1
+[7.191s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/matrix_transform.dir/all] Error 2
+[7.191s] make: *** [Makefile:141: all] Error 2
+[7.193s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
