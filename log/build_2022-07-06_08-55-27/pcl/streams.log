@@ -1,0 +1,19 @@
+[0.022s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.064s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.107s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[4.503s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[4.503s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[4.503s]    24 |       [01;31m[Kpublisher_[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("topic", 10);
+[4.503s]       |       [01;31m[K^~~~~~~~~~[m[K
+[4.503s]       |       [32m[Krcl_publisher_t[m[K
+[4.508s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+[4.508s]    25 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+[4.508s]       |       [01;31m[K^~~~~~[m[K
+[4.508s]       |       [32m[Ktimer_t[m[K
+[4.509s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:26:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+[4.509s]    26 |       500ms, std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K, this));
+[4.509s]       |                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.551s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[5.552s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+[5.552s] make: *** [Makefile:141: all] Error 2
+[5.555s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

@@ -1,0 +1,92 @@
+[0.019s] Invoking command in '/home/mete/catkin_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_conversions -- -j12 -l12
+[0.041s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.059s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.206s] -- Found message_filters: 3.2.5 (/opt/ros/foxy/share/message_filters/cmake)
+[0.216s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.228s] -- Checking for module 'libusb-1.0'
+[0.230s] --   No package 'libusb-1.0' found
+[0.240s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.240s] -- OpenNI disabled because libusb-1.0 not found.
+[0.243s] -- Checking for module 'libusb-1.0'
+[0.245s] --   No package 'libusb-1.0' found
+[0.247s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.247s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.294s] -- The imported target "vtkParseOGLExt" references the file
+[0.294s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.295s] but this file does not exist.  Possible reasons include:
+[0.295s] * The file was deleted, renamed, or moved to another location.
+[0.295s] * An install or uninstall procedure did not complete successfully.
+[0.295s] * The installation package was faulty and contained
+[0.295s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.295s] but not all the files it references.
+[0.295s] 
+[0.295s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.295s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.295s] but this file does not exist.  Possible reasons include:
+[0.295s] * The file was deleted, renamed, or moved to another location.
+[0.295s] * An install or uninstall procedure did not complete successfully.
+[0.296s] * The installation package was faulty and contained
+[0.296s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.296s] but not all the files it references.
+[0.296s] 
+[0.296s] -- The imported target "vtk" references the file
+[0.296s]    "/usr/bin/vtk"
+[0.296s] but this file does not exist.  Possible reasons include:
+[0.296s] * The file was deleted, renamed, or moved to another location.
+[0.296s] * An install or uninstall procedure did not complete successfully.
+[0.296s] * The installation package was faulty and contained
+[0.296s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.296s] but not all the files it references.
+[0.296s] 
+[0.296s] -- The imported target "pvtk" references the file
+[0.296s]    "/usr/bin/pvtk"
+[0.297s] but this file does not exist.  Possible reasons include:
+[0.297s] * The file was deleted, renamed, or moved to another location.
+[0.297s] * An install or uninstall procedure did not complete successfully.
+[0.297s] * The installation package was faulty and contained
+[0.297s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.297s] but not all the files it references.
+[0.297s] 
+[0.310s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.312s] -- Found pcl_msgs: 1.0.0 (/opt/ros/foxy/share/pcl_msgs/cmake)
+[0.323s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.326s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.648s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.676s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.677s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.782s] -- Found ament_cmake_gtest: 0.9.9 (/opt/ros/foxy/share/ament_cmake_gtest/cmake)
+[0.783s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[0.832s] -- Configuring done
+[0.852s] -- Generating done
+[0.853s] -- Build files have been written to: /home/mete/catkin_ws/build/pcl_conversions
+[0.883s] [ 66%] Built target gtest
+[0.883s] [ 66%] Built target gtest_main
+[0.893s] [35m[1mScanning dependencies of target pcl_conversions-test[0m
+[0.924s] [ 83%] [32mBuilding CXX object CMakeFiles/pcl_conversions-test.dir/test/test_pcl_conversions.cpp.o[0m
+[5.668s] [100%] [32m[1mLinking CXX executable pcl_conversions-test[0m
+[5.880s] [100%] Built target pcl_conversions-test
+[5.887s] Invoked command in '/home/mete/catkin_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_conversions -- -j12 -l12
+[5.906s] Invoking command in '/home/mete/catkin_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_conversions
+[5.913s] -- Install configuration: ""
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/include/pcl_conversions
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions
+[5.913s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/ament_index/resource_index/package_run_dependencies/pcl_conversions
+[5.913s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/ament_index/resource_index/parent_prefix_path/pcl_conversions
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.sh
+[5.913s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.dsv
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/path.sh
+[5.913s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/path.dsv
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.bash
+[5.913s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.sh
+[5.914s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.zsh
+[5.914s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.dsv
+[5.914s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.dsv
+[5.914s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/ament_index/resource_index/packages/pcl_conversions
+[5.914s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.914s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.914s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake
+[5.914s] -- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake
+[5.914s] -- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.xml
+[5.917s] Invoked command in '/home/mete/catkin_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_conversions

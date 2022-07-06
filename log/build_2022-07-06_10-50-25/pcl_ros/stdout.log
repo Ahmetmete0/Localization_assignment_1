@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target pcd_to_pointcloud_lib[0m
+[ 33%] Built target pcd_to_pointcloud
+[ 66%] Built target pcl_ros_tf
+[ 83%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m

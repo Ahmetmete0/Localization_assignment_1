@@ -1,0 +1,9 @@
+[35m[1mScanning dependencies of target pcd_read[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:39:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = pcl::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+   39 |       publisher_->publish(cloud.[01;31m[Kpoints[m[K);
+      |                                 [01;31m[K^~~~~~[m[K
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

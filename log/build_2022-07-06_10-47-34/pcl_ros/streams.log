@@ -1,0 +1,33 @@
+[0.016s] Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.050s] [35m[1mScanning dependencies of target pcl_ros_tf[0m
+[0.063s] [ 33%] Built target pcd_to_pointcloud
+[0.064s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o[0m
+[0.086s] [ 66%] [32mBuilding CXX object CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o[0m
+[1.373s] In file included from [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/src/transforms.cpp:38[m[K:
+[1.374s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/include/pcl_ros/impl/transforms.hpp:56:10:[m[K [01;31m[Kfatal error: [m[Ktf2_geometry_msgs/tf2_geometry_msgs.hpp: No such file or directory
+[1.374s]    56 | #include [01;31m[K<tf2_geometry_msgs/tf2_geometry_msgs.hpp>[m[K
+[1.374s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.374s] compilation terminated.
+[1.390s] make[2]: *** [CMakeFiles/pcl_ros_tf.dir/build.make:63: CMakeFiles/pcl_ros_tf.dir/src/transforms.cpp.o] Error 1
+[1.390s] make[1]: *** [CMakeFiles/Makefile2:136: CMakeFiles/pcl_ros_tf.dir/all] Error 2
+[1.390s] make[1]: *** Waiting for unfinished jobs....
+[3.684s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:[m[K In constructor ‘[01m[Kpcl_ros::PCDPublisher::PCDPublisher(const rclcpp::NodeOptions&)[m[K’:
+[3.684s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:88:66:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kpcl_ros::PCDPublisher::declare_parameter<std::string>(const char [10])[m[K’
+[3.684s]    88 |     file_name_ = this->declare_parameter<std::string>("file_name"[01;31m[K)[m[K;
+[3.684s]       |                                                                  [01;31m[K^[m[K
+[3.684s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:1224[m[K,
+[3.684s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[3.684s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[3.684s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.684s]                  from [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:57[m[K:
+[3.684s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kauto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool) [with ParameterT = std::__cxx11::basic_string<char>; std::string = std::__cxx11::basic_string<char>; rcl_interfaces::msg::ParameterDescriptor = rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >][m[K’
+[3.684s]   157 | [01;36m[KNode[m[K::declare_parameter(
+[3.685s]       | [01;36m[K^~~~[m[K
+[3.685s] [01m[K/opt/ros/foxy/include/rclcpp/node_impl.hpp:157:1:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+[3.685s] [01m[K/home/mete/catkin_ws/src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp:99:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class rclcpp::node_interfaces::NodeTopicsInterface[m[K’ {aka ‘[01m[Kclass rclcpp::node_interfaces::NodeTopicsInterface[m[K’} has no member named ‘[01m[Kresolve_topic_name[m[K’
+[3.685s]    99 |       this->get_node_topics_interface()->[01;31m[Kresolve_topic_name[m[K(cloud_topic_);
+[3.685s]       |                                          [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[4.643s] make[2]: *** [CMakeFiles/pcd_to_pointcloud_lib.dir/build.make:63: CMakeFiles/pcd_to_pointcloud_lib.dir/tools/pcd_to_pointcloud.cpp.o] Error 1
+[4.643s] make[1]: *** [CMakeFiles/Makefile2:109: CMakeFiles/pcd_to_pointcloud_lib.dir/all] Error 2
+[4.643s] make: *** [Makefile:141: all] Error 2
+[4.645s] Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12

@@ -1,0 +1,20 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/localization -- -j12 -l12
+[0.058s] Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/localization -- -j12 -l12
+[0.088s] Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/localization
+[0.095s] -- Install configuration: ""
+[0.095s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[0.095s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[0.095s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.sh
+[0.095s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.dsv
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/path.sh
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/path.dsv
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.bash
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.sh
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.zsh
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.dsv
+[0.096s] -- Installing: /home/mete/catkin_ws/install/localization/share/localization/package.dsv
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/packages/localization
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig.cmake
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[0.096s] -- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/package.xml
+[0.098s] Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/localization

@@ -1,0 +1,58 @@
+[35m[1mScanning dependencies of target pcd_read[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:21:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[KMinimalPublisher[m[K’ does not have any field named ‘[01m[Kcount_[m[K’
+   21 |     : Node("minimal_publisher"), [01;31m[Kcount_[m[K(0)
+      |                                  [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   23 |       [01;31m[Kpublisher_[m[K = this->create_publisher<std_msgs::msg::PointCloud2>("topic", 10);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+   23 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KPointCloud2[m[K>("topic", 10);
+      |                                                          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  234 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:58:[m[K [01;31m[Kerror: [m[K‘[01m[KPointCloud2[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’?
+   23 |       publisher_ = this->create_publisher<std_msgs::msg::[01;31m[KPointCloud2[m[K>("topic", 10);
+      |                                                          [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:[m[K [01;36m[Knote: [m[K‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ declared here
+  234 | using [01;36m[KPointCloud2[m[K =
+      |       [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:82:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)[m[K’
+   23 | his->create_publisher<std_msgs::msg::PointCloud2>("topic", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:82:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 | his->create_publisher<std_msgs::msg::PointCloud2>("topic", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:24:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_[m[K’ was not declared in this scope; did you mean ‘[01m[Ktimer_t[m[K’?
+   24 |       [01;31m[Ktimer_[m[K = this->create_wall_timer(
+      |       [01;31m[K^~~~~~[m[K
+      |       [32m[Ktimer_t[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:25:7:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""ms[m[K’
+   25 |       [01;31m[K500ms[m[K, std::bind(&MinimalPublisher::timer_callback, this));
+      |       [01;31m[K^~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:25:43:[m[K [01;31m[Kerror: [m[K‘[01m[Ktimer_callback[m[K’ is not a member of ‘[01m[KMinimalPublisher[m[K’
+   25 |       500ms, std::bind(&MinimalPublisher::[01;31m[Ktimer_callback[m[K, this));
+      |                                           [01;31m[K^~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

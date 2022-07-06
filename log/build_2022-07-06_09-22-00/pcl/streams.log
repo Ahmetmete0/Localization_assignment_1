@@ -1,0 +1,33 @@
+[0.018s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[3.943s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[3.943s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:61:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.943s]    61 |   int *[01;35m[Karr1[m[K = new int();
+[3.943s]       |        [01;35m[K^~~~[m[K
+[3.944s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:62:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+[3.944s]    62 |   int *[01;35m[Karr2[m[K = new int();
+[3.944s]       |        [01;35m[K^~~~[m[K
+[4.922s] [100%] [32m[1mLinking CXX executable pcd_read[0m
+[5.285s] [100%] Built target pcd_read
+[5.295s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[5.313s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[5.320s] -- Install configuration: ""
+[5.320s] -- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+[5.321s] -- Set runtime path of "/home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read" to ""
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+[5.321s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+[5.322s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+[5.322s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+[5.322s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+[5.322s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+[5.322s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml
+[5.325s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl

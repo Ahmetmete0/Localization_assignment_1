@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target pcd_read[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,53 @@
+[0.016s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[3.827s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[3.827s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:40:34:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Publisher<sensor_msgs::msg::PointCloud_<std::allocator<void> > >::publish(sensor_msgs::msg::PointCloud2_<std::allocator<void> >&)[m[K’
+[3.827s]    40 |       publisher_->publish(message[01;31m[K)[m[K;
+[3.827s]       |                                  [01;31m[K^[m[K
+[3.827s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31[m[K,
+[3.827s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[3.828s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+[3.828s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10[m[K:
+[3.828s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(std::unique_ptr<MessageT, typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type>) [with MessageT = sensor_msgs::msg::PointCloud_<std::allocator<void> >; AllocatorT = std::allocator<void>; typename std::conditional<std::is_same<typename std::allocator_traits<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type>::rebind_alloc<MessageT>, typename std::allocator<void>::rebind<_Tp1>::other>::value, std::default_delete<_Tp>, rclcpp::allocator::AllocatorDeleter<typename std::allocator_traits<_Alloc>::rebind_traits<MessageT>::allocator_type> >::type = std::default_delete<sensor_msgs::msg::PointCloud_<std::allocator<void> > >][m[K’
+[3.828s]   185 |   [01;36m[Kpublish[m[K(std::unique_ptr<MessageT, MessageDeleter> msg)
+[3.828s]       |   [01;36m[K^~~~~~~[m[K
+[3.828s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:185:53:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kstd::unique_ptr<sensor_msgs::msg::PointCloud_<std::allocator<void> >, std::default_delete<sensor_msgs::msg::PointCloud_<std::allocator<void> > > >[m[K’
+[3.828s]   185 |   publish([01;36m[Kstd::unique_ptr<MessageT, MessageDeleter> msg[m[K)
+[3.828s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~[m[K
+[3.828s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const MessageT&) [with MessageT = sensor_msgs::msg::PointCloud_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[3.828s]   209 |   [01;36m[Kpublish[m[K(const MessageT & msg)
+[3.828s]       |   [01;36m[K^~~~~~~[m[K
+[3.828s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:209:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst sensor_msgs::msg::PointCloud_<std::allocator<void> >&[m[K’
+[3.829s]   209 |   publish([01;36m[Kconst MessageT & msg[m[K)
+[3.829s]       |           [01;36m[K~~~~~~~~~~~~~~~~~^~~[m[K
+[3.829s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rcl_serialized_message_t&) [with MessageT = sensor_msgs::msg::PointCloud_<std::allocator<void> >; AllocatorT = std::allocator<void>; rcl_serialized_message_t = rcutils_uint8_array_t][m[K’
+[3.829s]   226 |   [01;36m[Kpublish[m[K(const rcl_serialized_message_t & serialized_msg)
+[3.829s]       |   [01;36m[K^~~~~~~[m[K
+[3.829s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:226:44:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst rcl_serialized_message_t&[m[K’ {aka ‘[01m[Kconst rcutils_uint8_array_t&[m[K’}
+[3.829s]   226 |   publish([01;36m[Kconst rcl_serialized_message_t & serialized_msg[m[K)
+[3.829s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.829s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(const rclcpp::SerializedMessage&) [with MessageT = sensor_msgs::msg::PointCloud_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[3.829s]   232 |   [01;36m[Kpublish[m[K(const SerializedMessage & serialized_msg)
+[3.829s]       |   [01;36m[K^~~~~~~[m[K
+[3.829s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:232:37:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+[3.829s]   232 |   publish([01;36m[Kconst SerializedMessage & serialized_msg[m[K)
+[3.829s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.829s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rclcpp::Publisher<MessageT, AllocatorT>::publish(rclcpp::LoanedMessage<MessageT, AllocatorT>&&) [with MessageT = sensor_msgs::msg::PointCloud_<std::allocator<void> >; AllocatorT = std::allocator<void>][m[K’
+[3.829s]   246 |   [01;36m[Kpublish[m[K(rclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg)
+[3.829s]       |   [01;36m[K^~~~~~~[m[K
+[3.829s] [01m[K/opt/ros/foxy/include/rclcpp/publisher.hpp:246:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’ to ‘[01m[Krclcpp::LoanedMessage<sensor_msgs::msg::PointCloud_<std::allocator<void> >, std::allocator<void> >&&[m[K’
+[3.829s]   246 |   publish([01;36m[Krclcpp::LoanedMessage<MessageT, AllocatorT> && loaned_msg[m[K)
+[3.830s]       |           [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.763s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[4.763s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+[4.763s] make: *** [Makefile:141: all] Error 2
+[4.766s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

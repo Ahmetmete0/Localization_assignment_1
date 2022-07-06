@@ -1,0 +1,24 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.095s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[4.221s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[4.221s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:94:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = pcl::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kx[m[K’; did you mean ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >::element_type* boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >::px[m[K’? (not accessible from this context)
+[4.221s]    94 |   std::cout << "    " << cloud.[01;31m[Kx[m[K<< " "    << cloud.y<< " "    << cloud.z << std::endl;
+[4.221s]       |                                [01;31m[K^[m[K
+[4.221s] In file included from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:69[m[K,
+[4.221s]                  from [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:42[m[K,
+[4.221s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:2[m[K:
+[4.221s] [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:818:20:[m[K [01;36m[Knote: [m[Kdeclared private here
+[4.221s]   818 |     element_type * [01;36m[Kpx[m[K;                 // contained pointer
+[4.221s]       |                    [01;36m[K^~[m[K
+[4.221s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:94:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = pcl::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Ky[m[K’
+[4.222s]    94 |   std::cout << "    " << cloud.x<< " "    << cloud.[01;31m[Ky[m[K<< " "    << cloud.z << std::endl;
+[4.222s]       |                                                    [01;31m[K^[m[K
+[4.222s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:94:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = pcl::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kz[m[K’
+[4.222s]    94 | cout << "    " << cloud.x<< " "    << cloud.y<< " "    << cloud.[01;31m[Kz[m[K << std::endl;
+[4.222s]       |                                                                 [01;31m[K^[m[K
+[4.222s] 
+[5.008s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[5.008s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+[5.008s] make: *** [Makefile:141: all] Error 2
+[5.010s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

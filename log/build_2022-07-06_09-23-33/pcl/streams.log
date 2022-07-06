@@ -1,0 +1,11 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[3.803s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[3.803s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:83:29:[m[K [01;31m[Kerror: [m[Kinvalid types ‘[01m[Kfloat*[const float][m[K’ for array subscript
+[3.803s]    83 |     std::cin >> arr1[point.x[01;31m[K][m[K[point.y][point.z]
+[3.803s]       |                             [01;31m[K^[m[K
+[4.534s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[4.535s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+[4.535s] make: *** [Makefile:141: all] Error 2
+[4.536s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

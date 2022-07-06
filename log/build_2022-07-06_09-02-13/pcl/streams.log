@@ -1,0 +1,11 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.059s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.100s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[5.237s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.237s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:39:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Ptr = pcl::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’ {aka ‘[01m[Kclass boost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} has no member named ‘[01m[Kpoints[m[K’
+[5.237s]    39 |       publisher_->publish(cloud.[01;31m[Kpoints[m[K);
+[5.237s]       |                                 [01;31m[K^~~~~~[m[K
+[6.332s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[6.332s] make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2
+[6.333s] make: *** [Makefile:141: all] Error 2
+[6.335s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

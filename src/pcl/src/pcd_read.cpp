@@ -8,19 +8,25 @@
 #include <string>
 
 #include <pcl_conversions/pcl_conversions.h>
-#include <sensor_msgs/msg/point_cloud2.hpp>
+#include <sensor_msgs/msg/point_cloud.hpp>
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
 
 #include "rclcpp/rclcpp.hpp"
 
+using namespace std::chrono_literals;
 
-/*class Publisher : public rclcpp::Node
+pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
+pcl::PointCloud<pcl::PointXYZ>::Ptr cloud2 (new pcl::PointCloud<pcl::PointXYZ>);
+
+
+
+class MinimalPublisher : public rclcpp::Node
 {
   public:
-    MinimalPublisher()
-    : Node("minimal_publisher"), count_(0)
+  
+    MinimalPublisher(): Node("minimal_publisher")
     {
-      publisher_ = this->create_publisher<std_msgs::msg::String>("topic", 10);
+      publisher_ = this->create_publisher<sensor_msgs::msg::PointCloud>("topic", 10);
       timer_ = this->create_wall_timer(
       500ms, std::bind(&MinimalPublisher::timer_callback, this));
     }
@@ -28,15 +34,15 @@
   private:
     void timer_callback()
     {
-      auto message = std_msgs::msg::String();
-      message.data = "Hello, world! " + std::to_string(count_++);
-      RCLCPP_INFO(this->get_logger(), "Publishing: '%s'", message.data.c_str());
+      auto message = sensor_msgs::msg::PointCloud();
+      //message.data = "Hello, world! " + std::to_string(count_++);
+      RCLCPP_INFO(this->get_logger(), "Denemeeee");
       publisher_->publish(message);
     }
     rclcpp::TimerBase::SharedPtr timer_;
-    rclcpp::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+    rclcpp::Publisher<sensor_msgs::msg::PointCloud>::SharedPtr publisher_;
     size_t count_;
-};*/
+};
 
 
 
@@ -48,14 +54,11 @@
 
 
 int
-main ()
+main (int argc, char * argv[])
 {
 
   /**************************/
-
   
-  pcl::PointCloud<pcl::PointXYZ>::Ptr cloud (new pcl::PointCloud<pcl::PointXYZ>);
-  pcl::PointCloud<pcl::PointXYZ>::Ptr cloud2 (new pcl::PointCloud<pcl::PointXYZ>);
 
 
 
@@ -75,6 +78,7 @@ main ()
     std::cout << "    " << point.x
               << " "    << point.y
               << " "    << point.z << std::endl;*/
+  
 
 
 
@@ -92,5 +96,10 @@ main ()
               << " "    << point.y
               << " "    << point.z << std::endl;*/
 
+  
+
+  rclcpp::init(argc, argv);
+  rclcpp::spin(std::make_shared<MinimalPublisher>());
+  rclcpp::shutdown();
   return (0);
 }

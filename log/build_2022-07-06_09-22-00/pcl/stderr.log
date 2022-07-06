@@ -1,0 +1,7 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:61:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr1[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   61 |   int *[01;35m[Karr1[m[K = new int();
+      |        [01;35m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:62:8:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Karr2[m[K’ [[01;35m[K-Wunused-variable[m[K]
+   62 |   int *[01;35m[Karr2[m[K = new int();
+      |        [01;35m[K^~~~[m[K

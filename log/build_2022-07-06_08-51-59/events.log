@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000124] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000160] (pcl) JobQueued: {'identifier': 'pcl', 'dependencies': OrderedDict()}
+[0.000837] (localization) JobStarted: {'identifier': 'localization'}
+[0.010794] (pcl) JobStarted: {'identifier': 'pcl'}
+[0.019265] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.019820] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[0.020850] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1416'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1103'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f30540d667432956403b9c262c516d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:40595'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1454,unix/mete:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'e048d5e4873c4a0ea224efd97ef946bf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/190d80cf_d3b2_4e6a_9983_6df3b7ec23cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f30540d667432956403b9c262c516d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy')]), 'shell': False}
+[0.027210] (pcl) JobProgress: {'identifier': 'pcl', 'progress': 'cmake'}
+[0.028098] (pcl) JobProgress: {'identifier': 'pcl', 'progress': 'build'}
+[0.028397] (pcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/pcl', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1416'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1103'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f30540d667432956403b9c262c516d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:40595'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1454,unix/mete:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'e048d5e4873c4a0ea224efd97ef946bf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/190d80cf_d3b2_4e6a_9983_6df3b7ec23cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f30540d667432956403b9c262c516d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy')]), 'shell': False}
+[0.061531] (localization) CommandEnded: {'returncode': 0}
+[0.071573] (pcl) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target pcd_read\x1b[0m\n'}
+[0.079530] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[0.087368] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws/build/localization'], 'cwd': '/home/mete/catkin_ws/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1416'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1103'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f30540d667432956403b9c262c516d9'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/catkin_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:40595'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1454,unix/mete:/tmp/.ICE-unix/1454'), ('INVOCATION_ID', 'e048d5e4873c4a0ea224efd97ef946bf'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/190d80cf_d3b2_4e6a_9983_6df3b7ec23cc'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.272'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=6f30540d667432956403b9c262c516d9'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy')]), 'shell': False}
+[0.096092] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.096708] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[0.096900] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[0.097025] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[0.097202] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[0.097278] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/path.sh\n'}
+[0.097357] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/path.dsv\n'}
+[0.097415] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.bash\n'}
+[0.097472] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.sh\n'}
+[0.097528] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.zsh\n'}
+[0.097586] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.dsv\n'}
+[0.097643] (localization) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/localization/share/localization/package.dsv\n'}
+[0.097707] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[0.097766] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[0.097858] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[0.097920] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/package.xml\n'}
+[0.099118] (localization) CommandEnded: {'returncode': 0}
+[0.099905] (-) TimerEvent: {}
+[0.111863] (pcl) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o\x1b[0m\n'}
+[0.146660] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[0.200043] (-) TimerEvent: {}
+[0.300335] (-) TimerEvent: {}
+[0.400627] (-) TimerEvent: {}
+[0.500919] (-) TimerEvent: {}
+[0.601212] (-) TimerEvent: {}
+[0.701555] (-) TimerEvent: {}
+[0.801958] (-) TimerEvent: {}
+[0.902275] (-) TimerEvent: {}
+[1.002603] (-) TimerEvent: {}
+[1.102936] (-) TimerEvent: {}
+[1.203271] (-) TimerEvent: {}
+[1.303597] (-) TimerEvent: {}
+[1.403943] (-) TimerEvent: {}
+[1.504296] (-) TimerEvent: {}
+[1.604628] (-) TimerEvent: {}
+[1.704955] (-) TimerEvent: {}
+[1.805286] (-) TimerEvent: {}
+[1.905609] (-) TimerEvent: {}
+[2.005957] (-) TimerEvent: {}
+[2.106281] (-) TimerEvent: {}
+[2.206606] (-) TimerEvent: {}
+[2.306940] (-) TimerEvent: {}
+[2.407269] (-) TimerEvent: {}
+[2.507583] (-) TimerEvent: {}
+[2.607926] (-) TimerEvent: {}
+[2.708249] (-) TimerEvent: {}
+[2.808558] (-) TimerEvent: {}
+[2.908847] (-) TimerEvent: {}
+[3.009176] (-) TimerEvent: {}
+[3.109467] (-) TimerEvent: {}
+[3.209748] (-) TimerEvent: {}
+[3.310050] (-) TimerEvent: {}
+[3.410371] (-) TimerEvent: {}
+[3.510653] (-) TimerEvent: {}
+[3.610939] (-) TimerEvent: {}
+[3.711221] (-) TimerEvent: {}
+[3.811526] (-) TimerEvent: {}
+[3.911810] (-) TimerEvent: {}
+[4.012094] (-) TimerEvent: {}
+[4.112395] (-) TimerEvent: {}
+[4.212700] (-) TimerEvent: {}
+[4.312996] (-) TimerEvent: {}
+[4.413283] (-) TimerEvent: {}
+[4.513570] (-) TimerEvent: {}
+[4.613861] (-) TimerEvent: {}
+[4.714145] (-) TimerEvent: {}
+[4.814429] (-) TimerEvent: {}
+[4.877424] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.877598] (pcl) StderrLine: {'line': b'   37 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KPointCloud2\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[4.877662] (pcl) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.877715] (pcl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.877766] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58\x1b[m\x1b[K,\n'}
+[4.877816] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10\x1b[m\x1b[K:\n'}
+[4.877866] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.877920] (pcl) StderrLine: {'line': b'  234 | using \x1b[01;36m\x1b[KPointCloud2\x1b[m\x1b[K =\n'}
+[4.877969] (pcl) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.878433] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.878519] (pcl) StderrLine: {'line': b'   37 |     rclcpp::Publisher<std_msgs::msg::\x1b[01;31m\x1b[KPointCloud2\x1b[m\x1b[K>::SharedPtr publisher_;\n'}
+[4.878575] (pcl) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.878629] (pcl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.878680] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58\x1b[m\x1b[K,\n'}
+[4.878730] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10\x1b[m\x1b[K:\n'}
+[4.878779] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.878829] (pcl) StderrLine: {'line': b'  234 | using \x1b[01;36m\x1b[KPointCloud2\x1b[m\x1b[K =\n'}
+[4.878896] (pcl) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.878950] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:49:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.879006] (pcl) StderrLine: {'line': b'   37 |     rclcpp::Publisher<std_msgs::msg::PointCloud2\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[4.879061] (pcl) StderrLine: {'line': b'      |                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.879116] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[4.879172] (pcl) StderrLine: {'line': b'   37 |     rclcpp::Publisher<std_msgs::msg::PointCloud2>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[4.879226] (pcl) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[4.879280] (pcl) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[4.881879] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:37:62:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.881981] (pcl) StderrLine: {'line': b'   37 |     rclcpp::Publisher<std_msgs::msg::PointCloud2>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[4.882036] (pcl) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.882087] (pcl) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[4.885955] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.886061] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.886120] (pcl) StderrLine: {'line': b'   23 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::PointCloud2>("topic", 10);\n'}
+[4.886185] (pcl) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.886237] (pcl) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[4.886766] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.886932] (pcl) StderrLine: {'line': b'   23 |       publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KPointCloud2\x1b[m\x1b[K>("topic", 10);\n'}
+[4.887013] (pcl) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.887070] (pcl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.887128] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58\x1b[m\x1b[K,\n'}
+[4.887339] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10\x1b[m\x1b[K:\n'}
+[4.887535] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.887639] (pcl) StderrLine: {'line': b'  234 | using \x1b[01;36m\x1b[KPointCloud2\x1b[m\x1b[K =\n'}
+[4.887731] (pcl) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.887955] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:58:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.888024] (pcl) StderrLine: {'line': b'   23 |       publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KPointCloud2\x1b[m\x1b[K>("topic", 10);\n'}
+[4.888085] (pcl) StderrLine: {'line': b'      |                                                          \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.888142] (pcl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.888198] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58\x1b[m\x1b[K,\n'}
+[4.888254] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10\x1b[m\x1b[K:\n'}
+[4.888308] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.888363] (pcl) StderrLine: {'line': b'  234 | using \x1b[01;36m\x1b[KPointCloud2\x1b[m\x1b[K =\n'}
+[4.888418] (pcl) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.888472] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.888528] (pcl) StderrLine: {'line': b'   23 | his->create_publisher<std_msgs::msg::PointCloud2>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.888584] (pcl) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.888644] (pcl) StderrLine: {'line': b'\n'}
+[4.888698] (pcl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.888752] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.888806] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146\x1b[m\x1b[K,\n'}
+[4.888906] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42\x1b[m\x1b[K,\n'}
+[4.889002] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10\x1b[m\x1b[K:\n'}
+[4.889058] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.889118] (pcl) StderrLine: {'line': b'  184 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[4.889173] (pcl) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.889228] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.889285] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:23:82:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.889341] (pcl) StderrLine: {'line': b'   23 | his->create_publisher<std_msgs::msg::PointCloud2>("topic", 10\x1b[01;31m\x1b[K)\x1b[m\x1b[K;\n'}
+[4.889396] (pcl) StderrLine: {'line': b'      |                                                              \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.889455] (pcl) StderrLine: {'line': b'\n'}
+[4.889511] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:25:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kunable to find numeric literal operator \xe2\x80\x98\x1b[01m\x1b[Koperator""ms\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.889567] (pcl) StderrLine: {'line': b'   25 |       \x1b[01;31m\x1b[K500ms\x1b[m\x1b[K, std::bind(&MinimalPublisher::timer_callback, this));\n'}
+[4.889622] (pcl) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.893698] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.893800] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:31:37:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KPointCloud2\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.893887] (pcl) StderrLine: {'line': b'   31 |       auto message = std_msgs::msg::\x1b[01;31m\x1b[KPointCloud2\x1b[m\x1b[K();\n'}
+[4.893945] (pcl) StderrLine: {'line': b'      |                                     \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.893997] (pcl) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/point_cloud2.hpp:7\x1b[m\x1b[K,\n'}
+[4.894050] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:58\x1b[m\x1b[K,\n'}
+[4.894098] (pcl) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10\x1b[m\x1b[K:\n'}
+[4.894146] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/foxy/include/sensor_msgs/msg/detail/point_cloud2__struct.hpp:234:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::PointCloud2\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.894198] (pcl) StderrLine: {'line': b'  234 | using \x1b[01;36m\x1b[KPointCloud2\x1b[m\x1b[K =\n'}
+[4.894246] (pcl) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.897839] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:34:7:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krcl_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.897948] (pcl) StderrLine: {'line': b'   34 |       \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[4.898005] (pcl) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.898058] (pcl) StderrLine: {'line': b'      |       \x1b[32m\x1b[Krcl_publisher_t\x1b[m\x1b[K\n'}
+[4.914535] (-) TimerEvent: {}
+[5.014777] (-) TimerEvent: {}
+[5.115088] (-) TimerEvent: {}
+[5.215368] (-) TimerEvent: {}
+[5.315630] (-) TimerEvent: {}
+[5.415921] (-) TimerEvent: {}
+[5.516204] (-) TimerEvent: {}
+[5.616487] (-) TimerEvent: {}
+[5.716808] (-) TimerEvent: {}
+[5.744697] (pcl) StderrLine: {'line': b'make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1\n'}
+[5.745057] (pcl) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:105: CMakeFiles/pcd_read.dir/all] Error 2\n'}
+[5.745315] (pcl) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[5.746965] (pcl) CommandEnded: {'returncode': 2}
+[5.777897] (pcl) JobEnded: {'identifier': 'pcl', 'rc': 2}
+[5.788527] (-) EventReactorShutdown: {}
