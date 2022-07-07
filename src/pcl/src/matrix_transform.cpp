@@ -71,6 +71,7 @@ main ()
   // Define a translation of 2.5 meters on the x axis.
   transform_1 (0,3) = 2.5;
 
+
   // Print the transformation
   printf ("Method #1: using a Matrix4f\n");
   std::cout << transform_1 << std::endl;
@@ -94,7 +95,7 @@ main ()
   pcl::PointCloud<pcl::PointXYZ>::Ptr transformed_cloud (new pcl::PointCloud<pcl::PointXYZ> ());
   pcl::PointCloud<pcl::PointXYZ>::Ptr transformed_cloud_2 (new pcl::PointCloud<pcl::PointXYZ> ());
   // You can either apply transform_1 or transform_2; they are the same
-  pcl::transformPointCloud (*source_cloud, *transformed_cloud, transform_2);
+  pcl::transformPointCloud (*source_cloud, *transformed_cloud, transform_1);
 
   pcl::transformPointCloud (*source_cloud_2, *transformed_cloud_2, transform_2);
 

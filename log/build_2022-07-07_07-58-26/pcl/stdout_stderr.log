@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target matrix_transform[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o[0m
+[ 75%] Built target pcd_read
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:74:25:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kprintf[m[K’
+   74 |   transform_1 (0,0) = 45
+      |                         [01;31m[K^[m[K
+      |                         [32m[K;[m[K
+......
+   77 |   [32m[Kprintf[m[K ("Method #1: using a Matrix4f\n");
+      |   [32m[K~~~~~~[m[K                 
+make[2]: *** [CMakeFiles/matrix_transform.dir/build.make:63: CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/matrix_transform.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
