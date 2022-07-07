@@ -98,8 +98,7 @@ main ()
 
   pcl::transformPointCloud (*source_cloud_2, *transformed_cloud_2, transform_2);
 
-  *output_cloud = *output_cloud + *transformed_cloud;
-  *output_cloud = *output_cloud + *transformed_cloud_2;
+
 
 
   // Visualization
@@ -110,12 +109,15 @@ main ()
    // Define R,G,B colors for the point cloud
   pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> source_cloud_color_handler (source_cloud, 255, 25, 255);
   // We add the point cloud to the viewer and pass the color handler
-  viewer.addPointCloud (transformed_cloud, source_cloud_color_handler, "first_cloud");
+  //viewer.addPointCloud (transformed_cloud, source_cloud_color_handler, "first_cloud");
 
-  pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler (transformed_cloud, 230, 200, 20); // Red
-  viewer.addPointCloud (transformed_cloud_2, transformed_cloud_color_handler, "second cloud");
+  pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler (transformed_cloud, 255, 255, 255); // Red
+  //viewer.addPointCloud (transformed_cloud_2, transformed_cloud_color_handler, "second cloud");
 
-  pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler2 (transformed_cloud, 255, 255, 255); // Red
+  *output_cloud = *output_cloud + *transformed_cloud;
+  *output_cloud = *output_cloud + *transformed_cloud_2;
+
+  pcl::visualization::PointCloudColorHandlerCustom<pcl::PointXYZ> transformed_cloud_color_handler2 (transformed_cloud, 255, 0, 0); // Red
   viewer.addPointCloud (output_cloud, transformed_cloud_color_handler2, "third cloud");
 
   viewer.addCoordinateSystem (1.0, "cloud", 0);
@@ -123,8 +125,10 @@ main ()
   viewer.setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "first_cloud");
   //viewer.setPointCloudRenderingProperties (pcl::visualization::PCL_VISUALIZER_POINT_SIZE, 2, "second_cloud");
   //viewer.setPosition(800, 400); // Setting visualiser window position
+  
+  
 
-  //pcl::io::savePCDFileASCII ("output.pcd", output_cloud);
+  pcl::io::savePCDFileASCII ("../catkin_ws/src/pcl/doc/output_cloud.pcd", *output_cloud);
 
   while (!viewer.wasStopped ()) { // Display the visualiser until 'q' key is pressed
     viewer.spinOnce ();

@@ -1,0 +1,17 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:[m[K In function ‘[01m[Kint main()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:131:79:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KsavePCDFileASCII(const char [34], pcl::PointCloud<pcl::PointXYZ>::Ptr&)[m[K’
+  131 | DFileASCII ("outputdasadsadadasdsasa_cloud.pcd", output_cloud[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:3[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:718:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class PointT> int pcl::io::savePCDFileASCII(const string&, const pcl::PointCloud<PointT>&)[m[K’
+  718 |     [01;36m[KsavePCDFileASCII[m[K (const std::string &file_name, const pcl::PointCloud<PointT> &cloud)
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:718:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/matrix_transform.cpp:131:79:[m[K [01;36m[Knote: [m[K  ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr[m[K’ {aka ‘[01m[Kboost::shared_ptr<pcl::PointCloud<pcl::PointXYZ> >[m[K’} is not derived from ‘[01m[Kconst pcl::PointCloud<PointT>[m[K’
+  131 | DFileASCII ("outputdasadsadadasdsasa_cloud.pcd", output_cloud[01;36m[K)[m[K;
+      |                                                              [01;36m[K^[m[K
+
+make[2]: *** [CMakeFiles/matrix_transform.dir/build.make:63: CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/matrix_transform.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2
