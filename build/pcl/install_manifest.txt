@@ -1,5 +1,6 @@
 /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
 /home/mete/catkin_ws/install/pcl/lib/pcl/matrix_transform
+/home/mete/catkin_ws/install/pcl/lib/pcl/register
 /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
 /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
 /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh

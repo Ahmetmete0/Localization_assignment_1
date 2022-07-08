@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named register
+
+# Build rule for target.
+register: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 register
+.PHONY : register
+
+# fast build rule for target.
+register/fast:
+	$(MAKE) -f CMakeFiles/register.dir/build.make CMakeFiles/register.dir/build
+.PHONY : register/fast
+
+#=============================================================================
 # Target rules for targets named matrix_transform
 
 # Build rule for target.
@@ -273,6 +286,33 @@ src/pcd_read.cpp.s:
 	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/src/pcd_read.cpp.s
 .PHONY : src/pcd_read.cpp.s
 
+src/register.o: src/register.cpp.o
+
+.PHONY : src/register.o
+
+# target to build an object file
+src/register.cpp.o:
+	$(MAKE) -f CMakeFiles/register.dir/build.make CMakeFiles/register.dir/src/register.cpp.o
+.PHONY : src/register.cpp.o
+
+src/register.i: src/register.cpp.i
+
+.PHONY : src/register.i
+
+# target to preprocess a source file
+src/register.cpp.i:
+	$(MAKE) -f CMakeFiles/register.dir/build.make CMakeFiles/register.dir/src/register.cpp.i
+.PHONY : src/register.cpp.i
+
+src/register.s: src/register.cpp.s
+
+.PHONY : src/register.s
+
+# target to generate assembly for a file
+src/register.cpp.s:
+	$(MAKE) -f CMakeFiles/register.dir/build.make CMakeFiles/register.dir/src/register.cpp.s
+.PHONY : src/register.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -286,6 +326,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... test"
+	@echo "... register"
 	@echo "... matrix_transform"
 	@echo "... pcl_uninstall"
 	@echo "... pcd_read"
@@ -296,6 +337,9 @@ help:
 	@echo "... src/pcd_read.o"
 	@echo "... src/pcd_read.i"
 	@echo "... src/pcd_read.s"
+	@echo "... src/register.o"
+	@echo "... src/register.i"
+	@echo "... src/register.s"
 .PHONY : help
 
 

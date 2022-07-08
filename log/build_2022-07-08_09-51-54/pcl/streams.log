@@ -1,0 +1,128 @@
+[0.014s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.035s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.220s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.300s] -- The imported target "vtkParseOGLExt" references the file
+[0.300s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.300s] but this file does not exist.  Possible reasons include:
+[0.300s] * The file was deleted, renamed, or moved to another location.
+[0.300s] * An install or uninstall procedure did not complete successfully.
+[0.301s] * The installation package was faulty and contained
+[0.301s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.301s] but not all the files it references.
+[0.301s] 
+[0.301s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.301s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.301s] but this file does not exist.  Possible reasons include:
+[0.301s] * The file was deleted, renamed, or moved to another location.
+[0.301s] * An install or uninstall procedure did not complete successfully.
+[0.301s] * The installation package was faulty and contained
+[0.301s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.301s] but not all the files it references.
+[0.301s] 
+[0.302s] -- The imported target "vtk" references the file
+[0.302s]    "/usr/bin/vtk"
+[0.302s] but this file does not exist.  Possible reasons include:
+[0.302s] * The file was deleted, renamed, or moved to another location.
+[0.302s] * An install or uninstall procedure did not complete successfully.
+[0.302s] * The installation package was faulty and contained
+[0.302s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.302s] but not all the files it references.
+[0.302s] 
+[0.302s] -- The imported target "pvtk" references the file
+[0.302s]    "/usr/bin/pvtk"
+[0.303s] but this file does not exist.  Possible reasons include:
+[0.303s] * The file was deleted, renamed, or moved to another location.
+[0.303s] * An install or uninstall procedure did not complete successfully.
+[0.303s] * The installation package was faulty and contained
+[0.303s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.303s] but not all the files it references.
+[0.303s] 
+[0.318s] -- Checking for module 'libusb-1.0'
+[0.320s] --   No package 'libusb-1.0' found
+[0.323s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.323s] -- OpenNI disabled because libusb-1.0 not found.
+[0.323s] ** WARNING ** io features related to openni will be disabled
+[0.326s] -- Checking for module 'libusb-1.0'
+[0.328s] --   No package 'libusb-1.0' found
+[0.331s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.331s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.331s] ** WARNING ** io features related to openni2 will be disabled
+[0.331s] ** WARNING ** io features related to pcap will be disabled
+[0.331s] ** WARNING ** io features related to png will be disabled
+[0.343s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.343s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.347s] -- Checking for module 'libusb-1.0'
+[0.349s] --   No package 'libusb-1.0' found
+[0.351s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.351s] -- OpenNI disabled because libusb-1.0 not found.
+[0.352s] ** WARNING ** visualization features related to openni will be disabled
+[0.355s] -- Checking for module 'libusb-1.0'
+[0.357s] --   No package 'libusb-1.0' found
+[0.359s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.359s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.359s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.370s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.374s] -- Checking for module 'libusb-1.0'
+[0.376s] --   No package 'libusb-1.0' found
+[0.378s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.378s] -- OpenNI disabled because libusb-1.0 not found.
+[0.378s] ** WARNING ** apps features related to openni will be disabled
+[0.388s] -- looking for PCL_COMMON
+[0.388s] -- looking for PCL_KDTREE
+[0.389s] -- looking for PCL_OCTREE
+[0.389s] -- looking for PCL_SEARCH
+[0.390s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.390s] -- looking for PCL_FILTERS
+[0.391s] -- looking for PCL_2D
+[0.391s] -- looking for PCL_GEOMETRY
+[0.391s] -- looking for PCL_IO
+[0.392s] -- looking for PCL_FEATURES
+[0.392s] -- looking for PCL_ML
+[0.393s] -- looking for PCL_SEGMENTATION
+[0.393s] -- looking for PCL_VISUALIZATION
+[0.394s] -- looking for PCL_SURFACE
+[0.394s] -- looking for PCL_REGISTRATION
+[0.395s] -- looking for PCL_KEYPOINTS
+[0.396s] -- looking for PCL_TRACKING
+[0.396s] -- looking for PCL_RECOGNITION
+[0.397s] -- looking for PCL_STEREO
+[0.397s] -- looking for PCL_APPS
+[0.398s] -- looking for PCL_IN_HAND_SCANNER
+[0.399s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.399s] -- looking for PCL_OUTOFCORE
+[0.400s] -- looking for PCL_PEOPLE
+[0.401s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.417s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.420s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.511s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.799s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.800s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.932s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.940s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.945s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.282s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.330s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.331s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.331s] -- Configured cppcheck include dirs: 
+[1.331s] -- Configured cppcheck exclude dirs and/or files: 
+[1.332s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.332s] -- Configured cpplint exclude dirs and/or files: 
+[1.332s] -- Added test 'lint_cmake' to check CMake code style
+[1.333s] -- Added test 'uncrustify' to check C / C++ code style
+[1.333s] -- Configured uncrustify additional arguments: 
+[1.333s] -- Added test 'xmllint' to check XML markup files
+[1.336s] -- Configuring done
+[1.413s] -- Generating done
+[1.415s] -- Build files have been written to: /home/mete/catkin_ws/build/pcl
+[1.454s] [ 16%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[1.456s] [ 50%] Built target matrix_transform
+[1.461s] [ 83%] Built target pcd_read
+[1.461s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:41:10:[m[K [01;31m[Kfatal error: [m[Kpcl/memory.h: No such file or directory
+[1.461s]    41 | #include [01;31m[K<pcl/memory.h>[m[K  // for pcl::make_shared
+[1.461s]       |          [01;31m[K^~~~~~~~~~~~~~[m[K
+[1.461s] compilation terminated.
+[1.461s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[1.462s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[1.462s] make: *** [Makefile:141: all] Error 2
+[1.465s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

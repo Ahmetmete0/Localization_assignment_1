@@ -1,0 +1,3 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:85:107:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+   85 |   /*if (pcl::io::loadPCDFile<pcl::PointXYZ> ("../catkin_ws/src/pcl/doc/capture0002.pcd", *cloud2) == -1) //* load the file
+      |                                                                                                            

@@ -1,0 +1,14 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:85:107:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+   85 |  ("../catkin_ws/src/pcl/doc/capture0002.pcd", *cloud2) == -1) //* load the file
+      |                                                                 
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:94:3:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+   94 |   /*for (const auto& point: *cloud)
+      |    
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:97:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+   97 |               << " "    << point.z << std::endl;*/*[01;31m[K/[m[K
+      |                                                    [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

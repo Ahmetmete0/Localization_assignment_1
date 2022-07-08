@@ -5,6 +5,7 @@
 /home/mete/catkin_ws/build/pcl/CMakeFiles/rebuild_cache.dir
 /home/mete/catkin_ws/build/pcl/CMakeFiles/edit_cache.dir
 /home/mete/catkin_ws/build/pcl/CMakeFiles/test.dir
+/home/mete/catkin_ws/build/pcl/CMakeFiles/register.dir
 /home/mete/catkin_ws/build/pcl/CMakeFiles/matrix_transform.dir
 /home/mete/catkin_ws/build/pcl/CMakeFiles/pcl_uninstall.dir
 /home/mete/catkin_ws/build/pcl/CMakeFiles/pcd_read.dir

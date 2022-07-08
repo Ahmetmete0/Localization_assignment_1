@@ -59,6 +59,9 @@ target_link_libraries (pcd_read ${PCL_LIBRARIES})
 add_executable (matrix_transform src/matrix_transform.cpp)
 target_link_libraries (matrix_transform ${PCL_LIBRARIES})
 
+add_executable (register src/register.cpp)
+target_link_libraries (register ${PCL_LIBRARIES})
+
 ament_target_dependencies(pcd_read
   ${dependencies}
 )
@@ -66,17 +69,10 @@ ament_target_dependencies(pcd_read
 
 
 
-
-
-
-
-
-
-
-
 install(TARGETS
   pcd_read
   matrix_transform
+  register
   DESTINATION lib/${PROJECT_NAME})
 
 

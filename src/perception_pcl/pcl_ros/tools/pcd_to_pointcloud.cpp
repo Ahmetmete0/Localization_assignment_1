@@ -87,7 +87,7 @@ public:
 
     tf_frame_ = this->declare_parameter("tf_frame", tf_frame_);
     period_ms_ = this->declare_parameter("publishing_period_ms", 3000);
-    file_name_ = ("../catkin_ws/src/pcl/doc/output_cloud.pcd");
+    file_name_ = ("../catkin_ws/1.pcd");
 
     if (file_name_ == "" || pcl::io::loadPCDFile(file_name_, cloud_) == -1) {
       RCLCPP_ERROR(this->get_logger(), "failed to open PCD file");

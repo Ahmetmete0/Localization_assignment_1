@@ -1,0 +1,423 @@
+[0.160s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.160s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2b68a62c10>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2b68a62c10>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f2b68a6b1c0>)
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.190s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.190s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mete/catkin_ws'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.200s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.201s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ignore', 'ignore_ament_install']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ignore_ament_install'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_pkg']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_pkg'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['colcon_meta']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'colcon_meta'
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extensions ['ros']
+[0.202s] Level 1:colcon.colcon_core.package_identification:_identify(src/localization) by extension 'ros'
+[0.204s] DEBUG:colcon.colcon_core.package_identification:Package 'src/localization' with type 'ros.ament_cmake' and name 'localization'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/pcl) by extension 'ros'
+[0.205s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pcl' with type 'ros.ament_cmake' and name 'pcl'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_pkg']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_pkg'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['colcon_meta']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'colcon_meta'
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extensions ['ros']
+[0.207s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_conversions) by extension 'ros'
+[0.208s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_conversions' with type 'ros.ament_cmake' and name 'pcl_conversions'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ignore_ament_install'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_pkg']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_pkg'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['colcon_meta']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'colcon_meta'
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extensions ['ros']
+[0.208s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/pcl_ros) by extension 'ros'
+[0.209s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/pcl_ros' with type 'ros.ament_cmake' and name 'pcl_ros'
+[0.209s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ignore', 'ignore_ament_install']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ignore_ament_install'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_pkg']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_pkg'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['colcon_meta']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'colcon_meta'
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extensions ['ros']
+[0.210s] Level 1:colcon.colcon_core.package_identification:_identify(src/perception_pcl/perception_pcl) by extension 'ros'
+[0.210s] DEBUG:colcon.colcon_core.package_identification:Package 'src/perception_pcl/perception_pcl' with type 'ros.ament_cmake' and name 'perception_pcl'
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.210s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.211s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.239s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mete/catkin_ws2/install
+[0.240s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/mete/catkin_ws/install
+[0.242s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 256 installed packages in /opt/ros/foxy
+[0.243s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.305s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'pcl_conversions' is in: /home/mete/catkin_ws/install/pcl_conversions, /opt/ros/foxy
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding pcl_conversions
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.306s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.307s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mete/catkin_ws/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mete/catkin_ws/install/localization', 'merge_install': False, 'path': '/home/mete/catkin_ws/src/localization', 'symlink_install': False, 'test_result_base': None}
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_target' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_clean_cache' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_clean_first' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'cmake_force_configure' from command line to 'False'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'ament_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'catkin_cmake_args' from command line to 'None'
+[0.307s] Level 5:colcon.colcon_core.verb:set package 'pcl_conversions' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_conversions' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mete/catkin_ws/build/pcl_conversions', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mete/catkin_ws/install/pcl_conversions', 'merge_install': False, 'path': '/home/mete/catkin_ws/src/perception_pcl/pcl_conversions', 'symlink_install': False, 'test_result_base': None}
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'cmake_target' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'cmake_clean_first' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'cmake_force_configure' from command line to 'False'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'ament_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.308s] Level 5:colcon.colcon_core.verb:set package 'pcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.308s] DEBUG:colcon.colcon_core.verb:Building package 'pcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mete/catkin_ws/build/pcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mete/catkin_ws/install/pcl', 'merge_install': False, 'path': '/home/mete/catkin_ws/src/pcl', 'symlink_install': False, 'test_result_base': None}
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.309s] Level 5:colcon.colcon_core.verb:set package 'pcl_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.309s] DEBUG:colcon.colcon_core.verb:Building package 'pcl_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mete/catkin_ws/build/pcl_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mete/catkin_ws/install/pcl_ros', 'merge_install': False, 'path': '/home/mete/catkin_ws/src/perception_pcl/pcl_ros', 'symlink_install': False, 'test_result_base': None}
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_target' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_clean_first' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'cmake_force_configure' from command line to 'False'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'ament_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.310s] Level 5:colcon.colcon_core.verb:set package 'perception_pcl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.310s] DEBUG:colcon.colcon_core.verb:Building package 'perception_pcl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mete/catkin_ws/build/perception_pcl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mete/catkin_ws/install/perception_pcl', 'merge_install': False, 'path': '/home/mete/catkin_ws/src/perception_pcl/perception_pcl', 'symlink_install': False, 'test_result_base': None}
+[0.311s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.315s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.315s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mete/catkin_ws/src/perception_pcl/pcl_conversions' with build type 'ament_cmake'
+[0.315s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mete/catkin_ws/src/perception_pcl/pcl_conversions'
+[0.320s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.320s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.320s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.326s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mete/catkin_ws/src/localization' with build type 'ament_cmake'
+[0.326s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mete/catkin_ws/src/localization'
+[0.327s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.327s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.339s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_conversions -- -j12 -l12
+[0.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/localization -- -j12 -l12
+[0.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/localization -- -j12 -l12
+[0.417s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/localization
+[0.427s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[0.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/localization
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization' for CMake module files
+[0.435s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization' for CMake config files
+[0.435s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[0.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/bin'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/lib/pkgconfig/localization.pc'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/lib/python3.8/site-packages'
+[0.439s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/bin'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.ps1'
+[0.441s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/localization/share/localization/package.dsv'
+[0.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.sh'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.bash'
+[0.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.zsh'
+[0.444s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/localization/share/colcon-core/packages/localization)
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_conversions -- -j12 -l12
+[0.464s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization' for CMake module files
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization' for CMake config files
+[0.466s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/bin'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/lib/pkgconfig/localization.pc'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/lib/python3.8/site-packages'
+[0.469s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/localization/bin'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.ps1'
+[0.470s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/localization/share/localization/package.dsv'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.sh'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.bash'
+[0.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/localization/share/localization/package.zsh'
+[0.472s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/localization/share/colcon-core/packages/localization)
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_conversions
+[0.492s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_conversions)
+[0.494s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions' for CMake module files
+[0.494s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_conversions
+[0.495s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions' for CMake config files
+[0.495s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_conversions', 'cmake_prefix_path')
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.ps1'
+[0.496s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.dsv'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.sh'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/bin'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/lib/python3.8/site-packages'
+[0.497s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.ps1'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.dsv'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.sh'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.bash'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.zsh'
+[0.500s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/pcl_conversions/share/colcon-core/packages/pcl_conversions)
+[0.521s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_conversions)
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions' for CMake module files
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions' for CMake config files
+[0.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_conversions', 'cmake_prefix_path')
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/hook/cmake_prefix_path.sh'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/bin'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/lib/pkgconfig/pcl_conversions.pc'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/lib/python3.8/site-packages'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_conversions/bin'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.sh'
+[0.528s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.bash'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.zsh'
+[0.529s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/pcl_conversions/share/colcon-core/packages/pcl_conversions)
+[0.529s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mete/catkin_ws/src/perception_pcl/pcl_ros' with build type 'ament_cmake'
+[0.529s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mete/catkin_ws/src/perception_pcl/pcl_ros'
+[0.531s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.531s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.537s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mete/catkin_ws/src/pcl' with build type 'ament_cmake'
+[0.537s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mete/catkin_ws/src/pcl'
+[0.538s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.538s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.624s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_ros -- -j12 -l12
+[0.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/pcl_ros': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_ros
+[0.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[0.675s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros' for CMake module files
+[0.677s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros' for CMake config files
+[0.678s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/pcl_ros' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_ros
+[0.678s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'cmake_prefix_path')
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.ps1'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.dsv'
+[0.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.sh'
+[0.681s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/lib'
+[0.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'ld_library_path_lib')
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.ps1'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.dsv'
+[0.682s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.sh'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/bin'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/lib/python3.8/site-packages'
+[0.683s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/bin'
+[0.684s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[0.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[0.686s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[0.686s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[0.714s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl_ros)
+[0.716s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros' for CMake module files
+[0.717s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros' for CMake config files
+[0.717s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'cmake_prefix_path')
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.ps1'
+[0.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.dsv'
+[0.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/cmake_prefix_path.sh'
+[0.719s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/lib'
+[0.719s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl_ros', 'ld_library_path_lib')
+[0.720s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.ps1'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.dsv'
+[0.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/hook/ld_library_path_lib.sh'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/bin'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/lib/pkgconfig/pcl_ros.pc'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/lib/python3.8/site-packages'
+[0.721s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl_ros/bin'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.ps1'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.dsv'
+[0.723s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.sh'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.bash'
+[0.724s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.zsh'
+[0.724s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/pcl_ros/share/colcon-core/packages/pcl_ros)
+[0.725s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mete/catkin_ws/src/perception_pcl/perception_pcl' with build type 'ament_cmake'
+[0.725s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mete/catkin_ws/src/perception_pcl/perception_pcl'
+[0.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.726s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.739s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/perception_pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy LD_LIBRARY_PATH=/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/mete/catkin_ws/build/perception_pcl -- -j12 -l12
+[0.775s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/perception_pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy LD_LIBRARY_PATH=/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --build /home/mete/catkin_ws/build/perception_pcl -- -j12 -l12
+[0.793s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/perception_pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy LD_LIBRARY_PATH=/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/mete/catkin_ws/build/perception_pcl
+[0.802s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_pcl)
+[0.804s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl' for CMake module files
+[0.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/perception_pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy LD_LIBRARY_PATH=/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib /usr/bin/cmake --install /home/mete/catkin_ws/build/perception_pcl
+[0.805s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl' for CMake config files
+[0.805s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pcl', 'cmake_prefix_path')
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.ps1'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.dsv'
+[0.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.sh'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/bin'
+[0.807s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/lib/pkgconfig/perception_pcl.pc'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/lib/python3.8/site-packages'
+[0.808s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/bin'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.ps1'
+[0.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.dsv'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.sh'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.bash'
+[0.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.zsh'
+[0.810s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/perception_pcl/share/colcon-core/packages/perception_pcl)
+[0.829s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(perception_pcl)
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl' for CMake module files
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl' for CMake config files
+[0.831s] Level 1:colcon.colcon_core.shell:create_environment_hook('perception_pcl', 'cmake_prefix_path')
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.ps1'
+[0.832s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/hook/cmake_prefix_path.sh'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/bin'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/lib/pkgconfig/perception_pcl.pc'
+[0.833s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/lib/python3.8/site-packages'
+[0.834s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/perception_pcl/bin'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.ps1'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.dsv'
+[0.835s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.sh'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.bash'
+[0.836s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.zsh'
+[0.836s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/perception_pcl/share/colcon-core/packages/perception_pcl)
+[9.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[9.140s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[9.151s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl)
+[9.153s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl' for CMake module files
+[9.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[9.154s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl' for CMake config files
+[9.154s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl', 'cmake_prefix_path')
+[9.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl/share/pcl/hook/cmake_prefix_path.ps1'
+[9.156s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl/share/pcl/hook/cmake_prefix_path.dsv'
+[9.156s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl/share/pcl/hook/cmake_prefix_path.sh'
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/lib'
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/bin'
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/lib/pkgconfig/pcl.pc'
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/lib/python3.8/site-packages'
+[9.157s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/bin'
+[9.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.ps1'
+[9.159s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/pcl/share/pcl/package.dsv'
+[9.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.sh'
+[9.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.bash'
+[9.160s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.zsh'
+[9.160s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/pcl/share/colcon-core/packages/pcl)
+[9.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pcl)
+[9.184s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl' for CMake module files
+[9.185s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl' for CMake config files
+[9.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('pcl', 'cmake_prefix_path')
+[9.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl/share/pcl/hook/cmake_prefix_path.ps1'
+[9.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mete/catkin_ws/install/pcl/share/pcl/hook/cmake_prefix_path.dsv'
+[9.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mete/catkin_ws/install/pcl/share/pcl/hook/cmake_prefix_path.sh'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/lib'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/bin'
+[9.187s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/lib/pkgconfig/pcl.pc'
+[9.188s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/lib/python3.8/site-packages'
+[9.188s] Level 1:colcon.colcon_core.environment:checking '/home/mete/catkin_ws/install/pcl/bin'
+[9.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.ps1'
+[9.189s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mete/catkin_ws/install/pcl/share/pcl/package.dsv'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.sh'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.bash'
+[9.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/mete/catkin_ws/install/pcl/share/pcl/package.zsh'
+[9.190s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mete/catkin_ws/install/pcl/share/colcon-core/packages/pcl)
+[9.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[9.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[9.191s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[9.191s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.198s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[9.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[9.199s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[9.208s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.209s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mete/catkin_ws/install/local_setup.ps1'
+[9.210s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mete/catkin_ws/install/_local_setup_util_ps1.py'
+[9.211s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mete/catkin_ws/install/setup.ps1'
+[9.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mete/catkin_ws/install/local_setup.sh'
+[9.213s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mete/catkin_ws/install/_local_setup_util_sh.py'
+[9.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mete/catkin_ws/install/setup.sh'
+[9.215s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mete/catkin_ws/install/local_setup.bash'
+[9.215s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mete/catkin_ws/install/setup.bash'
+[9.216s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mete/catkin_ws/install/local_setup.zsh'
+[9.217s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mete/catkin_ws/install/setup.zsh'

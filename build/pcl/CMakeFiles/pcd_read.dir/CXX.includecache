@@ -27,8 +27,6 @@ sensor_msgs/msg/point_cloud.hpp
 -
 tf2_geometry_msgs/tf2_geometry_msgs.h
 -
-rclcpp/rclcpp.hpp
-/home/mete/catkin_ws/src/pcl/src/rclcpp/rclcpp.hpp
 
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp

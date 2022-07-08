@@ -1,0 +1,20 @@
+[0.014s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target pcd_read[0m
+[0.071s] [ 33%] Built target matrix_transform
+[0.078s] [ 66%] Built target register
+[0.097s] [ 83%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[1.334s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:85:107:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.334s]    85 |  ("../catkin_ws/src/pcl/doc/capture0002.pcd", *cloud2) == -1) //* load the file
+[1.334s]       |                                                                 
+[1.334s] 
+[1.334s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:94:3:[m[K [01;35m[Kwarning: [m[K"/*" within comment [[01;35m[K-Wcomment[m[K]
+[1.334s]    94 |   /*for (const auto& point: *cloud)
+[1.334s]       |    
+[4.045s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.045s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:97:52:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K/[m[K’ token
+[4.045s]    97 |               << " "    << point.z << std::endl;*/*[01;31m[K/[m[K
+[4.045s]       |                                                    [01;31m[K^[m[K
+[5.060s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[5.060s] make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+[5.060s] make: *** [Makefile:141: all] Error 2
+[5.062s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
