@@ -21,8 +21,7 @@ Elde edilen pointcloud verileri RVIZ2 programında görüntülendi.
 
 2 pcd dosyası arasındaki dönüşüm "src/pcl/src/register.cpp" dosyasında yapılmaktadır.
 
-- ## Visualize combined point cloud and assign different colors to each point
-cloud which you used for registration
+- ## Visualize combined point cloud and assign different colors to each point cloud which you used for registration
 
 ### Registration işleminden önce pointcloud verilerine farklı renkler atanmıştır.
 
