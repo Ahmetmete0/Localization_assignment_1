@@ -30,6 +30,9 @@ cloud which you used for registration
 
 ### Renk atamalarının ardından registration işlemine başlanmıştır. Görselin sağ tarafında bulunan görüntüde registration işlemi gerçekleşmektedir.
 
+Algoritma olarak Iterative Closest Point algoritmasını kullandım.
+https://pcl.readthedocs.io/projects/tutorials/en/master/pairwise_incremental_registration.html#pairwise-incremental-registration
+
 ![registration](https://user-images.githubusercontent.com/58399721/178094073-6489a4e6-49ce-4d2b-bd0b-538e3754f35b.png)
 
 ### Görselin sağ tarafındaki görüntü registration işleminin son halini göstermektedir.
