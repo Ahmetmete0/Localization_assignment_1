@@ -1,0 +1,31 @@
+[0.016s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target register[0m
+[0.076s] [ 33%] Built target matrix_transform
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.085s] [ 83%] Built target pcd_read
+[4.673s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MyPointRepresentation::pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[4.673s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:135:25:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[Kpoint_representation[m[K’ to be of abstract type ‘[01m[KMyPointRepresentation[m[K’
+[4.673s]   135 |   MyPointRepresentation [01;31m[Kpoint_representation[m[K;
+[4.673s]       |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.674s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:38:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KMyPointRepresentation[m[K’:
+[4.674s]    38 | class [01;36m[KMyPointRepresentation[m[K : public pcl::PointRepresentation <PointNormalT>
+[4.674s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.674s] In file included from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:3[m[K:
+[4.674s] [01m[K/usr/include/pcl-1.10/pcl/point_representation.h:87:20:[m[K [01;36m[Knote: [m[K	‘[01m[Kvoid pcl::PointRepresentation<PointT>::copyToFloatArray(const PointT&, float*) const [with PointT = pcl::PointNormal][m[K’
+[4.674s]    87 |       virtual void [01;36m[KcopyToFloatArray[m[K (const PointT &p, float *out) const = 0;
+[4.674s]       |                    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[5.593s] In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+[5.593s]                  from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+[5.593s]                  from [01m[K/usr/include/pcl-1.10/pcl/make_shared.h:44[m[K,
+[5.593s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:52[m[K,
+[5.593s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:2[m[K:
+[5.593s] /usr/include/boost/smart_ptr/make_shared_object.hpp: In instantiation of ‘[01m[Ktypename boost::detail::sp_if_not_array<T>::type boost::make_shared(Args&& ...) [with T = const MyPointRepresentation; Args = {MyPointRepresentation&}; typename boost::detail::sp_if_not_array<T>::type = boost::shared_ptr<const MyPointRepresentation>][m[K’:
+[5.593s] [01m[K/usr/include/pcl-1.10/pcl/make_shared.h:81:31:[m[K   required from ‘[01m[Kstd::enable_if_t<(! pcl::has_custom_allocator<T>::value), boost::shared_ptr<X> > pcl::make_shared(Args&& ...) [with T = const MyPointRepresentation; Args = {MyPointRepresentation&}; std::enable_if_t<(! pcl::has_custom_allocator<T>::value), boost::shared_ptr<X> > = boost::shared_ptr<const MyPointRepresentation>][m[K’
+[5.593s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:148:98:[m[K   required from here
+[5.593s] [01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:256:5:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KMyPointRepresentation[m[K’
+[5.593s]   256 |     [01;31m[K::new( pv ) T( boost::detail::sp_forward<Args>( args )... )[m[K;
+[5.593s]       |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[12.553s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[12.553s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[12.553s] make: *** [Makefile:141: all] Error 2
+[12.555s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

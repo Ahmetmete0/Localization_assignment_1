@@ -1,0 +1,67 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:166:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ has not been declared
+   36 | , Eigen::Matrix4f &final_transform, bool downsample = false, [01;31m[KFloat64[m[K::Ptr score)
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:179:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kscore[m[K’
+   36 | ix4f &final_transform, bool downsample = false, Float64::Ptr [01;31m[Kscore[m[K)
+      |                                                              [01;31m[K^~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:175:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 6 of ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool, int)[m[K’
+   36 |  Eigen::Matrix4f &final_transform, bool downsample = false, [01;31m[KFloat64::Ptr[m[K score)
+      |                                                             [01;31m[K~~~~~~~~~^~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:146:[m[K [01;36m[Knote: [m[K...following parameter 5 which has a default argument
+   36 | intCloud::Ptr output, Eigen::Matrix4f &final_transform, [01;36m[Kbool downsample = false[m[K, Float64::Ptr score)
+      |                                                         [01;36m[K~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool, int)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:175:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPtr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   36 |  Eigen::Matrix4f &final_transform, bool downsample = false, [01;35m[KFloat64::Ptr[m[K score)
+      |                                                             [01;35m[K~~~~~~~~~^~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:186:61:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Kstd_msgs::msg::Float64[m[K’ {aka ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >[m[K’})
+  186 |       pairAlign (source, target, temp, pairTransform, true, [01;31m[K*score[m[K);
+      |                                                             [01;31m[K^~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  391 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:186:62:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Float64[m[K’ {aka ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  186 |       pairAlign (source, target, temp, pairTransform, true, *[01;36m[Kscore[m[K);
+      |                                                              [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+  400 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:186:62:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg::Float64[m[K’ {aka ‘[01m[Kstd_msgs::msg::Float64_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  186 |       pairAlign (source, target, temp, pairTransform, true, *[01;36m[Kscore[m[K);
+      |                                                              [01;36m[K^~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+  409 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:186:62:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  186 |       pairAlign (source, target, temp, pairTransform, true, *[01;36m[Kscore[m[K);
+      |                                                              [01;36m[K^~~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

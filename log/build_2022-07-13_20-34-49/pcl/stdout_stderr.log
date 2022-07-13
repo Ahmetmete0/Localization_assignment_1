@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target register[0m
+make[2]: *** No rule to make target '/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp', needed by 'CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[ 33%] Built target matrix_transform
+[ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:222:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KGlobalTransform[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+  222 |   Eigen::Matrix4f [01;35m[KGlobalTransform[m[K = Eigen::Matrix4f::Identity (), pairTransform;
+      |                   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[ 66%] [32m[1mLinking CXX executable register[0m
+[ 66%] Built target register
+make: *** [Makefile:141: all] Error 2

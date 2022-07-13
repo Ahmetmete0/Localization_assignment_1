@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target register[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[ 50%] Built target matrix_transform
+[ 66%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m

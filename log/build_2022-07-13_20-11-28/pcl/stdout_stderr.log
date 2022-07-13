@@ -1,0 +1,27 @@
+[35m[1mScanning dependencies of target register[0m
+[ 33%] Built target matrix_transform
+[ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[ 83%] Built target pcd_read
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid loadData_1(int, char**, std::vector<PCD, Eigen::aligned_allocator<PCD> >&)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:58:5:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+   58 |     [01;31m[Kcontinue[m[K;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:50:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   50 | void loadData_1 ([01;35m[Kint argc[m[K, char **argv, std::vector<PCD, Eigen::aligned_allocator<PCD> > &models)
+      |                  [01;35m[K~~~~^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:50:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   50 | void loadData_1 (int argc, [01;35m[Kchar **argv[m[K, std::vector<PCD, Eigen::aligned_allocator<PCD> > &models)
+      |                            [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid loadData_2(int, char**, std::vector<PCD, Eigen::aligned_allocator<PCD> >&)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:86:5:[m[K [01;31m[Kerror: [m[Kcontinue statement not within a loop
+   86 |     [01;31m[Kcontinue[m[K;
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:78:22:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   78 | void loadData_2 ([01;35m[Kint argc[m[K, char **argv, std::vector<PCD, Eigen::aligned_allocator<PCD> > &models)
+      |                  [01;35m[K~~~~^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:78:35:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargv[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   78 | void loadData_2 (int argc, [01;35m[Kchar **argv[m[K, std::vector<PCD, Eigen::aligned_allocator<PCD> > &models)
+      |                            [01;35m[K~~~~~~~^~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

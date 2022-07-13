@@ -1,0 +1,7 @@
+[35m[1mScanning dependencies of target register[0m
+[ 33%] Built target matrix_transform
+[ 66%] Built target pcd_read
+[ 83%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,14 @@
+[35m[1mScanning dependencies of target register[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[ 50%] Built target matrix_transform
+[ 66%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+   10 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

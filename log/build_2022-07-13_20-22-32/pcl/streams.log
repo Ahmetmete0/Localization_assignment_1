@@ -1,0 +1,13 @@
+[0.016s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target register[0m
+[0.075s] [ 33%] Built target matrix_transform
+[0.077s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.082s] [ 83%] Built target pcd_read
+[1.319s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:11:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[1.319s]    11 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[1.319s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[1.320s] compilation terminated.
+[1.336s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[1.336s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[1.336s] make: *** [Makefile:141: all] Error 2
+[1.339s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

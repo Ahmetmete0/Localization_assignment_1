@@ -1,0 +1,52 @@
+[35m[1mScanning dependencies of target register[0m
+[ 33%] Built target pcd_read
+[ 66%] Built target matrix_transform
+[ 83%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:249:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  249 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:39:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   39 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MyPointRepresentation::pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:135:25:[m[K [01;31m[Kerror: [m[Kcannot declare variable ‘[01m[Kpoint_representation[m[K’ to be of abstract type ‘[01m[KMyPointRepresentation[m[K’
+  135 |   MyPointRepresentation [01;31m[Kpoint_representation[m[K;
+      |                         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:38:7:[m[K [01;36m[Knote: [m[K  because the following virtual functions are pure within ‘[01m[KMyPointRepresentation[m[K’:
+   38 | class [01;36m[KMyPointRepresentation[m[K : public pcl::PointRepresentation <PointNormalT>
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:3[m[K:
+[01m[K/usr/include/pcl-1.10/pcl/point_representation.h:87:20:[m[K [01;36m[Knote: [m[K	‘[01m[Kvoid pcl::PointRepresentation<PointT>::copyToFloatArray(const PointT&, float*) const [with PointT = pcl::PointNormal][m[K’
+   87 |       virtual void [01;36m[KcopyToFloatArray[m[K (const PointT &p, float *out) const = 0;
+      |                    [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kint MyPointRepresentation::main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:218:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+  218 |   [01;31m[Kp[m[K = new pcl::visualization::PCLVisualizer (argc, argv, "Pairwise Incremental Registration example");
+      |   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:219:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_1[m[K’ was not declared in this scope
+  219 |   p->createViewPort (0.0, 0, 0.5, 1.0, [01;31m[Kvp_1[m[K);
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:220:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_2[m[K’ was not declared in this scope
+  220 |   p->createViewPort (0.5, 0, 1.0, 1.0, [01;31m[Kvp_2[m[K);
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:231:5:[m[K [01;31m[Kerror: [m[K‘[01m[KshowCloudsLeft[m[K’ was not declared in this scope
+  231 |     [01;31m[KshowCloudsLeft[m[K(source, target);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K At global scope:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:249:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  249 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+In file included from [01m[K/usr/include/boost/smart_ptr/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/boost/make_shared.hpp:14[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/make_shared.h:44[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/point_cloud.h:52[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:2[m[K:
+/usr/include/boost/smart_ptr/make_shared_object.hpp: In instantiation of ‘[01m[Ktypename boost::detail::sp_if_not_array<T>::type boost::make_shared(Args&& ...) [with T = const MyPointRepresentation; Args = {MyPointRepresentation&}; typename boost::detail::sp_if_not_array<T>::type = boost::shared_ptr<const MyPointRepresentation>][m[K’:
+[01m[K/usr/include/pcl-1.10/pcl/make_shared.h:81:31:[m[K   required from ‘[01m[Kstd::enable_if_t<(! pcl::has_custom_allocator<T>::value), boost::shared_ptr<X> > pcl::make_shared(Args&& ...) [with T = const MyPointRepresentation; Args = {MyPointRepresentation&}; std::enable_if_t<(! pcl::has_custom_allocator<T>::value), boost::shared_ptr<X> > = boost::shared_ptr<const MyPointRepresentation>][m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:148:98:[m[K   required from here
+[01m[K/usr/include/boost/smart_ptr/make_shared_object.hpp:256:5:[m[K [01;31m[Kerror: [m[Kinvalid new-expression of abstract class type ‘[01m[KMyPointRepresentation[m[K’
+  256 |     [01;31m[K::new( pv ) T( boost::detail::sp_forward<Args>( args )... )[m[K;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

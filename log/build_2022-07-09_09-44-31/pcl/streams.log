@@ -1,0 +1,29 @@
+[0.014s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/deneme/install/deneme:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target register[0m
+[0.074s] [ 33%] Built target matrix_transform
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.082s] [ 83%] Built target pcd_read
+[17.222s] [100%] [32m[1mLinking CXX executable register[0m
+[19.736s] [100%] Built target register
+[19.746s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/deneme/install/deneme:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[19.768s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/deneme/install/deneme:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[19.775s] -- Install configuration: ""
+[19.775s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/lib/pcl/pcd_read
+[19.775s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/lib/pcl/matrix_transform
+[19.775s] -- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/register
+[19.779s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+[19.779s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+[19.780s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+[19.780s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml
+[19.783s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/deneme/install/deneme:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl

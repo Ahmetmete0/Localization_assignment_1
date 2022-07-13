@@ -1,0 +1,12 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:143:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_align_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpoint_cloud_publisher_2[m[K’?
+  143 |       [01;31m[Kpoint_cloud_align_publisher[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("/pointcloud_align", 10);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |       [32m[Kpoint_cloud_publisher_2[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:212:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc_publisher_aligned[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_fini[m[K’?
+  212 |         [01;31m[Kpc_publisher_aligned[m[K->publish(aligned_ros);
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+      |         [32m[Krcl_publisher_fini[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

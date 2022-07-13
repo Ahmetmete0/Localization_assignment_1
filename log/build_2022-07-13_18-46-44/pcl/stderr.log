@@ -1,0 +1,35 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:31:27:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+   31 |  class MainClass : public [01;31m[Krclcpp[m[K::Node
+      |                           [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:31:35:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+   31 |  class MainClass : public rclcpp::[01;31m[KNode[m[K
+      |                                   [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:33:1:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+   33 | [01;31m[Kpublic[m[K:
+      | [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:33:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:32:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   32 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:35:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   35 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pc_publisher_2;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   36 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr pc_publisher_aligned;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:37:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+   37 |     [01;31m[Krclcpp[m[K::Publisher<std_msgs::msg::Float64>::SharedPtr pc_publisher_error;
+      |     [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:201:11:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+  201 | MainClass([01;31m[K)[m[K
+      |           [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:289:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  289 | [01;31m[K}[m[K;
+      | [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:297:13:[m[K [01;31m[Kerror: [m[Kaggregate ‘[01m[KMainClass obj[m[K’ has incomplete type and cannot be defined
+  297 |   MainClass [01;31m[Kobj[m[K;
+      |             [01;31m[K^~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

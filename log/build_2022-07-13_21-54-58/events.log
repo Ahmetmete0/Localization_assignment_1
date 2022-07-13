@@ -1,0 +1,514 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000202] (pcl_conversions) JobQueued: {'identifier': 'pcl_conversions', 'dependencies': OrderedDict()}
+[0.000242] (pcl) JobQueued: {'identifier': 'pcl', 'dependencies': OrderedDict([('pcl_conversions', '/home/mete/catkin_ws/install/pcl_conversions')])}
+[0.000417] (pcl_ros) JobQueued: {'identifier': 'pcl_ros', 'dependencies': OrderedDict([('pcl_conversions', '/home/mete/catkin_ws/install/pcl_conversions')])}
+[0.000452] (perception_pcl) JobQueued: {'identifier': 'perception_pcl', 'dependencies': OrderedDict([('pcl_conversions', '/home/mete/catkin_ws/install/pcl_conversions'), ('pcl_ros', '/home/mete/catkin_ws/install/pcl_ros')])}
+[0.000472] (pcl_conversions) JobStarted: {'identifier': 'pcl_conversions'}
+[0.013412] (localization) JobStarted: {'identifier': 'localization'}
+[0.022611] (pcl_conversions) JobProgress: {'identifier': 'pcl_conversions', 'progress': 'cmake'}
+[0.023316] (pcl_conversions) JobProgress: {'identifier': 'pcl_conversions', 'progress': 'build'}
+[0.024344] (pcl_conversions) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/pcl_conversions', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/pcl_conversions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl_conversions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.029676] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.031045] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[0.031201] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.062413] (localization) CommandEnded: {'returncode': 0}
+[0.069491] (pcl_conversions) StdoutLine: {'line': b'[ 66%] Built target gtest\n'}
+[0.069778] (pcl_conversions) StdoutLine: {'line': b'[ 66%] Built target gtest_main\n'}
+[0.078627] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[0.088135] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws/build/localization'], 'cwd': '/home/mete/catkin_ws/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.094812] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.094945] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[0.095077] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[0.095201] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[0.095278] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[0.095330] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/path.sh\n'}
+[0.095409] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/environment/path.dsv\n'}
+[0.095471] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.bash\n'}
+[0.095520] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.sh\n'}
+[0.095568] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.zsh\n'}
+[0.095615] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/local_setup.dsv\n'}
+[0.095663] (localization) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/localization/share/localization/package.dsv\n'}
+[0.095711] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[0.095758] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[0.095806] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[0.095853] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/localization/share/localization/package.xml\n'}
+[0.096612] (localization) CommandEnded: {'returncode': 0}
+[0.098979] (pcl_conversions) StdoutLine: {'line': b'[100%] Built target pcl_conversions-test\n'}
+[0.099270] (-) TimerEvent: {}
+[0.112056] (pcl_conversions) CommandEnded: {'returncode': 0}
+[0.137048] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[0.138912] (pcl_conversions) JobProgress: {'identifier': 'pcl_conversions', 'progress': 'install'}
+[0.138997] (pcl_conversions) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws/build/pcl_conversions'], 'cwd': '/home/mete/catkin_ws/build/pcl_conversions', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl_conversions'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.145753] (pcl_conversions) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.145855] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/include/pcl_conversions\n'}
+[0.145915] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions\n'}
+[0.146046] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/include/pcl_conversions/pcl_conversions/pcl_conversions.h\n'}
+[0.146216] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/ament_index/resource_index/package_run_dependencies/pcl_conversions\n'}
+[0.146302] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/ament_index/resource_index/parent_prefix_path/pcl_conversions\n'}
+[0.146372] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.sh\n'}
+[0.146529] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/ament_prefix_path.dsv\n'}
+[0.146606] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/path.sh\n'}
+[0.146658] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/environment/path.dsv\n'}
+[0.146708] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.bash\n'}
+[0.146756] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.sh\n'}
+[0.146804] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.zsh\n'}
+[0.146852] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/local_setup.dsv\n'}
+[0.146899] (pcl_conversions) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.dsv\n'}
+[0.146951] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/ament_index/resource_index/packages/pcl_conversions\n'}
+[0.146998] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.147045] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.147091] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake\n'}
+[0.147137] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/cmake/pcl_conversionsConfig-version.cmake\n'}
+[0.147184] (pcl_conversions) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_conversions/share/pcl_conversions/package.xml\n'}
+[0.147875] (pcl_conversions) CommandEnded: {'returncode': 0}
+[0.184048] (pcl_conversions) JobEnded: {'identifier': 'pcl_conversions', 'rc': 0}
+[0.185893] (pcl_ros) JobStarted: {'identifier': 'pcl_ros'}
+[0.192662] (pcl) JobStarted: {'identifier': 'pcl'}
+[0.199385] (-) TimerEvent: {}
+[0.203038] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'cmake'}
+[0.204817] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'build'}
+[0.204926] (pcl_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/pcl_ros', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/pcl_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.207243] (pcl) JobProgress: {'identifier': 'pcl', 'progress': 'cmake'}
+[0.207867] (pcl) JobProgress: {'identifier': 'pcl', 'progress': 'build'}
+[0.208979] (pcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/pcl', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.248966] (pcl) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target register\x1b[0m\n'}
+[0.257763] (pcl_ros) StdoutLine: {'line': b'[ 40%] Built target pcd_to_pointcloud2\n'}
+[0.258048] (pcl_ros) StdoutLine: {'line': b'[ 40%] Built target pcd_to_pointcloud\n'}
+[0.264168] (pcl) StdoutLine: {'line': b'[ 50%] Built target matrix_transform\n'}
+[0.264553] (pcl_ros) StdoutLine: {'line': b'[ 60%] Built target pcd_to_pointcloud_lib\n'}
+[0.265064] (pcl_ros) StdoutLine: {'line': b'[ 80%] Built target pcl_ros_tf\n'}
+[0.267818] (pcl_ros) StdoutLine: {'line': b'[100%] Built target pcd_to_pointcloud_lib2\n'}
+[0.276562] (pcl_ros) CommandEnded: {'returncode': 0}
+[0.292427] (pcl) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o\x1b[0m\n'}
+[0.299499] (-) TimerEvent: {}
+[0.304884] (pcl_ros) JobProgress: {'identifier': 'pcl_ros', 'progress': 'install'}
+[0.305048] (pcl_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws/build/pcl_ros'], 'cwd': '/home/mete/catkin_ws/build/pcl_ros', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl_ros'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.311998] (pcl_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.312194] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud\n'}
+[0.312492] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/pcl_ros/pcd_to_pointcloud2\n'}
+[0.312648] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros\n'}
+[0.312733] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros\n'}
+[0.312895] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation\n'}
+[0.313026] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_clusters.hpp\n'}
+[0.313136] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/extract_polygonal_prism_data.hpp\n'}
+[0.313247] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/sac_segmentation.hpp\n'}
+[0.313310] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/segmentation/segment_differences.hpp\n'}
+[0.313361] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/publisher.hpp\n'}
+[0.313417] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features\n'}
+[0.313526] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot.hpp\n'}
+[0.313582] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/boundary.hpp\n'}
+[0.313631] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/vfh.hpp\n'}
+[0.313680] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_tbb.hpp\n'}
+[0.313728] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh_omp.hpp\n'}
+[0.313777] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/pfh.hpp\n'}
+[0.313838] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d_omp.hpp\n'}
+[0.313889] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/principal_curvatures.hpp\n'}
+[0.313938] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/shot_omp.hpp\n'}
+[0.313987] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/fpfh.hpp\n'}
+[0.314045] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/moment_invariants.hpp\n'}
+[0.314098] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/feature.hpp\n'}
+[0.314149] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/features/normal_3d.hpp\n'}
+[0.314222] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/transforms.hpp\n'}
+[0.314364] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/pcl_nodelet.hpp\n'}
+[0.314437] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface\n'}
+[0.314510] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/convex_hull.hpp\n'}
+[0.314574] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/surface/moving_least_squares.hpp\n'}
+[0.314639] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters\n'}
+[0.314712] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/passthrough.hpp\n'}
+[0.314774] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/project_inliers.hpp\n'}
+[0.314846] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/crop_box.hpp\n'}
+[0.314908] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/voxel_grid.hpp\n'}
+[0.314982] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/filter.hpp\n'}
+[0.315056] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/radius_outlier_removal.hpp\n'}
+[0.315105] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/statistical_outlier_removal.hpp\n'}
+[0.315154] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/filters/extract_indices.hpp\n'}
+[0.315220] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl\n'}
+[0.315281] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/impl/transforms.hpp\n'}
+[0.315337] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io\n'}
+[0.315408] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_fields.hpp\n'}
+[0.315471] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/concatenate_data.hpp\n'}
+[0.315543] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/bag_io.hpp\n'}
+[0.315606] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/io/pcd_io.hpp\n'}
+[0.315681] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/include/pcl_ros/pcl_ros/point_cloud.hpp\n'}
+[0.315732] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/libpcl_ros_tf.a\n'}
+[0.315780] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib.so\n'}
+[0.315828] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/lib/libpcd_to_pointcloud_lib2.so\n'}
+[0.315875] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins\n'}
+[0.315923] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet\n'}
+[0.315972] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_segmentation.xml\n'}
+[0.316021] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_io.xml\n'}
+[0.316069] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_filters.xml\n'}
+[0.316119] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_features.xml\n'}
+[0.316168] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/plugins/nodelet/libpcl_ros_surface.xml\n'}
+[0.316217] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples\n'}
+[0.316265] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/data\n'}
+[0.316315] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/data/.gitignore\n'}
+[0.316363] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros\n'}
+[0.316449] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation\n'}
+[0.316558] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/segmentation/sample_extract_clusters.launch\n'}
+[0.316804] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features\n'}
+[0.317081] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/features/sample_normal_3d.launch\n'}
+[0.317442] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface\n'}
+[0.319865] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/surface/sample_convex_hull.launch\n'}
+[0.319949] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters\n'}
+[0.320063] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_voxel_grid.launch\n'}
+[0.320187] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/sample_statistical_outlier_removal.launch\n'}
+[0.320313] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config\n'}
+[0.320412] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/statistical_outlier_removal.rviz\n'}
+[0.320575] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/filters/config/voxel_grid.rviz\n'}
+[0.320653] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io\n'}
+[0.320745] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/samples/pcl_ros/io/sample_concatenate_data.launch\n'}
+[0.320832] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/library_path.sh\n'}
+[0.320921] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/library_path.dsv\n'}
+[0.321004] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/package_run_dependencies/pcl_ros\n'}
+[0.321085] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/parent_prefix_path/pcl_ros\n'}
+[0.321161] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.sh\n'}
+[0.321248] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/ament_prefix_path.dsv\n'}
+[0.321335] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/path.sh\n'}
+[0.321426] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/environment/path.dsv\n'}
+[0.321540] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.bash\n'}
+[0.321616] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.sh\n'}
+[0.321698] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.zsh\n'}
+[0.321776] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/local_setup.dsv\n'}
+[0.321857] (pcl_ros) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.dsv\n'}
+[0.321927] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/packages/pcl_ros\n'}
+[0.322007] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/ament_index/resource_index/rclcpp_components/pcl_ros\n'}
+[0.322094] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport.cmake\n'}
+[0.322173] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/export_pcl_rosExport-noconfig.cmake\n'}
+[0.322259] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.322341] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.322418] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.322499] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.322580] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig.cmake\n'}
+[0.322662] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/cmake/pcl_rosConfig-version.cmake\n'}
+[0.322742] (pcl_ros) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl_ros/share/pcl_ros/package.xml\n'}
+[0.322821] (pcl_ros) CommandEnded: {'returncode': 0}
+[0.370022] (pcl_ros) JobEnded: {'identifier': 'pcl_ros', 'rc': 0}
+[0.370978] (perception_pcl) JobStarted: {'identifier': 'perception_pcl'}
+[0.380899] (perception_pcl) JobProgress: {'identifier': 'perception_pcl', 'progress': 'cmake'}
+[0.381239] (perception_pcl) JobProgress: {'identifier': 'perception_pcl', 'progress': 'build'}
+[0.381460] (perception_pcl) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/mete/catkin_ws/build/perception_pcl', '--', '-j12', '-l12'], 'cwd': '/home/mete/catkin_ws/build/perception_pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/perception_pcl'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.399642] (-) TimerEvent: {}
+[0.414955] (perception_pcl) CommandEnded: {'returncode': 0}
+[0.432671] (perception_pcl) JobProgress: {'identifier': 'perception_pcl', 'progress': 'install'}
+[0.432959] (perception_pcl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws/build/perception_pcl'], 'cwd': '/home/mete/catkin_ws/build/perception_pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/perception_pcl'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[0.441850] (perception_pcl) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.442028] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/ament_index/resource_index/package_run_dependencies/perception_pcl\n'}
+[0.442208] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/ament_index/resource_index/parent_prefix_path/perception_pcl\n'}
+[0.442377] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/environment/ament_prefix_path.sh\n'}
+[0.442512] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/environment/ament_prefix_path.dsv\n'}
+[0.442571] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/environment/path.sh\n'}
+[0.442627] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/environment/path.dsv\n'}
+[0.442679] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/local_setup.bash\n'}
+[0.442730] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/local_setup.sh\n'}
+[0.442781] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/local_setup.zsh\n'}
+[0.442831] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/local_setup.dsv\n'}
+[0.442881] (perception_pcl) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.dsv\n'}
+[0.442931] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/ament_index/resource_index/packages/perception_pcl\n'}
+[0.442981] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/cmake/perception_pclConfig.cmake\n'}
+[0.443030] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/cmake/perception_pclConfig-version.cmake\n'}
+[0.443079] (perception_pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/perception_pcl/share/perception_pcl/package.xml\n'}
+[0.443879] (perception_pcl) CommandEnded: {'returncode': 0}
+[0.478078] (perception_pcl) JobEnded: {'identifier': 'perception_pcl', 'rc': 0}
+[0.499754] (-) TimerEvent: {}
+[0.600034] (-) TimerEvent: {}
+[0.700303] (-) TimerEvent: {}
+[0.800566] (-) TimerEvent: {}
+[0.900906] (-) TimerEvent: {}
+[1.001203] (-) TimerEvent: {}
+[1.101591] (-) TimerEvent: {}
+[1.201859] (-) TimerEvent: {}
+[1.302304] (-) TimerEvent: {}
+[1.402625] (-) TimerEvent: {}
+[1.502927] (-) TimerEvent: {}
+[1.603250] (-) TimerEvent: {}
+[1.703576] (-) TimerEvent: {}
+[1.803886] (-) TimerEvent: {}
+[1.904187] (-) TimerEvent: {}
+[2.004509] (-) TimerEvent: {}
+[2.104831] (-) TimerEvent: {}
+[2.205120] (-) TimerEvent: {}
+[2.305412] (-) TimerEvent: {}
+[2.405794] (-) TimerEvent: {}
+[2.506104] (-) TimerEvent: {}
+[2.606437] (-) TimerEvent: {}
+[2.706757] (-) TimerEvent: {}
+[2.807078] (-) TimerEvent: {}
+[2.907386] (-) TimerEvent: {}
+[3.007705] (-) TimerEvent: {}
+[3.107989] (-) TimerEvent: {}
+[3.208327] (-) TimerEvent: {}
+[3.308640] (-) TimerEvent: {}
+[3.408949] (-) TimerEvent: {}
+[3.509248] (-) TimerEvent: {}
+[3.609552] (-) TimerEvent: {}
+[3.709872] (-) TimerEvent: {}
+[3.810192] (-) TimerEvent: {}
+[3.910501] (-) TimerEvent: {}
+[4.010816] (-) TimerEvent: {}
+[4.111092] (-) TimerEvent: {}
+[4.211371] (-) TimerEvent: {}
+[4.311727] (-) TimerEvent: {}
+[4.411989] (-) TimerEvent: {}
+[4.512278] (-) TimerEvent: {}
+[4.612613] (-) TimerEvent: {}
+[4.712873] (-) TimerEvent: {}
+[4.813141] (-) TimerEvent: {}
+[4.913368] (-) TimerEvent: {}
+[5.013689] (-) TimerEvent: {}
+[5.113950] (-) TimerEvent: {}
+[5.214231] (-) TimerEvent: {}
+[5.314494] (-) TimerEvent: {}
+[5.414790] (-) TimerEvent: {}
+[5.515054] (-) TimerEvent: {}
+[5.615324] (-) TimerEvent: {}
+[5.672768] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/register.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.672938] (pcl) StderrLine: {'line': b'\x1b[01m\x1b[K/home/mete/catkin_ws/src/pcl/src/register.cpp:253:19:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kvariable \xe2\x80\x98\x1b[01m\x1b[KGlobalTransform\x1b[m\x1b[K\xe2\x80\x99 set but not used [\x1b[01;35m\x1b[K-Wunused-but-set-variable\x1b[m\x1b[K]\n'}
+[5.672996] (pcl) StderrLine: {'line': b'  253 |   Eigen::Matrix4f \x1b[01;35m\x1b[KGlobalTransform\x1b[m\x1b[K = Eigen::Matrix4f::Identity (), pairTransform;\n'}
+[5.673047] (pcl) StderrLine: {'line': b'      |                   \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.715453] (-) TimerEvent: {}
+[5.815713] (-) TimerEvent: {}
+[5.916013] (-) TimerEvent: {}
+[6.016280] (-) TimerEvent: {}
+[6.116540] (-) TimerEvent: {}
+[6.216840] (-) TimerEvent: {}
+[6.317098] (-) TimerEvent: {}
+[6.417355] (-) TimerEvent: {}
+[6.517552] (-) TimerEvent: {}
+[6.617801] (-) TimerEvent: {}
+[6.718068] (-) TimerEvent: {}
+[6.818331] (-) TimerEvent: {}
+[6.918617] (-) TimerEvent: {}
+[7.018943] (-) TimerEvent: {}
+[7.119295] (-) TimerEvent: {}
+[7.219639] (-) TimerEvent: {}
+[7.319923] (-) TimerEvent: {}
+[7.420191] (-) TimerEvent: {}
+[7.520475] (-) TimerEvent: {}
+[7.620749] (-) TimerEvent: {}
+[7.721025] (-) TimerEvent: {}
+[7.821301] (-) TimerEvent: {}
+[7.921566] (-) TimerEvent: {}
+[8.021860] (-) TimerEvent: {}
+[8.122149] (-) TimerEvent: {}
+[8.222446] (-) TimerEvent: {}
+[8.322719] (-) TimerEvent: {}
+[8.422985] (-) TimerEvent: {}
+[8.523285] (-) TimerEvent: {}
+[8.623564] (-) TimerEvent: {}
+[8.723810] (-) TimerEvent: {}
+[8.824130] (-) TimerEvent: {}
+[8.924437] (-) TimerEvent: {}
+[9.024715] (-) TimerEvent: {}
+[9.124989] (-) TimerEvent: {}
+[9.225277] (-) TimerEvent: {}
+[9.325584] (-) TimerEvent: {}
+[9.425924] (-) TimerEvent: {}
+[9.526202] (-) TimerEvent: {}
+[9.626504] (-) TimerEvent: {}
+[9.726775] (-) TimerEvent: {}
+[9.827076] (-) TimerEvent: {}
+[9.927367] (-) TimerEvent: {}
+[10.027632] (-) TimerEvent: {}
+[10.127931] (-) TimerEvent: {}
+[10.228205] (-) TimerEvent: {}
+[10.328523] (-) TimerEvent: {}
+[10.428781] (-) TimerEvent: {}
+[10.529050] (-) TimerEvent: {}
+[10.629337] (-) TimerEvent: {}
+[10.729673] (-) TimerEvent: {}
+[10.830074] (-) TimerEvent: {}
+[10.930341] (-) TimerEvent: {}
+[11.030619] (-) TimerEvent: {}
+[11.130905] (-) TimerEvent: {}
+[11.231179] (-) TimerEvent: {}
+[11.331472] (-) TimerEvent: {}
+[11.431788] (-) TimerEvent: {}
+[11.532103] (-) TimerEvent: {}
+[11.632406] (-) TimerEvent: {}
+[11.732712] (-) TimerEvent: {}
+[11.833032] (-) TimerEvent: {}
+[11.933297] (-) TimerEvent: {}
+[12.033550] (-) TimerEvent: {}
+[12.133839] (-) TimerEvent: {}
+[12.234102] (-) TimerEvent: {}
+[12.334410] (-) TimerEvent: {}
+[12.434724] (-) TimerEvent: {}
+[12.535033] (-) TimerEvent: {}
+[12.635295] (-) TimerEvent: {}
+[12.735551] (-) TimerEvent: {}
+[12.835807] (-) TimerEvent: {}
+[12.936063] (-) TimerEvent: {}
+[13.036324] (-) TimerEvent: {}
+[13.136584] (-) TimerEvent: {}
+[13.236849] (-) TimerEvent: {}
+[13.337122] (-) TimerEvent: {}
+[13.437412] (-) TimerEvent: {}
+[13.537680] (-) TimerEvent: {}
+[13.637943] (-) TimerEvent: {}
+[13.738203] (-) TimerEvent: {}
+[13.838473] (-) TimerEvent: {}
+[13.938753] (-) TimerEvent: {}
+[14.039041] (-) TimerEvent: {}
+[14.139338] (-) TimerEvent: {}
+[14.239612] (-) TimerEvent: {}
+[14.339840] (-) TimerEvent: {}
+[14.440098] (-) TimerEvent: {}
+[14.540363] (-) TimerEvent: {}
+[14.640631] (-) TimerEvent: {}
+[14.740956] (-) TimerEvent: {}
+[14.841242] (-) TimerEvent: {}
+[14.941583] (-) TimerEvent: {}
+[15.041876] (-) TimerEvent: {}
+[15.142163] (-) TimerEvent: {}
+[15.242452] (-) TimerEvent: {}
+[15.342739] (-) TimerEvent: {}
+[15.443068] (-) TimerEvent: {}
+[15.543372] (-) TimerEvent: {}
+[15.643702] (-) TimerEvent: {}
+[15.744017] (-) TimerEvent: {}
+[15.844310] (-) TimerEvent: {}
+[15.944586] (-) TimerEvent: {}
+[16.045013] (-) TimerEvent: {}
+[16.145325] (-) TimerEvent: {}
+[16.245667] (-) TimerEvent: {}
+[16.345985] (-) TimerEvent: {}
+[16.446247] (-) TimerEvent: {}
+[16.546546] (-) TimerEvent: {}
+[16.646842] (-) TimerEvent: {}
+[16.747076] (-) TimerEvent: {}
+[16.847408] (-) TimerEvent: {}
+[16.947729] (-) TimerEvent: {}
+[17.047982] (-) TimerEvent: {}
+[17.148244] (-) TimerEvent: {}
+[17.248498] (-) TimerEvent: {}
+[17.348784] (-) TimerEvent: {}
+[17.449066] (-) TimerEvent: {}
+[17.549349] (-) TimerEvent: {}
+[17.649609] (-) TimerEvent: {}
+[17.749848] (-) TimerEvent: {}
+[17.850100] (-) TimerEvent: {}
+[17.950354] (-) TimerEvent: {}
+[18.050608] (-) TimerEvent: {}
+[18.150871] (-) TimerEvent: {}
+[18.251171] (-) TimerEvent: {}
+[18.351426] (-) TimerEvent: {}
+[18.451693] (-) TimerEvent: {}
+[18.551953] (-) TimerEvent: {}
+[18.652238] (-) TimerEvent: {}
+[18.752501] (-) TimerEvent: {}
+[18.852766] (-) TimerEvent: {}
+[18.953021] (-) TimerEvent: {}
+[19.053293] (-) TimerEvent: {}
+[19.153590] (-) TimerEvent: {}
+[19.253843] (-) TimerEvent: {}
+[19.354103] (-) TimerEvent: {}
+[19.454356] (-) TimerEvent: {}
+[19.554624] (-) TimerEvent: {}
+[19.654868] (-) TimerEvent: {}
+[19.755218] (-) TimerEvent: {}
+[19.855496] (-) TimerEvent: {}
+[19.955830] (-) TimerEvent: {}
+[20.056126] (-) TimerEvent: {}
+[20.156429] (-) TimerEvent: {}
+[20.256711] (-) TimerEvent: {}
+[20.356991] (-) TimerEvent: {}
+[20.457348] (-) TimerEvent: {}
+[20.557655] (-) TimerEvent: {}
+[20.657934] (-) TimerEvent: {}
+[20.758210] (-) TimerEvent: {}
+[20.858470] (-) TimerEvent: {}
+[20.958723] (-) TimerEvent: {}
+[21.059034] (-) TimerEvent: {}
+[21.159313] (-) TimerEvent: {}
+[21.259645] (-) TimerEvent: {}
+[21.359997] (-) TimerEvent: {}
+[21.460261] (-) TimerEvent: {}
+[21.560588] (-) TimerEvent: {}
+[21.660979] (-) TimerEvent: {}
+[21.761510] (-) TimerEvent: {}
+[21.816577] (pcl) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable register\x1b[0m\n'}
+[21.861632] (-) TimerEvent: {}
+[21.961936] (-) TimerEvent: {}
+[22.062232] (-) TimerEvent: {}
+[22.162640] (-) TimerEvent: {}
+[22.262979] (-) TimerEvent: {}
+[22.363356] (-) TimerEvent: {}
+[22.463671] (-) TimerEvent: {}
+[22.564004] (-) TimerEvent: {}
+[22.664384] (-) TimerEvent: {}
+[22.764787] (-) TimerEvent: {}
+[22.865236] (-) TimerEvent: {}
+[22.965579] (-) TimerEvent: {}
+[23.065922] (-) TimerEvent: {}
+[23.166365] (-) TimerEvent: {}
+[23.266782] (-) TimerEvent: {}
+[23.367179] (-) TimerEvent: {}
+[23.467542] (-) TimerEvent: {}
+[23.567840] (-) TimerEvent: {}
+[23.668128] (-) TimerEvent: {}
+[23.768428] (-) TimerEvent: {}
+[23.868723] (-) TimerEvent: {}
+[23.969025] (-) TimerEvent: {}
+[24.069373] (-) TimerEvent: {}
+[24.169730] (-) TimerEvent: {}
+[24.270030] (-) TimerEvent: {}
+[24.370446] (-) TimerEvent: {}
+[24.470766] (-) TimerEvent: {}
+[24.571148] (-) TimerEvent: {}
+[24.671535] (-) TimerEvent: {}
+[24.771961] (-) TimerEvent: {}
+[24.872400] (-) TimerEvent: {}
+[24.972752] (-) TimerEvent: {}
+[25.073165] (-) TimerEvent: {}
+[25.173598] (-) TimerEvent: {}
+[25.273967] (-) TimerEvent: {}
+[25.374239] (-) TimerEvent: {}
+[25.474569] (-) TimerEvent: {}
+[25.574922] (-) TimerEvent: {}
+[25.675252] (-) TimerEvent: {}
+[25.775555] (-) TimerEvent: {}
+[25.875851] (-) TimerEvent: {}
+[25.976133] (-) TimerEvent: {}
+[26.076429] (-) TimerEvent: {}
+[26.176772] (-) TimerEvent: {}
+[26.277157] (-) TimerEvent: {}
+[26.377548] (-) TimerEvent: {}
+[26.477955] (-) TimerEvent: {}
+[26.578374] (-) TimerEvent: {}
+[26.678757] (-) TimerEvent: {}
+[26.779165] (-) TimerEvent: {}
+[26.879459] (-) TimerEvent: {}
+[26.979759] (-) TimerEvent: {}
+[27.080055] (-) TimerEvent: {}
+[27.180317] (-) TimerEvent: {}
+[27.280598] (-) TimerEvent: {}
+[27.380925] (-) TimerEvent: {}
+[27.481216] (-) TimerEvent: {}
+[27.521544] (pcl) StdoutLine: {'line': b'[100%] Built target register\n'}
+[27.531194] (pcl) CommandEnded: {'returncode': 0}
+[27.550112] (pcl) JobProgress: {'identifier': 'pcl', 'progress': 'install'}
+[27.550470] (pcl) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/mete/catkin_ws/build/pcl'], 'cwd': '/home/mete/catkin_ws/build/pcl', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'mete'), ('LC_TIME', 'tr_TR.UTF-8'), ('SSH_AGENT_PID', '1418'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/mete/catkin_ws/install/pcl_ros/lib:/home/mete/catkin_ws2/install/LibKML/lib:/home/mete/catkin_ws2/install/GeographicLib/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/mete'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1150'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/mete/deneme/install:/home/mete/catkin_ws2/install:/home/mete/catkin_ws/install:/home/mete/catkin_ws3/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'mete'), ('JOURNAL_STREAM', '8:41492'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/home/mete/catkin_ws2/install/pugixml/lib/pkgconfig'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'mete'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/mete/catkin_ws2/install/GeographicLib/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/mete:@/tmp/.ICE-unix/1483,unix/mete:/tmp/.ICE-unix/1483'), ('INVOCATION_ID', 'eceaa19da62b4992a02d0ca2d24158f2'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/fd9aaf9f_4a10_4fcf_8bf2_45775537e4cf'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.1352'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/mete/catkin_ws/build/pcl'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=51290bbe83a86cb9f453ec4762ced79f'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy')]), 'shell': False}
+[27.558630] (pcl) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[27.558935] (pcl) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/register\n'}
+[27.563214] (pcl) StdoutLine: {'line': b'-- Set runtime path of "/home/mete/catkin_ws/install/pcl/lib/pcl/register" to ""\n'}
+[27.563627] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl\n'}
+[27.563742] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl\n'}
+[27.563799] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh\n'}
+[27.563857] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv\n'}
+[27.563914] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh\n'}
+[27.563969] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv\n'}
+[27.564024] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash\n'}
+[27.564080] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh\n'}
+[27.564135] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh\n'}
+[27.564190] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv\n'}
+[27.564245] (pcl) StdoutLine: {'line': b'-- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv\n'}
+[27.564333] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl\n'}
+[27.564407] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake\n'}
+[27.564456] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake\n'}
+[27.564504] (pcl) StdoutLine: {'line': b'-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml\n'}
+[27.565355] (pcl) CommandEnded: {'returncode': 0}
+[27.581352] (-) TimerEvent: {}
+[27.605253] (pcl) JobEnded: {'identifier': 'pcl', 'rc': 0}
+[27.606303] (-) EventReactorShutdown: {}

@@ -1,0 +1,17 @@
+[0.018s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target register[0m
+[0.080s] [ 16%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.081s] [ 50%] Built target matrix_transform
+[0.085s] [ 83%] Built target pcd_read
+[4.940s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.940s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:216:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata_2[m[K’?
+[4.940s]   216 |   if ([01;31m[Kdata[m[K.empty ())
+[4.940s]       |       [01;31m[K^~~~[m[K
+[4.940s]       |       [32m[Kdata_2[m[K
+[4.941s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:207:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.941s]   207 | int main ([01;35m[Kint argc[m[K, char** argv)
+[4.941s]       |           [01;35m[K~~~~^~~~[m[K
+[5.999s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Interrupt
+[6.000s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Interrupt
+[6.000s] make: *** [Makefile:141: all] Interrupt
+[6.026s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '-2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

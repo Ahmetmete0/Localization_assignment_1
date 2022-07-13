@@ -1,0 +1,23 @@
+[35m[1mScanning dependencies of target register[0m
+[ 50%] Built target matrix_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[100%] [32m[1mLinking CXX executable register[0m
+[100%] Built target register
+-- Install configuration: ""
+-- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/register
+-- Set runtime path of "/home/mete/catkin_ws/install/pcl/lib/pcl/register" to ""
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+-- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+-- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+-- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+-- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+-- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml

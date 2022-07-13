@@ -1,0 +1,28 @@
+[0.020s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target register[0m
+[0.076s] [ 33%] Built target matrix_transform
+[0.083s] [ 66%] Built target pcd_read
+[0.086s] [ 83%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[4.786s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[4.786s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:130:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPointRepresentation[m[K’ was not declared in this scope
+[4.786s]   130 |   [01;31m[KMyPointRepresentation[m[K point_representation;
+[4.786s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.798s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:133:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_representation[m[K’ was not declared in this scope
+[4.798s]   133 |   [01;31m[Kpoint_representation[m[K.setRescaleValues (alpha);
+[4.798s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[4.805s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:143:54:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+[4.805s]   143 |   reg.setPointRepresentation (pcl::make_shared<const [01;31m[KMyPointRepresentation[m[K> (point_representation));
+[4.805s]       |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[4.805s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:143:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[4.805s]   143 |   reg.setPointRepresentation (pcl::[01;31m[Kmake_shared<const MyPointRepresentation>[m[K (point_representation));
+[4.805s]       |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.832s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:187:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+[4.832s]   187 |   [01;31m[Kp[m[K->removePointCloud ("source");
+[4.832s]       |   [01;31m[K^[m[K
+[4.835s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:192:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_2[m[K’ was not declared in this scope
+[4.835s]   192 |   p->addPointCloud (output, cloud_tgt_h, "target", [01;31m[Kvp_2[m[K);
+[4.835s]       |                                                    [01;31m[K^~~~[m[K
+[12.632s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[12.632s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[12.632s] make: *** [Makefile:141: all] Error 2
+[12.634s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

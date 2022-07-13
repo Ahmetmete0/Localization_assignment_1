@@ -1,0 +1,52 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.058s] [35m[1mScanning dependencies of target register[0m
+[0.069s] [ 50%] Built target matrix_transform
+[0.105s] [ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[5.419s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/service.hpp:34[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:25[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.420s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+[5.420s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[5.420s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[5.420s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[5.420s]   126 |   RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "transform matrix: " << "\n" << transform_matrix << "\n"
+[5.420s]       |                      [01;31m[K^~~~[m[K
+[5.420s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[5.421s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.421s]   126 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "transform matrix: " << "\n" << transform_matrix << "\n"
+[5.421s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.421s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.421s]   126 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "transform matrix: " << "\n" << transform_matrix << "\n"
+[5.421s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.421s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:3:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.421s]   126 |   [01;31m[KRCLCPP_INFO_STREAM[m[K(this->get_logger(), "transform matrix: " << "\n" << transform_matrix << "\n"
+[5.421s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[5.421s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:40[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[5.421s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[5.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[5.422s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[5.422s]                  from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:42[m[K,
+[5.422s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[5.422s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[5.422s]   126 |   RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "transform matrix: " << "\n" << transform_matrix << "\n"
+[5.422s]       |                      [01;31m[K^~~~[m[K
+[5.422s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:126:22:[m[K [01;31m[Kerror: [m[Kinvalid use of ‘[01m[Kthis[m[K’ in non-member function
+[5.422s]   126 |   RCLCPP_INFO_STREAM([01;31m[Kthis[m[K->get_logger(), "transform matrix: " << "\n" << transform_matrix << "\n"
+[5.422s]       |                      [01;31m[K^~~~[m[K
+[15.654s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[15.655s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+[15.655s] make: *** [Makefile:141: all] Error 2
+[15.658s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

@@ -1,0 +1,40 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+   10 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   74 |     rclcpp::Publisher<std_msgs::msg::[01;31m[KString[m[K>::SharedPtr publisher_;
+      |                                      [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:38:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+      |                                            [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+      |                                               [01;31m[K^~~~~~~~~[m[K
+      |                                                        [32m[K;[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   74 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+      |                                                         [01;31m[K^~~~~~~~~~[m[K
+      |                                                         [32m[Krcl_publisher_t[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:52:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   52 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:58:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   58 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:68:37:[m[K [01;31m[Kerror: [m[K‘[01m[KString[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   68 |       auto message = std_msgs::msg::[01;31m[KString[m[K();
+      |                                     [01;31m[K^~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:71:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   71 |       [01;31m[Kpublisher_[m[K->publish(message);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

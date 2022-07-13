@@ -1,0 +1,25 @@
+[0.016s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.057s] [35m[1mScanning dependencies of target register[0m
+[0.082s] [ 33%] Built target matrix_transform
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.090s] [ 83%] Built target pcd_read
+[4.696s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.696s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:216:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata_2[m[K’?
+[4.696s]   216 |   if ([01;31m[Kdata[m[K.empty ())
+[4.696s]       |       [01;31m[K^~~~[m[K
+[4.696s]       |       [32m[Kdata_2[m[K
+[4.698s] In file included from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:53[m[K,
+[4.698s]                  from [01m[K/usr/include/pcl-1.10/pcl/common/io.h:48[m[K,
+[4.698s]                  from [01m[K/usr/include/pcl-1.10/pcl/io/file_io.h:41[m[K,
+[4.698s]                  from [01m[K/usr/include/pcl-1.10/pcl/io/pcd_io.h:44[m[K,
+[4.698s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:5[m[K:
+[4.698s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:222:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata_2[m[K’?
+[4.698s]   222 |   PCL_INFO ("Loaded %d datasets.\n", (int)[01;31m[Kdata[m[K.size ());
+[4.698s]       |                                           [01;31m[K^~~~[m[K
+[4.699s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:207:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[4.699s]   207 | int main ([01;35m[Kint argc[m[K, char** argv)
+[4.699s]       |           [01;35m[K~~~~^~~~[m[K
+[12.841s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[12.841s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[12.841s] make: *** [Makefile:141: all] Error 2
+[12.843s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

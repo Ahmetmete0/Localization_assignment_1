@@ -207,19 +207,6 @@ pcl_uninstall/fast:
 .PHONY : pcl_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named pcd_read
-
-# Build rule for target.
-pcd_read: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcd_read
-.PHONY : pcd_read
-
-# fast build rule for target.
-pcd_read/fast:
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/build
-.PHONY : pcd_read/fast
-
-#=============================================================================
 # Target rules for targets named uninstall
 
 # Build rule for target.
@@ -258,33 +245,6 @@ src/matrix_transform.s: src/matrix_transform.cpp.s
 src/matrix_transform.cpp.s:
 	$(MAKE) -f CMakeFiles/matrix_transform.dir/build.make CMakeFiles/matrix_transform.dir/src/matrix_transform.cpp.s
 .PHONY : src/matrix_transform.cpp.s
-
-src/pcd_read.o: src/pcd_read.cpp.o
-
-.PHONY : src/pcd_read.o
-
-# target to build an object file
-src/pcd_read.cpp.o:
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o
-.PHONY : src/pcd_read.cpp.o
-
-src/pcd_read.i: src/pcd_read.cpp.i
-
-.PHONY : src/pcd_read.i
-
-# target to preprocess a source file
-src/pcd_read.cpp.i:
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/src/pcd_read.cpp.i
-.PHONY : src/pcd_read.cpp.i
-
-src/pcd_read.s: src/pcd_read.cpp.s
-
-.PHONY : src/pcd_read.s
-
-# target to generate assembly for a file
-src/pcd_read.cpp.s:
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/src/pcd_read.cpp.s
-.PHONY : src/pcd_read.cpp.s
 
 src/register.o: src/register.cpp.o
 
@@ -329,14 +289,10 @@ help:
 	@echo "... register"
 	@echo "... matrix_transform"
 	@echo "... pcl_uninstall"
-	@echo "... pcd_read"
 	@echo "... uninstall"
 	@echo "... src/matrix_transform.o"
 	@echo "... src/matrix_transform.i"
 	@echo "... src/matrix_transform.s"
-	@echo "... src/pcd_read.o"
-	@echo "... src/pcd_read.i"
-	@echo "... src/pcd_read.s"
 	@echo "... src/register.o"
 	@echo "... src/register.i"
 	@echo "... src/register.s"

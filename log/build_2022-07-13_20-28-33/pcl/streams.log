@@ -1,0 +1,23 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target register[0m
+[0.073s] [ 33%] Built target matrix_transform
+[0.076s] [ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[0.096s] [ 66%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[1.248s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+[1.248s]    10 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+[1.248s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.248s] compilation terminated.
+[1.264s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[1.264s] make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+[1.264s] make[1]: *** Waiting for unfinished jobs....
+[5.319s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[5.319s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:52:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[5.319s]    52 |         return (-1[01;31m[K)[m[K;
+[5.319s]       |                   [01;31m[K^[m[K
+[5.319s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:58:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[5.319s]    58 |         return (-1[01;31m[K)[m[K;
+[5.319s]       |                   [01;31m[K^[m[K
+[15.239s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[15.240s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[15.240s] make: *** [Makefile:141: all] Error 2
+[15.242s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

@@ -1,0 +1,13 @@
+make[2]: *** No rule to make target '/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp', needed by 'CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:54:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   54 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:60:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   60 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

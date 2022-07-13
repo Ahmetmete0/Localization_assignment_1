@@ -1,0 +1,10 @@
+[35m[1mScanning dependencies of target register[0m
+[ 50%] Built target matrix_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:186:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+  186 |       ss << [01;31m[Ki[m[K << ".pcd";
+      |             [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,31 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target register[0m
+[0.070s] [ 50%] Built target matrix_transform
+[0.099s] [ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[5.871s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.871s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:214:19:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KGlobalTransform[m[K’ set but not used [[01;35m[K-Wunused-but-set-variable[m[K]
+[5.871s]   214 |   Eigen::Matrix4f [01;35m[KGlobalTransform[m[K = Eigen::Matrix4f::Identity (), pairTransform;
+[5.871s]       |                   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[22.030s] [100%] [32m[1mLinking CXX executable register[0m
+[27.693s] [100%] Built target register
+[27.703s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[27.722s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl
+[27.730s] -- Install configuration: ""
+[27.730s] -- Installing: /home/mete/catkin_ws/install/pcl/lib/pcl/register
+[27.734s] -- Set runtime path of "/home/mete/catkin_ws/install/pcl/lib/pcl/register" to ""
+[27.734s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/package_run_dependencies/pcl
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/parent_prefix_path/pcl
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.sh
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/ament_prefix_path.dsv
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.sh
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/environment/path.dsv
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.bash
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.sh
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.zsh
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/local_setup.dsv
+[27.735s] -- Installing: /home/mete/catkin_ws/install/pcl/share/pcl/package.dsv
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/ament_index/resource_index/packages/pcl
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig.cmake
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/cmake/pclConfig-version.cmake
+[27.735s] -- Up-to-date: /home/mete/catkin_ws/install/pcl/share/pcl/package.xml
+[27.736s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '0': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl

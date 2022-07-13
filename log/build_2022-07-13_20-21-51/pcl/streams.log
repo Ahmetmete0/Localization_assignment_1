@@ -1,0 +1,71 @@
+[0.016s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.051s] [35m[1mScanning dependencies of target register[0m
+[0.071s] [ 33%] Built target matrix_transform
+[0.078s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.084s] [ 83%] Built target pcd_read
+[4.589s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:27:33:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[4.589s]    27 | class MinimalPublisher : public [01;31m[Krclcpp[m[K::Node
+[4.589s]       |                                 [01;31m[K^~~~~~[m[K
+[4.589s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:27:41:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K{[m[K’ before ‘[01m[KNode[m[K’
+[4.589s]    27 | class MinimalPublisher : public rclcpp::[01;31m[KNode[m[K
+[4.590s]       |                                         [01;31m[K^~~~[m[K
+[4.590s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:29:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kpublic[m[K’
+[4.590s]    29 |   [01;31m[Kpublic[m[K:
+[4.590s]       |   [01;31m[K^~~~~~[m[K
+[4.590s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:29:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kpublic[m[K’
+[4.590s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:28:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.590s]    28 | [01;36m[K{[m[K
+[4.590s]       | [01;36m[K^[m[K
+[4.591s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:32:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[4.591s]    32 |     [01;31m[Krclcpp[m[K::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr point_cloud_publisher_2;
+[4.591s]       |     [01;31m[K^~~~~~[m[K
+[4.591s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:33:22:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[K)[m[K’ token
+[4.591s]    33 |     MinimalPublisher([01;31m[K)[m[K
+[4.591s]       |                      [01;31m[K^[m[K
+[4.591s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:61:3:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kprivate[m[K’
+[4.591s]    61 |   [01;31m[Kprivate[m[K:
+[4.591s]       |   [01;31m[K^~~~~~~[m[K
+[4.592s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:69:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[4.592s]    69 |     [01;31m[Krclcpp[m[K::TimerBase::SharedPtr timer_;
+[4.593s]       |     [01;31m[K^~~~~~[m[K
+[4.594s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:70:5:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ does not name a type
+[4.594s]    70 |     [01;31m[Krclcpp[m[K::Publisher<std_msgs::msg::String>::SharedPtr publisher_;
+[4.594s]       |     [01;31m[K^~~~~~[m[K
+[4.594s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:72:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[4.594s]    72 | [01;31m[K}[m[K;
+[4.594s]       | [01;31m[K^[m[K
+[4.640s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.640s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:240:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[4.640s]   240 |   [01;31m[Krclcpp[m[K::init(argc, argv);
+[4.640s]       |   [01;31m[K^~~~~~[m[K
+[4.640s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:241:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[4.640s]   241 |   [01;31m[Krclcpp[m[K::spin(std::make_shared<MinimalPublisher>());
+[4.640s]       |   [01;31m[K^~~~~~[m[K
+[4.641s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:242:3:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp[m[K’ has not been declared
+[4.641s]   242 |   [01;31m[Krclcpp[m[K::shutdown();
+[4.641s]       |   [01;31m[K^~~~~~[m[K
+[6.111s] In file included from [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:56[m[K,
+[6.111s]                  from [01m[K/usr/include/c++/9/bits/shared_ptr.h:52[m[K,
+[6.111s]                  from [01m[K/usr/include/c++/9/memory:81[m[K,
+[6.111s]                  from [01m[K/usr/include/boost/config/no_tr1/memory.hpp:21[m[K,
+[6.111s]                  from [01m[K/usr/include/boost/smart_ptr/shared_ptr.hpp:23[m[K,
+[6.111s]                  from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:69[m[K,
+[6.111s]                  from [01m[K/usr/include/pcl-1.10/pcl/point_types.h:42[m[K,
+[6.111s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[6.111s] /usr/include/c++/9/ext/aligned_buffer.h: In instantiation of ‘[01m[Kstruct __gnu_cxx::__aligned_buffer<MinimalPublisher>[m[K’:
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:535:35:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>::_Impl[m[K’
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:596:13:[m[K   required from ‘[01m[Kclass std::_Sp_counted_ptr_inplace<MinimalPublisher, std::allocator<MinimalPublisher>, __gnu_cxx::_S_atomic>[m[K’
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:676:43:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr_base.h:1344:71:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {}; _Tp = MinimalPublisher; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:359:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MinimalPublisher>; _Args = {}; _Tp = MinimalPublisher][m[K’
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:701:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MinimalPublisher; _Alloc = std::allocator<MinimalPublisher>; _Args = {}][m[K’
+[6.111s] [01m[K/usr/include/c++/9/bits/shared_ptr.h:717:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MinimalPublisher; _Args = {}][m[K’
+[6.111s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:241:51:[m[K   required from here
+[6.111s] [01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+[6.111s]    91 |     : std::aligned_storage<[01;31m[Ksizeof(_Tp)[m[K, __alignof__(_Tp)>
+[6.111s]       |                            [01;31m[K^~~~~~~~~~~[m[K
+[6.112s] [01m[K/usr/include/c++/9/ext/aligned_buffer.h:91:28:[m[K [01;31m[Kerror: [m[Kinvalid application of ‘[01m[Ksizeof[m[K’ to incomplete type ‘[01m[KMinimalPublisher[m[K’
+[12.599s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[12.599s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[12.599s] make: *** [Makefile:141: all] Error 2
+[12.601s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

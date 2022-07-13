@@ -1,0 +1,95 @@
+[ 33%] Built target matrix_transform
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+   10 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   74 |     rclcpp::Publisher<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2>::SharedPtr point_cloud_publisher_1;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   74 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_1;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   74 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_1;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_1[m[K’ does not name a type
+   74 |  rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_1[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:75:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   75 |     rclcpp::Publisher<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2>::SharedPtr point_cloud_publisher_2;
+      |                       [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:75:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   75 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_2;
+      |                                                    [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:75:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   75 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_2;
+      |                                                       [01;31m[K^~~~~~~~~[m[K
+      |                                                                [32m[K;[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:75:55:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:74:55:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+   74 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;36m[KSharedPtr[m[K point_cloud_publisher_1;
+      |                                                       [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:75:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_2[m[K’ does not name a type
+   75 |  rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_2[m[K;
+      |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_1[m[K’ was not declared in this scope
+   40 |       [01;31m[Kpoint_cloud_publisher_1[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_1", 10);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+   40 |       point_cloud_publisher_1 = this->create_publisher<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2>("pointcloud_1", 10);
+      |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   40 |       point_cloud_publisher_1 = this->[01;31m[Kcreate_publisher<sensor_msgs::msg::PointCloud2>[m[K("pointcloud_1", 10);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [13], int)[m[K’
+   40 | e_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_1", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:11[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:105:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   40 | e_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_1", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:41:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_2[m[K’ was not declared in this scope
+   41 |       [01;31m[Kpoint_cloud_publisher_2[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_2", 10);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:41:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   41 |       point_cloud_publisher_2 = this->[01;31m[Kcreate_publisher<sensor_msgs::msg::PointCloud2>[m[K("pointcloud_2", 10);
+      |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:41:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<sensor_msgs>(const char [13], int)[m[K’
+   41 | e_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_2", 10[01;31m[K)[m[K;
+      |                                                              [01;31m[K^[m[K
+
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:11[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:52:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   52 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:58:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   58 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

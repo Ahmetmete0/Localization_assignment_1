@@ -1,0 +1,17 @@
+[35m[1mScanning dependencies of target register[0m
+[ 50%] Built target matrix_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:95:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kdownsample[m[K’ was not declared in this scope
+   95 |       if ([01;31m[Kdownsample[m[K)
+      |           [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:178:34:[m[K [01;31m[Kerror: [m[K‘[01m[Kcloud_tgt[m[K’ was not declared in this scope; did you mean ‘[01m[Kcloud_2[m[K’?
+  178 |       pcl::transformPointCloud (*[01;31m[Kcloud_tgt[m[K, *target, targetToSource);
+      |                                  [01;31m[K^~~~~~~~~[m[K
+      |                                  [32m[Kcloud_2[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:180:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kfinal_transform[m[K’ was not declared in this scope
+  180 |       [01;31m[Kfinal_transform[m[K = targetToSource;
+      |       [01;31m[K^~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

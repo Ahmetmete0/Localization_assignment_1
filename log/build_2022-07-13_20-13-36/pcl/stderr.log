@@ -1,0 +1,11 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:216:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdata[m[K’ was not declared in this scope; did you mean ‘[01m[Kdata_2[m[K’?
+  216 |   if ([01;31m[Kdata[m[K.empty ())
+      |       [01;31m[K^~~~[m[K
+      |       [32m[Kdata_2[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:207:15:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kargc[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  207 | int main ([01;35m[Kint argc[m[K, char** argv)
+      |           [01;35m[K~~~~^~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Interrupt
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Interrupt
+make: *** [Makefile:141: all] Interrupt

@@ -1,0 +1,10 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:180:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+  180 |   [01;31m[Kp[m[K->removePointCloud ("source");
+      |   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:185:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_2[m[K’ was not declared in this scope
+  185 |   p->addPointCloud (output, cloud_tgt_h, "target", [01;31m[Kvp_2[m[K);
+      |                                                    [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

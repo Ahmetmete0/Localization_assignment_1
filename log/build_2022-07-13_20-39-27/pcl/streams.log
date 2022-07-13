@@ -1,0 +1,32 @@
+[0.017s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.063s] [35m[1mScanning dependencies of target register[0m
+[0.069s] [ 50%] Built target matrix_transform
+[0.109s] [ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[5.308s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[5.308s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:66:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud1[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud1[m[K’?
+[5.308s]    66 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud1[m[K, cloud_1);
+[5.308s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[5.308s]       |                      [32m[Kros_cloud1[m[K
+[5.312s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:67:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud2[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud2[m[K’?
+[5.312s]    67 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud2[m[K, cloud_2);
+[5.312s]       |                      [01;31m[K^~~~~~~~~~[m[K
+[5.312s]       |                      [32m[Kros_cloud2[m[K
+[5.316s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[5.316s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:76:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_cloud1[m[K’ was not declared in this scope
+[5.316s]    76 |       [01;31m[Kros_cloud1[m[K.header.frame_id = "map";
+[5.316s]       |       [01;31m[K^~~~~~~~~~[m[K
+[5.320s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_cloud2[m[K’ was not declared in this scope
+[5.320s]    79 |       [01;31m[Kros_cloud2[m[K.header.frame_id = "map";
+[5.320s]       |       [01;31m[K^~~~~~~~~~[m[K
+[5.324s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:82:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[5.324s]    82 |       [01;31m[Kpc_publisher_[m[K->publish(ros_cloud1);
+[5.324s]       |       [01;31m[K^~~~~~~~~~~~~[m[K
+[5.324s]       |       [32m[Krcl_publisher_t[m[K
+[5.328s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:83:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc_publisher_2[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[5.328s]    83 |       [01;31m[Kpc_publisher_2[m[K->publish(ros_cloud2);
+[5.328s]       |       [01;31m[K^~~~~~~~~~~~~~[m[K
+[5.328s]       |       [32m[Krcl_publisher_t[m[K
+[15.426s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[15.426s] make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+[15.426s] make: *** [Makefile:141: all] Error 2
+[15.428s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

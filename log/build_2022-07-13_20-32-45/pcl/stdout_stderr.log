@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target register[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[ 50%] Built target matrix_transform
+[ 66%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+   10 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:54:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   54 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:60:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+   60 |         return (-1[01;31m[K)[m[K;
+      |                   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:135:8:[m[K [01;31m[Kerror: [m[K‘[01m[KNormalEstimation[m[K’ is not a member of ‘[01m[Kpcl[m[K’
+  135 |   pcl::[01;31m[KNormalEstimation[m[K<PointT, PointNormalT> norm_est;
+      |        [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:135:31:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K,[m[K’ token
+  135 |   pcl::NormalEstimation<PointT[01;31m[K,[m[K PointNormalT> norm_est;
+      |                               [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:135:45:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+  135 |   pcl::NormalEstimation<PointT, PointNormalT[01;31m[K>[m[K norm_est;
+      |                                             [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:135:47:[m[K [01;31m[Kerror: [m[K‘[01m[Knorm_est[m[K’ was not declared in this scope
+  135 |   pcl::NormalEstimation<PointT, PointNormalT> [01;31m[Knorm_est[m[K;
+      |                                               [01;31m[K^~~~~~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

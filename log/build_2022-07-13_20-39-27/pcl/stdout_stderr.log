@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target register[0m
+[ 50%] Built target matrix_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:66:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud1[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud1[m[K’?
+   66 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud1[m[K, cloud_1);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kros_cloud1[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:67:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud2[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud2[m[K’?
+   67 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud2[m[K, cloud_2);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kros_cloud2[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:76:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_cloud1[m[K’ was not declared in this scope
+   76 |       [01;31m[Kros_cloud1[m[K.header.frame_id = "map";
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_cloud2[m[K’ was not declared in this scope
+   79 |       [01;31m[Kros_cloud2[m[K.header.frame_id = "map";
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:82:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc_publisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   82 |       [01;31m[Kpc_publisher_[m[K->publish(ros_cloud1);
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:83:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpc_publisher_2[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+   83 |       [01;31m[Kpc_publisher_2[m[K->publish(ros_cloud2);
+      |       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |       [32m[Krcl_publisher_t[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -55,7 +55,6 @@ CMAKE_BINARY_DIR = /home/mete/catkin_ws/build/pcl
 # The main recursive "all" target.
 all: CMakeFiles/register.dir/all
 all: CMakeFiles/matrix_transform.dir/all
-all: CMakeFiles/pcd_read.dir/all
 
 .PHONY : all
 
@@ -68,7 +67,6 @@ preinstall:
 clean: CMakeFiles/register.dir/clean
 clean: CMakeFiles/matrix_transform.dir/clean
 clean: CMakeFiles/pcl_uninstall.dir/clean
-clean: CMakeFiles/pcd_read.dir/clean
 clean: CMakeFiles/uninstall.dir/clean
 
 .PHONY : clean
@@ -80,7 +78,7 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/register.dir/all:
 	$(MAKE) -f CMakeFiles/register.dir/build.make CMakeFiles/register.dir/depend
 	$(MAKE) -f CMakeFiles/register.dir/build.make CMakeFiles/register.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mete/catkin_ws/build/pcl/CMakeFiles --progress-num=5,6 "Built target register"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mete/catkin_ws/build/pcl/CMakeFiles --progress-num=3,4 "Built target register"
 .PHONY : CMakeFiles/register.dir/all
 
 # Build rule for subdir invocation for target.
@@ -153,33 +151,6 @@ pcl_uninstall: CMakeFiles/pcl_uninstall.dir/rule
 CMakeFiles/pcl_uninstall.dir/clean:
 	$(MAKE) -f CMakeFiles/pcl_uninstall.dir/build.make CMakeFiles/pcl_uninstall.dir/clean
 .PHONY : CMakeFiles/pcl_uninstall.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/pcd_read.dir
-
-# All Build rule for target.
-CMakeFiles/pcd_read.dir/all:
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/depend
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mete/catkin_ws/build/pcl/CMakeFiles --progress-num=3,4 "Built target pcd_read"
-.PHONY : CMakeFiles/pcd_read.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/pcd_read.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mete/catkin_ws/build/pcl/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/pcd_read.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/mete/catkin_ws/build/pcl/CMakeFiles 0
-.PHONY : CMakeFiles/pcd_read.dir/rule
-
-# Convenience name for target.
-pcd_read: CMakeFiles/pcd_read.dir/rule
-
-.PHONY : pcd_read
-
-# clean rule for target.
-CMakeFiles/pcd_read.dir/clean:
-	$(MAKE) -f CMakeFiles/pcd_read.dir/build.make CMakeFiles/pcd_read.dir/clean
-.PHONY : CMakeFiles/pcd_read.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir

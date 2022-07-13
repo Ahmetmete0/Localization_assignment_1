@@ -1,0 +1,32 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:130:3:[m[K [01;31m[Kerror: [m[K‘[01m[KMyPointRepresentation[m[K’ was not declared in this scope
+  130 |   [01;31m[KMyPointRepresentation[m[K point_representation;
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:133:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_representation[m[K’ was not declared in this scope
+  133 |   [01;31m[Kpoint_representation[m[K.setRescaleValues (alpha);
+      |   [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:143:54:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[Ktype name[m[K’ with no type [[01;31m[K-fpermissive[m[K]
+  143 |   reg.setPointRepresentation (pcl::make_shared<const [01;31m[KMyPointRepresentation[m[K> (point_representation));
+      |                                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:143:36:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+  143 |   reg.setPointRepresentation (pcl::[01;31m[Kmake_shared<const MyPointRepresentation>[m[K (point_representation));
+      |                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:187:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+  187 |   [01;31m[Kp[m[K->removePointCloud ("source");
+      |   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:192:52:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_2[m[K’ was not declared in this scope
+  192 |   p->addPointCloud (output, cloud_tgt_h, "target", [01;31m[Kvp_2[m[K);
+      |                                                    [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:225:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+  225 |   [01;31m[Kp[m[K = new pcl::visualization::PCLVisualizer (argc, argv, "Pairwise Incremental Registration example");
+      |   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:226:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_1[m[K’ was not declared in this scope
+  226 |   p->createViewPort (0.0, 0, 0.5, 1.0, [01;31m[Kvp_1[m[K);
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:227:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_2[m[K’ was not declared in this scope
+  227 |   p->createViewPort (0.5, 0, 1.0, 1.0, [01;31m[Kvp_2[m[K);
+      |                                        [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

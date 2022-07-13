@@ -1,0 +1,3 @@
+[ 33%] Built target matrix_transform
+[ 50%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m

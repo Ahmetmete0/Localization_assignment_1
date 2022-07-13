@@ -1,0 +1,4 @@
+Invoking command in '/home/mete/catkin_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_conversions -- -j12 -l12
+Invoked command in '/home/mete/catkin_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl_conversions -- -j12 -l12
+Invoking command in '/home/mete/catkin_ws/build/pcl_conversions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_conversions
+Invoked command in '/home/mete/catkin_ws/build/pcl_conversions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/mete/catkin_ws/build/pcl_conversions

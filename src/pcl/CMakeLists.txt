@@ -33,14 +33,20 @@ find_package(pcl_conversions REQUIRED)
 find_package(tf2 REQUIRED)
 find_package(tf2_geometry_msgs REQUIRED)
 find_package(tf2_ros REQUIRED)
-
+find_package(sensor_msgs REQUIRED)
+find_package(rclcpp_components REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(Eigen3 3.3 REQUIRED)
+
 
 set(dependencies
   pcl_conversions
   sensor_msgs
+  geometry_msgs
   tf2
+  Eigen3
   tf2_geometry_msgs
   tf2_ros
   rclcpp
@@ -53,8 +59,6 @@ link_directories(${PCL_LIBRARY_DIRS})
 add_definitions(${PCL_DEFINITIONS})
 
 
-add_executable (pcd_read src/pcd_read.cpp)
-target_link_libraries (pcd_read ${PCL_LIBRARIES})
 
 add_executable (matrix_transform src/matrix_transform.cpp)
 target_link_libraries (matrix_transform ${PCL_LIBRARIES})
@@ -62,7 +66,7 @@ target_link_libraries (matrix_transform ${PCL_LIBRARIES})
 add_executable (register src/register.cpp)
 target_link_libraries (register ${PCL_LIBRARIES})
 
-ament_target_dependencies(pcd_read
+ament_target_dependencies(register
   ${dependencies}
 )
 
@@ -70,8 +74,7 @@ ament_target_dependencies(pcd_read
 
 
 install(TARGETS
-  pcd_read
-  matrix_transform
+
   register
   DESTINATION lib/${PROJECT_NAME})
 

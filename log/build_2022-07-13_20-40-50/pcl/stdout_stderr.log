@@ -1,0 +1,31 @@
+[35m[1mScanning dependencies of target register[0m
+[ 50%] Built target matrix_transform
+[ 75%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:94:50:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   94 |     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_1 ([01;31m[Knew[m[K pcl::PointCloud<pcl::PointXYZ>);
+      |                                                  [01;31m[K^~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:94:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:95:50:[m[K [01;31m[Kerror: [m[Kexpected identifier before ‘[01m[Knew[m[K’
+   95 |     pcl::PointCloud<pcl::PointXYZ>::Ptr cloud_2 ([01;31m[Knew[m[K pcl::PointCloud<pcl::PointXYZ>);
+      |                                                  [01;31m[K^~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:95:50:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Knew[m[K’
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:49:93:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr MinimalPublisher::cloud_1(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   49 | pcl::PointXYZ> ("../catkin_ws/src/pcl/doc/capture0001.pcd", *[01;31m[Kcloud_1[m[K) == -1) //* load the file
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:55:93:[m[K [01;31m[Kerror: [m[Kinvalid use of member function ‘[01m[Kpcl::PointCloud<pcl::PointXYZ>::Ptr MinimalPublisher::cloud_2(int)[m[K’ (did you forget the ‘[01m[K()[m[K’ ?)
+   55 | pcl::PointXYZ> ("../catkin_ws/src/pcl/doc/capture0002.pcd", *[01;31m[Kcloud_2[m[K) == -1) //* load the file
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:61:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud1[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud1[m[K’?
+   61 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud1[m[K, cloud_1);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kros_cloud1[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:62:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud2[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud2[m[K’?
+   62 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud2[m[K, cloud_2);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kros_cloud2[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

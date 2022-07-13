@@ -1,0 +1,19 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:69:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud1[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud1[m[K’?
+   69 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud1[m[K, cloud_1);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kros_cloud1[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:70:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kpcl_cloud2[m[K’ was not declared in this scope; did you mean ‘[01m[Kros_cloud2[m[K’?
+   70 |       pcl::toROSMsg(*[01;31m[Kpcl_cloud2[m[K, cloud_2);
+      |                      [01;31m[K^~~~~~~~~~[m[K
+      |                      [32m[Kros_cloud2[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:79:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_cloud1[m[K’ was not declared in this scope
+   79 |       [01;31m[Kros_cloud1[m[K.header.frame_id = "map";
+      |       [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:82:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kros_cloud2[m[K’ was not declared in this scope
+   82 |       [01;31m[Kros_cloud2[m[K.header.frame_id = "map";
+      |       [01;31m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

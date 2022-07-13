@@ -1,0 +1,27 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:166:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat64[m[K’ has not been declared
+   36 | , Eigen::Matrix4f &final_transform, bool downsample = false, [01;31m[KFloat64[m[K::Ptr score)
+      |                                                              [01;31m[K^~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:179:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K...[m[K’ before ‘[01m[Kscore[m[K’
+   36 | ix4f &final_transform, bool downsample = false, Float64::Ptr [01;31m[Kscore[m[K)
+      |                                                              [01;31m[K^~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:175:[m[K [01;31m[Kerror: [m[Kdefault argument missing for parameter 6 of ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool, int)[m[K’
+   36 |  Eigen::Matrix4f &final_transform, bool downsample = false, [01;31m[KFloat64::Ptr[m[K score)
+      |                                                             [01;31m[K~~~~~~~~~^~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:146:[m[K [01;36m[Knote: [m[K...following parameter 5 which has a default argument
+   36 | intCloud::Ptr output, Eigen::Matrix4f &final_transform, [01;36m[Kbool downsample = false[m[K, Float64::Ptr score)
+      |                                                         [01;36m[K~~~~~^~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In function ‘[01m[Kvoid pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool, int)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:127:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kscore[m[K’ was not declared in this scope
+  127 |   pcl::transformPointCloud (*cloud_tgt, *output, targetToSource, *[01;31m[Kscore[m[K);
+      |                                                                   [01;31m[K^~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:36:175:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[KPtr[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   36 |  Eigen::Matrix4f &final_transform, bool downsample = false, [01;35m[KFloat64::Ptr[m[K score)
+      |                                                             [01;35m[K~~~~~~~~~^~~[m[K
+
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target register[0m
+[ 33%] Built target matrix_transform
+[ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[ 83%] Built target pcd_read
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:247:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+  247 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:47:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   47 | [01;36m[K{[m[K
+      | [01;36m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MyPointRepresentation::pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:184:5:[m[K [01;31m[Kerror: [m[K‘[01m[KshowCloudsRight[m[K’ was not declared in this scope
+  184 |     [01;31m[KshowCloudsRight[m[K(points_with_normals_tgt, points_with_normals_src);
+      |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kint MyPointRepresentation::main(int, char**)[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:216:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kp[m[K’ was not declared in this scope
+  216 |   [01;31m[Kp[m[K = new pcl::visualization::PCLVisualizer (argc, argv, "Pairwise Incremental Registration example");
+      |   [01;31m[K^[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:217:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_1[m[K’ was not declared in this scope
+  217 |   p->createViewPort (0.0, 0, 0.5, 1.0, [01;31m[Kvp_1[m[K);
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:218:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kvp_2[m[K’ was not declared in this scope
+  218 |   p->createViewPort (0.5, 0, 1.0, 1.0, [01;31m[Kvp_2[m[K);
+      |                                        [01;31m[K^~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:229:5:[m[K [01;31m[Kerror: [m[K‘[01m[KshowCloudsLeft[m[K’ was not declared in this scope
+  229 |     [01;31m[KshowCloudsLeft[m[K(source, target);
+      |     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K At global scope:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:247:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+  247 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

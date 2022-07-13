@@ -1,0 +1,241 @@
+[0.015s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.037s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.055s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.208s] -- Eigen found (include: /usr/include/eigen3, version: 3.3.7)
+[0.289s] -- The imported target "vtkParseOGLExt" references the file
+[0.289s]    "/usr/bin/vtkParseOGLExt-7.1"
+[0.289s] but this file does not exist.  Possible reasons include:
+[0.289s] * The file was deleted, renamed, or moved to another location.
+[0.289s] * An install or uninstall procedure did not complete successfully.
+[0.289s] * The installation package was faulty and contained
+[0.289s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.289s] but not all the files it references.
+[0.289s] 
+[0.290s] -- The imported target "vtkRenderingPythonTkWidgets" references the file
+[0.290s]    "/usr/lib/x86_64-linux-gnu/libvtkRenderingPythonTkWidgets.so"
+[0.290s] but this file does not exist.  Possible reasons include:
+[0.290s] * The file was deleted, renamed, or moved to another location.
+[0.290s] * An install or uninstall procedure did not complete successfully.
+[0.290s] * The installation package was faulty and contained
+[0.290s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.290s] but not all the files it references.
+[0.290s] 
+[0.290s] -- The imported target "vtk" references the file
+[0.290s]    "/usr/bin/vtk"
+[0.290s] but this file does not exist.  Possible reasons include:
+[0.290s] * The file was deleted, renamed, or moved to another location.
+[0.290s] * An install or uninstall procedure did not complete successfully.
+[0.290s] * The installation package was faulty and contained
+[0.291s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.291s] but not all the files it references.
+[0.291s] 
+[0.291s] -- The imported target "pvtk" references the file
+[0.291s]    "/usr/bin/pvtk"
+[0.291s] but this file does not exist.  Possible reasons include:
+[0.291s] * The file was deleted, renamed, or moved to another location.
+[0.291s] * An install or uninstall procedure did not complete successfully.
+[0.291s] * The installation package was faulty and contained
+[0.291s]    "/usr/lib/cmake/vtk-7.1/VTKTargets.cmake"
+[0.291s] but not all the files it references.
+[0.291s] 
+[0.306s] -- Checking for module 'libusb-1.0'
+[0.309s] --   No package 'libusb-1.0' found
+[0.311s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.312s] -- OpenNI disabled because libusb-1.0 not found.
+[0.312s] ** WARNING ** io features related to openni will be disabled
+[0.315s] -- Checking for module 'libusb-1.0'
+[0.317s] --   No package 'libusb-1.0' found
+[0.320s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.320s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.320s] ** WARNING ** io features related to openni2 will be disabled
+[0.320s] ** WARNING ** io features related to pcap will be disabled
+[0.320s] ** WARNING ** io features related to png will be disabled
+[0.331s] -- LIBUSB_1_LIBRARY (missing: LIBUSB_1_INCLUDE_DIR) 
+[0.331s] ** WARNING ** io features related to libusb-1.0 will be disabled
+[0.335s] -- Checking for module 'libusb-1.0'
+[0.337s] --   No package 'libusb-1.0' found
+[0.340s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.340s] -- OpenNI disabled because libusb-1.0 not found.
+[0.340s] ** WARNING ** visualization features related to openni will be disabled
+[0.343s] -- Checking for module 'libusb-1.0'
+[0.345s] --   No package 'libusb-1.0' found
+[0.348s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.348s] -- OpenNI 2 disabled because libusb-1.0 not found.
+[0.348s] ** WARNING ** visualization features related to openni2 will be disabled
+[0.359s] -- QHULL found (include: /usr/include, lib: optimized;/usr/lib/x86_64-linux-gnu/libqhull.so;debug;/usr/lib/x86_64-linux-gnu/libqhull.so)
+[0.362s] -- Checking for module 'libusb-1.0'
+[0.364s] --   No package 'libusb-1.0' found
+[0.366s] -- Could NOT find USB_10 (missing: USB_10_LIBRARY USB_10_INCLUDE_DIR) 
+[0.366s] -- OpenNI disabled because libusb-1.0 not found.
+[0.367s] ** WARNING ** apps features related to openni will be disabled
+[0.376s] -- looking for PCL_COMMON
+[0.377s] -- looking for PCL_KDTREE
+[0.377s] -- looking for PCL_OCTREE
+[0.378s] -- looking for PCL_SEARCH
+[0.378s] -- looking for PCL_SAMPLE_CONSENSUS
+[0.379s] -- looking for PCL_FILTERS
+[0.379s] -- looking for PCL_2D
+[0.380s] -- looking for PCL_GEOMETRY
+[0.380s] -- looking for PCL_IO
+[0.380s] -- looking for PCL_FEATURES
+[0.381s] -- looking for PCL_ML
+[0.381s] -- looking for PCL_SEGMENTATION
+[0.382s] -- looking for PCL_VISUALIZATION
+[0.382s] -- looking for PCL_SURFACE
+[0.383s] -- looking for PCL_REGISTRATION
+[0.384s] -- looking for PCL_KEYPOINTS
+[0.384s] -- looking for PCL_TRACKING
+[0.385s] -- looking for PCL_RECOGNITION
+[0.385s] -- looking for PCL_STEREO
+[0.386s] -- looking for PCL_APPS
+[0.387s] -- looking for PCL_IN_HAND_SCANNER
+[0.387s] -- looking for PCL_POINT_CLOUD_EDITOR
+[0.388s] -- looking for PCL_OUTOFCORE
+[0.388s] -- looking for PCL_PEOPLE
+[0.390s] -- Found pcl_conversions: 2.2.1 (/opt/ros/foxy/share/pcl_conversions/cmake)
+[0.406s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.409s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.502s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.780s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.782s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.910s] -- Found tf2: 0.13.13 (/opt/ros/foxy/share/tf2/cmake)
+[0.918s] -- Found tf2_geometry_msgs: 0.13.13 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+[0.923s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+[1.253s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.299s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.300s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.300s] -- Configured cppcheck include dirs: 
+[1.301s] -- Configured cppcheck exclude dirs and/or files: 
+[1.301s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.301s] -- Configured cpplint exclude dirs and/or files: 
+[1.302s] -- Added test 'lint_cmake' to check CMake code style
+[1.302s] -- Added test 'uncrustify' to check C / C++ code style
+[1.303s] -- Configured uncrustify additional arguments: 
+[1.303s] -- Added test 'xmllint' to check XML markup files
+[1.305s] -- Configuring done
+[1.382s] -- Generating done
+[1.383s] -- Build files have been written to: /home/mete/catkin_ws/build/pcl
+[1.408s] [35m[1mScanning dependencies of target register[0m
+[1.408s] [35m[1mScanning dependencies of target pcd_read[0m
+[1.425s] [ 33%] Built target matrix_transform
+[1.425s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[1.428s] [ 66%] [32mBuilding CXX object CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o[0m
+[2.597s] [01m[K/home/mete/catkin_ws/src/pcl/src/pcd_read.cpp:10:10:[m[K [01;31m[Kfatal error: [m[Kpcl_conversions/pcl_conversions.h: No such file or directory
+[2.597s]    10 | #include [01;31m[K<pcl_conversions/pcl_conversions.h>[m[K
+[2.597s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.598s] compilation terminated.
+[2.613s] make[2]: *** [CMakeFiles/pcd_read.dir/build.make:63: CMakeFiles/pcd_read.dir/src/pcd_read.cpp.o] Error 1
+[2.613s] make[1]: *** [CMakeFiles/Makefile2:163: CMakeFiles/pcd_read.dir/all] Error 2
+[2.613s] make[1]: *** Waiting for unfinished jobs....
+[6.583s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:34:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[6.584s]    34 |     rclcpp::Publisher<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2>::SharedPtr point_cloud_publisher_1;
+[6.584s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[6.584s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:34:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.584s]    34 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_1;
+[6.584s]       |                                                    [01;31m[K^[m[K
+[6.584s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:34:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.584s]    34 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_1;
+[6.584s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[6.584s]       |                                                                [32m[K;[m[K
+[6.599s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:34:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_1[m[K’ does not name a type
+[6.599s]    34 |  rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_1[m[K;
+[6.599s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.599s] 
+[6.604s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:35:23:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[6.604s]    35 |     rclcpp::Publisher<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2>::SharedPtr point_cloud_publisher_2;
+[6.604s]       |                       [01;31m[K^~~~~~~~~~~[m[K
+[6.604s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:35:52:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.604s]    35 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2[01;31m[K>[m[K::SharedPtr point_cloud_publisher_2;
+[6.604s]       |                                                    [01;31m[K^[m[K
+[6.604s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:35:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.605s]    35 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;31m[KSharedPtr[m[K point_cloud_publisher_2;
+[6.605s]       |                                                       [01;31m[K^~~~~~~~~[m[K
+[6.605s]       |                                                                [32m[K;[m[K
+[6.605s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:35:55:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+[6.605s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:34:55:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+[6.605s]    34 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;36m[KSharedPtr[m[K point_cloud_publisher_1;
+[6.605s]       |                                                       [01;36m[K^~~~~~~~~[m[K
+[6.620s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:35:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_2[m[K’ does not name a type
+[6.620s]    35 |  rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::SharedPtr [01;31m[Kpoint_cloud_publisher_2[m[K;
+[6.620s]       |                                                              [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.620s] 
+[6.623s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:73:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ was not declared in this scope
+[6.623s]    73 |     rclcpp::Publisher<[01;31m[Kstd_msgs[m[K::msg::String>::SharedPtr publisher_;
+[6.623s]       |                       [01;31m[K^~~~~~~~[m[K
+[6.623s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:73:44:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.624s]    73 |     rclcpp::Publisher<std_msgs::msg::String[01;31m[K>[m[K::SharedPtr publisher_;
+[6.624s]       |                                            [01;31m[K^[m[K
+[6.624s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:73:47:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+[6.624s]    73 |     rclcpp::Publisher<std_msgs::msg::String>::[01;31m[KSharedPtr[m[K publisher_;
+[6.624s]       |                                               [01;31m[K^~~~~~~~~[m[K
+[6.624s]       |                                                        [32m[K;[m[K
+[6.624s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:73:47:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+[6.624s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:34:55:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kint MinimalPublisher::SharedPtr[m[K’
+[6.624s]    34 |     rclcpp::Publisher<sensor_msgs::msg::PointCloud2>::[01;36m[KSharedPtr[m[K point_cloud_publisher_1;
+[6.624s]       |                                                       [01;36m[K^~~~~~~~~[m[K
+[6.626s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:73:57:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ does not name a type; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[6.626s]    73 |     rclcpp::Publisher<std_msgs::msg::String>::SharedPtr [01;31m[Kpublisher_[m[K;
+[6.626s]       |                                                         [01;31m[K^~~~~~~~~~[m[K
+[6.626s]       |                                                         [32m[Krcl_publisher_t[m[K
+[6.643s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[6.643s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:39:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_1[m[K’ was not declared in this scope
+[6.643s]    39 |       [01;31m[Kpoint_cloud_publisher_1[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_1", 10);
+[6.644s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.648s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:39:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs[m[K’ was not declared in this scope
+[6.649s]    39 |       point_cloud_publisher_1 = this->create_publisher<[01;31m[Ksensor_msgs[m[K::msg::PointCloud2>("pointcloud_1", 10);
+[6.649s]       |                                                        [01;31m[K^~~~~~~~~~~[m[K
+[6.649s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:39:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.649s]    39 |       point_cloud_publisher_1 = this->[01;31m[Kcreate_publisher<sensor_msgs::msg::PointCloud2>[m[K("pointcloud_1", 10);
+[6.649s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.649s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:39:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<<expression error> >(const char [13], int)[m[K’
+[6.649s]    39 | e_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_1", 10[01;31m[K)[m[K;
+[6.649s]       |                                                              [01;31m[K^[m[K
+[6.649s] 
+[6.649s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.649s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.650s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:11[m[K:
+[6.650s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[6.650s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[6.650s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.650s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.650s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:39:105:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[6.650s]    39 | e_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_1", 10[01;31m[K)[m[K;
+[6.650s]       |                                                              [01;31m[K^[m[K
+[6.650s] 
+[6.666s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpoint_cloud_publisher_2[m[K’ was not declared in this scope
+[6.666s]    40 |       [01;31m[Kpoint_cloud_publisher_2[m[K = this->create_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_2", 10);
+[6.666s]       |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.666s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:39:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+[6.666s]    40 |       point_cloud_publisher_2 = this->[01;31m[Kcreate_publisher<sensor_msgs::msg::PointCloud2>[m[K("pointcloud_2", 10);
+[6.667s]       |                                       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.667s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:40:105:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMinimalPublisher::create_publisher<sensor_msgs>(const char [13], int)[m[K’
+[6.667s]    40 | e_publisher<sensor_msgs::msg::PointCloud2>("pointcloud_2", 10[01;31m[K)[m[K;
+[6.667s]       |                                                              [01;31m[K^[m[K
+[6.667s] 
+[6.667s] In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.667s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[6.667s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[6.667s]                  from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:11[m[K:
+[6.667s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+[6.667s]   184 |   [01;36m[Kcreate_publisher[m[K(
+[6.667s]       |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[6.667s] [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.677s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:51:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[6.677s]    51 |         return (-1[01;31m[K)[m[K;
+[6.677s]       |                   [01;31m[K^[m[K
+[6.677s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:57:19:[m[K [01;31m[Kerror: [m[Kreturning a value from a constructor
+[6.677s]    57 |         return (-1[01;31m[K)[m[K;
+[6.677s]       |                   [01;31m[K^[m[K
+[6.677s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MinimalPublisher::timer_callback()[m[K’:
+[6.677s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:67:22:[m[K [01;31m[Kerror: [m[K‘[01m[Kstd_msgs[m[K’ has not been declared
+[6.677s]    67 |       auto message = [01;31m[Kstd_msgs[m[K::msg::String();
+[6.677s]       |                      [01;31m[K^~~~~~~~[m[K
+[6.682s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:70:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_publisher_t[m[K’?
+[6.682s]    70 |       [01;31m[Kpublisher_[m[K->publish(message);
+[6.682s]       |       [01;31m[K^~~~~~~~~~[m[K
+[6.682s]       |       [32m[Krcl_publisher_t[m[K
+[16.466s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[16.466s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[16.466s] make: *** [Makefile:141: all] Error 2
+[16.469s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12

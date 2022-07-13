@@ -1,0 +1,88 @@
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In constructor ‘[01m[KMinimalPublisher::MinimalPublisher()[m[K’:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:68:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’})
+   68 |       pcl::toROSMsg([01;31m[K*ros_cloud1[m[K, cloud_1);
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  391 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:68:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   68 |       pcl::toROSMsg(*[01;36m[Kros_cloud1[m[K, cloud_1);
+      |                      [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+  400 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:68:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   68 |       pcl::toROSMsg(*[01;36m[Kros_cloud1[m[K, cloud_1);
+      |                      [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+  409 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:68:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   68 |       pcl::toROSMsg(*[01;36m[Kros_cloud1[m[K, cloud_1);
+      |                      [01;36m[K^~~~~~~~~~[m[K
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:69:21:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’})
+   69 |       pcl::toROSMsg([01;31m[K*ros_cloud2[m[K, cloud_2);
+      |                     [01;31m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  391 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:391:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:69:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   69 |       pcl::toROSMsg(*[01;36m[Kros_cloud2[m[K, cloud_2);
+      |                      [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+  400 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:400:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:69:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg::PointCloud2[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   69 |       pcl::toROSMsg(*[01;36m[Kros_cloud2[m[K, cloud_2);
+      |                      [01;36m[K^~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:96[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/pcl_macros.h:75[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/PCLPointField.h:10[m[K,
+                 from [01m[K/usr/include/pcl-1.10/pcl/conversions.h:46[m[K,
+                 from [01m[K/opt/ros/foxy/include/pcl_conversions/pcl_conversions.h:46[m[K,
+                 from [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:1[m[K:
+[01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+  409 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/9/complex:409:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:69:22:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+   69 |       pcl::toROSMsg(*[01;36m[Kros_cloud2[m[K, cloud_2);
+      |                      [01;36m[K^~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/register.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

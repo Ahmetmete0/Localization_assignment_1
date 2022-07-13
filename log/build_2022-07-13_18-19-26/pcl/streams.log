@@ -1,0 +1,23 @@
+[0.021s] Invoking command in '/home/mete/catkin_ws/build/pcl': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
+[0.060s] [35m[1mScanning dependencies of target register[0m
+[0.079s] [ 33%] Built target matrix_transform
+[0.090s] [ 50%] [32mBuilding CXX object CMakeFiles/register.dir/src/register.cpp.o[0m
+[0.090s] [ 83%] Built target pcd_read
+[4.819s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:241:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[4.819s]   241 | [01;31m[K}[m[K
+[4.819s]       | [01;31m[K^[m[K
+[4.819s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:47:1:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[4.819s]    47 | [01;36m[K{[m[K
+[4.819s]       | [01;36m[K^[m[K
+[4.868s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K In member function ‘[01m[Kvoid MyPointRepresentation::pairAlign(pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, pcl::PointCloud<pcl::PointXYZ>::Ptr, Eigen::Matrix4f&, bool)[m[K’:
+[4.868s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:184:5:[m[K [01;31m[Kerror: [m[K‘[01m[KshowCloudsRight[m[K’ was not declared in this scope
+[4.869s]   184 |     [01;31m[KshowCloudsRight[m[K(points_with_normals_tgt, points_with_normals_src);
+[4.869s]       |     [01;31m[K^~~~~~~~~~~~~~~[m[K
+[4.877s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:[m[K At global scope:
+[4.877s] [01m[K/home/mete/catkin_ws/src/pcl/src/register.cpp:241:1:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id at end of input
+[4.877s]   241 | [01;31m[K}[m[K
+[4.877s]       | [01;31m[K^[m[K
+[12.590s] make[2]: *** [CMakeFiles/register.dir/build.make:63: CMakeFiles/register.dir/src/register.cpp.o] Error 1
+[12.590s] make[1]: *** [CMakeFiles/Makefile2:82: CMakeFiles/register.dir/all] Error 2
+[12.591s] make: *** [Makefile:141: all] Error 2
+[12.593s] Invoked command in '/home/mete/catkin_ws/build/pcl' returned '2': CMAKE_PREFIX_PATH=/home/mete/catkin_ws/install/pcl_conversions:/home/mete/catkin_ws/install/perception_pcl:/home/mete/catkin_ws/install/pcl_ros:/home/mete/catkin_ws/install/pcl:/home/mete/catkin_ws/install/localization:/home/mete/catkin_ws2/install/pugixml:/home/mete/catkin_ws2/install/parser:/home/mete/catkin_ws2/install/localization:/home/mete/catkin_ws2/install/LibKML:/home/mete/catkin_ws2/install/GeographicLib:/opt/ros/foxy /usr/bin/cmake --build /home/mete/catkin_ws/build/pcl -- -j12 -l12
