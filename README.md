@@ -2,10 +2,6 @@
 
 - ## Visualize raw pcd files with PCL Library and ROS2/RViz2
 
-Bu adımı yapmak için ilk olarak "perception_pcl" adlı paketin kurulumunu yaptım. Bu paketin içinte bulunan
-araçlardan "src/perception_pcl/pcl_ros/tools/pcd_to_pointcloud.cpp" olan araç ile odevde verilen pcd dosyaları
-poincloud publisher'ına çevirildi.
-
 Elde edilen pointcloud verileri RVIZ2 programında görüntülendi.
 
 ### Verilen pcd dosyalarının RVIZ2 görüntüleri
